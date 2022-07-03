@@ -1,0 +1,11 @@
+[book]
+authors = ["Muawiya Asali", "Rob Cobb"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Programming 1"
+
+[build]
+build-dir = "output"
+create-missing = false
+use-default-preprocessors = false
