@@ -27,15 +27,3 @@
 - [Data Structures](lessons/data_structures.md)
 
 - [Review, Advanced topics, Final Project](lessons/review.md)
-
- 
-- [Working with data](lessons/working-with-data.md)
-  - [Programs and comments](lessons/working-with-data/programs-and-comments.md)
-  - [Variables and assignment](lessons/working-with-data/variables-and-assignment.md)
-  - [Data types operators and expressions](lessons/working-with-data/data-types-operators-and-expressions.md)
-  - [Input and output](lessons/working-with-data/input-and-output.md)
-  - [String concatenation and f strings](lessons/working-with-data/string-concatenation-and-f-strings.md)
-  - [Practice](lessons/working-with-data/practice.md)
-  - [Project](lessons/working-with-data/project.md)
-  - [Wrap up](lessons/working-with-data/wrap-up.md)
-  - [Bonus: The debugging mindset](lessons/working-with-data/the-debugging-mindset.md)
