@@ -8,7 +8,7 @@ This page includes links to the lessons for the course.
 
 Here's a welcome video from your instructor.
 
-[3-min video to welcome students!]
+[3-min video to welcome students!!]
 
 </aside>
 
