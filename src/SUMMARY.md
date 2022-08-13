@@ -34,9 +34,17 @@
   - [Project](lessons/functions_2/project.md)
 
 - [Files](lessons/files.md)
+  - [Practice](lessons/files/practice.md)
+  - [Project](lessons/files/project.md)
 
 - [Data Structures](lessons/data_structures.md)
+  - [Practice](lessons/data_structures/practice.md)
+  - [Project](lessons/data_structures/project.md)
 
 - [Libraries](lessons/libraries.md)
+  - [Practice](lessons/libraries/practice.md)
+  - [Project](lessons/libraries/project.md)
 
 - [Review, Advanced topics, Final Project](lessons/review.md)
+  - [Practice](lessons/review/practice.md)
+  - [Project](lessons/review/project.md)
