@@ -37,4 +37,6 @@
 
 - [Data Structures](lessons/data_structures.md)
 
+- [Libraries](lessons/libraries.md)
+
 - [Review, Advanced topics, Final Project](lessons/review.md)
