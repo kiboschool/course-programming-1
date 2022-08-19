@@ -1,4 +1,4 @@
-# Practice loops and conditionals
+# Practice Functions 2
 
 _Estimated Time: 1 hour_
 
@@ -15,7 +15,7 @@ _If you can’t do the challenge without looking the solution, it means you don�
     2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team. 
     3. You can click ‘**Submit**’ in Replit to view a solution. Don’t forget to try the solution out in your own code, and submit the project again.
 
-## 1. Area fo a circle
+## 1. Area of a circle
 
 You will write a function to calculate the area of a circle.
 
@@ -32,6 +32,10 @@ You will be asked here to write a function that converts units.
 
 **[5-min video to solve the exercise @Muawiya]**
 
+## 3. Mini Processor
+You will implement a small processor with small utility functions.
+
+**Access** and **submit** the assignment in Replit here: https://replit.com/@kibo-programming-1/Basic-Processor#Readme.md
 
 
 ---
