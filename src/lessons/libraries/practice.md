@@ -15,7 +15,23 @@ _If you can’t do the challenge without looking the solution, it means you don�
     2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team. 
     3. You can click ‘**Submit**’ in Replit to view a solution. Don’t forget to try the solution out in your own code, and submit the project again.
 
-## 1. JSON Flask 
+## 1. OS Lib
+
+You are asked to perform basic path usage.
+
+**Access** and **submit** the assignment here: https://www.w3resource.com/python-exercises/os/python-os-exercise-12.php
+
+**[5-min video to solve the exercise @Muawiya]**
+
+## 2. Requests Lib 
+
+You are asked to get data from a web source.
+
+**Access** and **submit** the assignment here: https://www.w3resource.com/python-exercises/requests/python-request-exercise-6.php
+
+**[5-min video to solve the exercise @Muawiya]**
+
+## 2. JSON Flask 
 
 You are asked to analyze data entered by a JSON file. Provide a flask simple endpoint and generate a CSV file.
 
