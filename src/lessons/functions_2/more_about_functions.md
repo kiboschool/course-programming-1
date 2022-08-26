@@ -1,4 +1,4 @@
-# 5.1 More About Functions
+# 6.1 More About Functions
 
 Estimated Time: 30 Minutes
 

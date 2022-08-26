@@ -1,4 +1,4 @@
-# Week 5: Functions 2
+# Week 6: Functions 2
 
 ## **Learning Outcomes**
 
