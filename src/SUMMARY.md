@@ -30,6 +30,8 @@
   - [Project](lessons/functions_1/project.md)
 
 - [Functions-2](lessons/functions_2.md)
+  - [More about functions](lessons/functions_2/more_about_functions.md)
+  - [Design with functions](lessons/functions_2/utility_functions.md)
   - [Practice](lessons/functions_2/practice.md)
   - [Project](lessons/functions_2/project.md)
 
