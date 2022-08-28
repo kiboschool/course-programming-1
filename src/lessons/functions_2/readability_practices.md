@@ -5,7 +5,7 @@ Estimated Time: 20 Minutes
 In this section, you will more about functions documentation and readability.
 
 ## Argument Annotation
-Up to this lesson, we were use function with arguments by directly passing them.
+Up to this lesson, we were using functions with direct arguments.
 
 Python 3.5+ allows us to use type hints and argument annotations as follows:
 
@@ -20,11 +20,11 @@ def greeting(name: str) -> str:
 ```
 
 Why would you use `Argument Annotation`:
-- Faster Development: This way of using functions will uncover mistakes more quickly and protects from passing wrong values.
-- Users of you code: This syntax will be more clear for members who are trying to use your code.
+- Faster Development: Argument annotation will uncover mistakes more quickly and protects from passing wrong values.
+- Users of your code: This syntax will be more clear for members who are trying to use your code.
 - Documentation: This can be part of your function documentation - some people consider it the whole documentation of the function.
 
-> **_NOTE:_**  Argument Annotation is NOT required and it is NOT performance booster
+> **_NOTE:_**  Argument Annotation is NOT required and it is NOT a performance booster
 
 ## Function Documentation
 Python's convention for a function or module documentation is called `Docstring`

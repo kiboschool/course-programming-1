@@ -26,4 +26,6 @@ Remember...
 - **Attend** office hours if you need additional support
 - **Ask** for help in Discord
 
+TODO: Need to break the Message encode decode project into 2 parts and paste the first one here.
+ 
 ---

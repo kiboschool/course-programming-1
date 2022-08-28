@@ -5,10 +5,10 @@ Estimated Time: 40 Minutes
 In this section, you will more about functions from a design perspective.
 
 ## Import Your Own Functions
-We previously discussed a way to import basic modules from outside your code. Here we will check how do we import functions from our code.
+We previously discussed a way to import basic modules from an outer code. Here we will check how do we import functions from our code.
 Sometimes we need to design a program across many files where each of them has the implementation of specific functions.
 
-A main function would need to import specific functions from these files.
+A main function would need to import specific functions from internal files within your project.
 Imagine that you have a file called `areas.py` where you have the following function:
 
 ```
@@ -35,7 +35,7 @@ from areas import square_area as sq
 sq_area = sq(10, 20)  
 ```
 ### dir() built-in function
-One was to know what functions does a module provide is by using the built-in function called `dir()`
+One way to know what functions does a module provide is by using the built-in function called `dir()`
 for example - it we want to check attributes and functions within `random` module, we may do something like:
 
 ```
@@ -70,13 +70,13 @@ Whenever you start thinking about implementing a program. You need to take some 
 
 ### Functions added value
 Examples of some aspects to check when start thinking about functions:
-- Reusability: Functions are "reusable parts" of code that can be called at any part of the whole program. Try to identify the most repetitive parts of your code and move them into functions.  
+- Reusability: Functions are "reusable parts" of code that can be called at any part of the whole program. Try to identify most repetitive parts of your code and move them into functions.  
 - Readability: This is related somehow to the first point. Moreover, having clean functions with clear names increases readability of your code which assists other programmers to integrate well with your program.
 - Function Stack: When implementing functions, you need to make sure that they integrate well. Avoid the case where you have many functions calling each other where each function implements a tiny operation.
 
 ### Utilities
 A main concept to approach coding problems is **Divide & Conquer**. Taking a big problem and decompose it into smaller ones. 
-In a general software program, implementing a wide flow can take several steps. Approaching each one of these as a standalone problem may make it easier to implement. Each step can take the form of one or more functions depending on difficulty.
+In a general software program, implementing a wide flow can take several steps. Approaching each one of these as a standalone problem may make it easier to implement. Each step can take the form of one or more functions depending on complexity level.
 A group of internal functions that we implement for our own usage are called **utility functions**.
 
 Imagine that you are asked to implement a program that heavily depends on basic calculation operations (addition, division, subtraction, multiplication). At this case it makes sense to have an internal module called `utilities.py` that implements all of these functions.
@@ -93,7 +93,8 @@ from utilities import addition, division, subtraction, multiplication
 ```
 ## Simple Use Case
 At this section, we will study a use case where we need to the apply the **Divide & Conquer** strategy in our design.
-Imagine the case that you are asked to design and implement a software program to tech 7th grade students how to calculate area of various shapes.
+
+Imagine the case that you are asked to design and implement a software program to assist 7th grade students how to calculate area of various shapes.
 The program starts by asking the user to enter a shape from a list, for example:
 - Rectangle
 - Circle 
@@ -104,7 +105,7 @@ Based on this choice, the program continues by asking the user for needed inputs
 One option is to implement the whole code into one long file that has functions for the areas of each shape. In that case:
 - What would happen when you need to add a new shape function? And where? Most probably that the file will get longer with misleading parts of code.
 - Imagine that you need to use same shape functions at another project. How would you do that? 
-- A team member of yours wants give you a hand in implementation - how would you organise this ?
+- A team member of yours wants to give you a hand in implementation - how would you organise this ?
 
 One the other hand, let us break the problem into two parts (and then check previous mentioned points):
 - Part 1 - **Core Functions** - Main operational functions that the whole program would need.
