@@ -1,6 +1,6 @@
 # 7.1 Basic File Operations
 
-Estimated Time: 40 Minutes
+Estimated Time: 45 Minutes
 
 In this section, you will be introduced to basic file operations in python.
 
