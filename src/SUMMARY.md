@@ -37,7 +37,8 @@
   - [Project](lessons/functions_2/project.md)
 
 - [Files](lessons/files.md)
-  - [Basic File Operation](lessons/files/basic_file_operations.md)
+  - [Basic File Operations](lessons/files/basic_file_operations.md)
+  - [Basic Directory Operation]s(lessons/files/basic_dir_operations.md)
   - [Practice](lessons/files/practice.md)
   - [Project](lessons/files/project.md)
 
