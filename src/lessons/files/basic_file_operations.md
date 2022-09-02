@@ -8,8 +8,9 @@ In this section, you will be introduced to basic file operations in python.
 This section will discuss file opening functions.
 
 ### Python Open Function
-Python has a build-in function called open(). It is used to open a specific file and it then returns a file object called **Handler**.
-The first argument of the open function is the file name. If you specify the name directly, that means the file exists within the working directory, otherwise you may insert the full path for the needed file.
+Python has a built-in function called open(). It is used to open a specific file and it then returns a file object called **Handler**.
+The first argument of the open function is the file name. In case the file exists within the working directory, you can specifcy the nameof the file.
+Otherwise you may insert the full path for the needed file.
 
 ```
 f = open("test.txt")    # open file in current directory
@@ -42,8 +43,8 @@ f = open("test.txt",'w')  # write in text mode
 f = open("img.bmp",'r+b') # read and write in binary mode
 ```
 
-Additionally, open function has the option to use **encoding** 
-The default encoding is platform dependent. In windows, it is cp1252 but utf-8 in Linux.
+Additionally, open function has the option to use **encoding**.
+The default encoding is platform dependent. In windows, it is **cp1252** but **utf-8** in Linux.
 
 > **_NOTE:_**  You need to take care of encoding, especially when working across platforms. It is highly recommended to specify encoding when using text mode.
 
@@ -52,7 +53,7 @@ f = open("test.txt", mode='r', encoding='utf-8')
 ```
 ## Closing File
 After performing needed operations using the file. We should close it. Why is this important? Closing the file frees up resources attached to it.
-This is usually done using `close()` file
+This is usually done using `close()` method.
 
 ```
 f = open("test.txt", encoding = 'utf-8')
@@ -75,7 +76,7 @@ This block makes sure that whenever an exception happens within try scope -> the
 > **_NOTE:_**  Try..except..finally is the way we handle exceptions within a python program. We will talk about this in detail in Programming 2.
 
 ### With Function
-The most recommended way to close a file is by using `with` statement. This ensures that the file is closed when we exit the `with` block. 
+The most recommended way to close a file is by using `with` statement. This ensures that the file is closed when we exit a `with` block. 
 When using this approach, we do not need to use the `close` function to explicitly close the file.
 
 ```
@@ -99,7 +100,7 @@ Welcome to the Programming 1 at Kibo
 This is the first time we use files!
 The file has three lines
 ```
-Reading the file with size would look like:
+Reading a file with size would look like:
 ```
 > f = open("check.txt",'r',encoding = 'utf-8')
 > f.read(4) # read the first 4 data
@@ -116,7 +117,7 @@ We can also can read by changing the cursor position within the file. We have a 
 
 ```
 >>> f.tell()    # get the current file position
-56
+98
 
 >>> f.seek(0)   # bring file cursor to initial position
 0
@@ -157,7 +158,7 @@ Apart from that, the method `readline()` can be used to read individual lines wi
 >>> f.readline()
 ```
 
-Moreover, there is the need to sometimes to get all lines of a file into a list. Python provides a method called `readlines()` to perform this:
+Moreover, there is sometimes the need to get all lines of a file into a list. Python provides a method called `readlines()` to perform this:
 ```
 >>> f.readlines()
 ['Welcome to the Programming 1 at Kibo\n', 'This is the first time we use files!\n', 'The file has three lines\n']
