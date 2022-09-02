@@ -187,7 +187,7 @@ os.remove("check.txt")
 ```
 
 ## File Methods Table
-Here are some file methods with their description:
+For your reference, here are some file methods with their description:
 
 |MODE |DESCRIPTION|
 |-----|------------------------------|
