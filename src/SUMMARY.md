@@ -43,6 +43,8 @@
   - [Project](lessons/files/project.md)
 
 - [Data Structures](lessons/data_structures.md)
+  - [Dictionary Basics](lessons/data_structures/basics_of_dicts.md)
+  - [Advanced Dictionaries](lessons/data_structures/advanced_dicts.md)
   - [Practice](lessons/data_structures/practice.md)
   - [Project](lessons/data_structures/project.md)
 
