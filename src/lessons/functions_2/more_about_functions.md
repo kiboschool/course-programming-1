@@ -1,6 +1,6 @@
 # 6.1 More About Functions
 
-Estimated Time: 30 Minutes
+Estimated Time: 50 Minutes
 
 In this section, you will more about function signatures, syntax, and return values.
 
@@ -166,4 +166,53 @@ print(
     f"The multiplication gives {mul}\n"
     f"The division gives {div}\n"
 )
+```
+
+## Global Variables
+
+Variables in __main__ are sometimes called global because they can be accessed from any function. Unlike local variables, which disappear when their function ends, global variables persist from one function call to the next.
+
+It is common to use global variables for flags; that is, boolean variables that indicate (“flag”) whether a condition is true. For example, some programs use a flag named verbose to control the level of detail in the output:
+
+verbose = True
+```
+def example1():
+    if verbose:
+        print('Running example1')
+```
+If you try to reassign a global variable, you might be surprised. The following example is supposed to keep track of whether the function has been called:
+```
+been_called = False
+
+def example2():
+    been_called = True         # WRONG
+```
+But if you run it you will see that the value of been_called doesn’t change. The problem is that example2 creates a new local variable named been_called. The local variable goes away when the function ends, and has no effect on the global variable.
+
+To reassign a global variable inside a function you have to declare the __global__ variable before you use it:
+```
+been_called = False
+
+def example2():
+    global been_called 
+    been_called = True
+```
+The global statement tells the interpreter something like, “In this function, when I say been_called, I mean the global variable; don’t create a local one.”
+
+Here’s an example that tries to update a global variable:
+```
+count = 0
+
+def example3():
+    count = count + 1          # WRONG
+```
+If you run it you get:
+```
+UnboundLocalError: local variable 'count' referenced before assignment
+```
+Python assumes that count is local, and under that assumption you are reading it before writing it. The solution, again, is to declare count global.
+```
+def example3():
+    global count
+    count += 1
 ```
