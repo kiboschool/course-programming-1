@@ -51,6 +51,8 @@ Here is an example:
 {1: ['a', 'p', 't', 'o'], 2: ['r']}
 ```
 
+![Image embedded in markdown](dicts_vs_lists.png)
+
 The figure above is a state diagram showing hist and inverse. A dictionary is represented as a box with the type dict above it and the key-value pairs inside. If the values are integers, floats or strings, I draw them inside the box, but I usually draw lists outside the box, just to keep the diagram simple.
 
 Lists can be values in a dictionary, as this example shows, but they cannot be keys. Here’s what happens if you try:
