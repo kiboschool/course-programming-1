@@ -1,6 +1,6 @@
 # 8.2 Dictionaries - Advanced Topics
 
-Estimated Time: 35 Minutes
+Estimated Time: 40 Minutes
 
 In this section, you will learn more about dictionaries and some prooblem solving with dicts.
 
@@ -56,5 +56,71 @@ Fibonacci is a mathematical function that has the following definition: https://
 
 One implementation of this function in python would be:
 ```
+def PrintFibonacci(length):
+    #Initial variable for the base case. 
+    first = 0
+    second = 1
+
+    #Printing the initial Fibonacci number.
+    print(first, second, end=" ")
+
+    #decreasing the length by two because the first 2 Fibonacci numbers 
+    #already printed.
+    length -= 2
+    
+    #Loop until the length becomes 0.
+    while length > 0:
+
+        #Printing the next Fibonacci number.
+        print(first + second, end=" ")
+
+        #Updating the first and second variables for finding the next number. 
+        temp = second
+        second = first + second
+        first = temp
+
+        #Decreasing the length that states the Fibonacci numbers to be 
+        #printed more.
+        length -= 1
+
+if __name__ == "__main__":
+    print("Fibonacci Series - ")
+    PrintFibonacci(7)
+    pass
+```
+
+Output for 7:
+```
+Fibonacci Series - 
+1 1 2 3 5 8
+```
+
+We might notice here that the bigger argument you provide, the longer the function takes to run. Furthermore, the run time increases quickly. Let us take a closer look.
+
+![Image embedded in markdown](fibonacci.png)
+
+The figure above shows fibonacci with input of 4. A call graph shows a set of function frames, with lines connecting each frame to the frames of the functions it calls. At the top of the graph, fibonacci with n=4 calls fibonacci with n=3 and n=2. In turn, fibonacci with n=3 calls fibonacci with n=2 and n=1. And so on.
+
+Count how many times fibonacci(0) and fibonacci(1) are called. This is an inefficient solution to the problem, and it gets worse as the argument gets bigger.
+
+One solution is to keep track of values that have already been computed by storing them in a dictionary. A previously computed value that is stored for later use is called a memo. Here is a “memoized” version of fibonacci:
 
 ```
+known = {0:0, 1:1}
+
+def fibonacci(n):
+    if n in known:
+        return known[n]
+
+    res = fibonacci(n-1) + fibonacci(n-2)
+    known[n] = res
+    return res
+```
+
+known is a dictionary that keeps track of the Fibonacci numbers we already know. It starts with two items: 0 maps to 0 and 1 maps to 1.
+
+Whenever fibonacci is called, it checks known. If the result is already there, it can return immediately. Otherwise it has to compute the new value, add it to the dictionary, and return it.
+
+If you run this version of fibonacci and compare it with the original, you will find that it is much faster.
+
+> **_NOTE:_** Calling a function from itself is called recursion. This is a topic that we will talk about in Programming 2 in more detail
