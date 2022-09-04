@@ -24,7 +24,66 @@ done < ../exercise-map.txt
 popd
 ```
 
-## What you get:
+## Git pull all
+
+To refresh all the exercises
+
+From `.exercises`:
+
+```sh
+find . -type d -maxdepth 2 -mindepth 2  |
+while read -r project; do
+        pushd $project
+        echo $project
+        git pull
+        popd
+done
+```
+
+## Update the list of exercises
+
+i.e. if you added or removed an exercise (folder within one of the weeks in
+`.exercises`, with a git remote)
+
+from .exercises:
+
+```sh
+find . -type d -maxdepth 2 -mindepth 2  |
+while read -r project; do
+  pushd $project
+  echo -n "$project:"; git remote get-url origin
+  popd
+done > exercise-map.txt
+```
+
+## Fixup a Replit exercise
+
+Given an exercise from replit that's been connected via the Replit github
+button, but has files named weird (all under `.lesson` or whatever) because of
+Replit being weird, you can fix it like this:
+
+```sh
+git rm .breakpoints
+git mv .lesson/instructions.md ./README.md
+git mv .lesson/* ./
+rmdir .lesson
+git add .
+git restore --staged solution.py
+git commit --amend -m "Initial commit"
+git push -f
+co -b solution
+mv solution.py main.py
+git add .
+git commit -m "add solution"
+git push
+co main
+```
+
+- unconditionally removes replit breakpoints
+- assumes there's a solution.py file in .lesson that is the solution
+- Does some fairly aggro git pushing, rewriting remote history. Take care.
+
+## Exercise Tree
 
 After you run the above, you should have a directory `.exercises` so that `tree
 -L 2 .exercises` shows the following:
