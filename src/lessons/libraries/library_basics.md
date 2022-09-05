@@ -113,7 +113,7 @@ Alias is useful for libraries that are frequently used or have long names. E.g.,
 
 > **_Exploring a Library:_**
 >>**Practice Question:** What function from the os library can you use to determine the current working directory?
-
+>>
 >>**Solution:** Using help(os) we see that we’ve got `os.getcwd()` which returns a string representing the current working directory.
 
 
@@ -123,8 +123,8 @@ Alias is useful for libraries that are frequently used or have long names. E.g.,
 >> - Which standard library module could help you?
 >> - Which function would you select from that module?
 >> - Try to write a program that uses the function.
-  
->> **Solution:** The datetime module seems like it could help you. You could use date(year, month, date).isoformat() to convert your date
+>>
+>>**Solution:** The datetime module seems like it could help you. You could use date(year, month, date).isoformat() to convert your date
 >> `import datetime`
 >> `iso_date = datetime.date(year, month, day).isoformat()`
 >> `print(iso_date)`
@@ -140,6 +140,6 @@ Alias is useful for libraries that are frequently used or have long names. E.g.,
 >> 1. print(list(s.digits))
 >> 2. print(list(digits))
 >> 3. print(string.ascii_uppercase)
-
+>>
 >> **Solution:**
 >> A2) Importing digits from string provides the digits methods B3) Importing string provides methods such as ascii_uppercase, but requires the string. syntax. C1) Importing string with the alias s allows s.digits
