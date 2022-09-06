@@ -112,9 +112,9 @@ Alias is useful for libraries that are frequently used or have long names. E.g.,
 ## General Examples
 
 > **_Exploring a Library:_**
->>**Practice Question:** What function from the os library can you use to determine the current working directory?
+>> **Practice Question:** What function from the os library can you use to determine the current working directory?
 >>
->>**Solution:** Using help(os) we see that we’ve got `os.getcwd()` which returns a string representing the current working directory.
+>> **Solution:** Using help(os) we see that we’ve got `os.getcwd()` which returns a string representing the current working directory.
 
 
 > **_Using the correct method withing a Library:_**
