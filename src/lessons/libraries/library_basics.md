@@ -47,6 +47,12 @@ The lower ascii letters are abcdefghijklmnopqrstuvwxyz
 Capitalise This Sentence Please.
 ```
 
+### Install a Library
+Some libraries are not part of standard python, so you need to install them using `pip`.
+`pip install <library>`
+
+You need to check the documentation for the needed library to get the correct pip command.
+
 ## Library Contents
 How would we then check functions within a specific library? We can use the keyword __help__
 
