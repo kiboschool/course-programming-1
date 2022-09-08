@@ -16,8 +16,16 @@
   - [Project](lessons/basics_and_datatypes/project.md)
 
 - [Conditionals](lessons/conditionals.md)
+  - [Simple Decisions](lessons/conditionals/simple-decisions.md)
+  - [Boolean Expressions](lessons/conditionals/simple-decisions/boolean-expressions.md)
+  - [If-Else](lessons/conditionals/simple-decisions/if-else.md)
+  - [Multi-way Decisions](lessons/conditionals/multi-way-decisions.md)
+  - [Elif](lessons/conditionals/multi-way-decisions/elif.md)
+  - [And, Or, Not](lessons/conditionals/multi-way-decisions/and-or-not.md)
+  - [Nested Conditionals](lessons/conditionals/multi-way-decisions/nested-conditionals.md)
   - [Practice](lessons/conditionals/practice.md)
   - [Project](lessons/conditionals/project.md)
+  - [Splitting Strings](lessons/conditionals/split-strings.md)
 
 - [Loops](lessons/loops.md)
   - [Practice](lessons/loops/practice.md)

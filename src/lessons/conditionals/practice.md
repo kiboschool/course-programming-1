@@ -1,10 +1,10 @@
 # Practice: Conditionals
 
-> 💡 This is your chance to put what you’ve learned into action. 
+> 💡 This is your chance to put what you’ve learned into action.
 >
 > Try solving these practice challenges to check that you understand the concepts.
 
-The **solutions** to each challenge are available, and you can view a video of the solution below each challenge. 
+The **solutions** to each challenge are available, and you can view a video of the solution below each challenge.
 Try to go through the whole challenge without using the solution.
 
 _If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet._
@@ -13,9 +13,10 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 <aside>
 
-**If you get stuck** 
-1. Read the instructions again. 
-2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team. 
+**If you get stuck**
+
+1. Read the instructions again.
+2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
 
 </aside>
 
@@ -33,6 +34,8 @@ Watch the video below to see the solution process
 
 </aside>
 
+![A snake looking quizically at its exam paper](/images/snake_exam.png)
+
 ## Money for Books
 
 📚 In this assignment, you'll write a program to help someone figure out if they have enough money for all the books they want to buy, using if/else statements.
@@ -47,6 +50,8 @@ Watch the video below to see the full solution
 
 </aside>
 
+![A cool snake with blue tinted sunglasses is coiled around some books at the library](/images/cool_library_snake.png)
+
 ## Quick Draw
 
 In this exercise, you will implement a quick draw game to see how fast the
@@ -54,3 +59,4 @@ user's reactions are.
 
 **Access** the assignment here: https://github.com/kiboschool/quick-draw
 
+![Snake cowboy smokes in a deserted street in a frontier town](/images/snake_cowboy.png)
