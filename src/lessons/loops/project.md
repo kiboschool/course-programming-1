@@ -1,11 +1,5 @@
 # Project
 
-_Estimated time: 2 hours_
-
----
-
-## Individual Project: Guess My Number
-
 **Due date: TBD**
 
 💡 This is an individual project. You are expected to work independently.
@@ -13,26 +7,17 @@ _Estimated time: 2 hours_
 If you get stuck, confused, or have trouble with the project, you should use the **#help-python** channel in Discord or message an instructor. Try not to spoil the project for others - use Discord spoiler tags if you are going to include a screenshot or code sample.
 
 
-### Part 1
-
-<aside>
+## Guess My Number
 
 🔢 Write a program that asks a user to guess the value of a number chosen between 1 and 99. Let the user know if their guess is too low, too high, or correct.
-**Access** the assignment in Replit here: <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp5/P33-Guess-My-Number" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-</aside>
+**Access** the assignment here: https://github.com/kiboschool/guess-my-number-project
 
-### Part 2
-
-<aside>
-
-👩🏿‍💻 Extend your solution to Part 1. The program should generate a random number between 1 and 99, and use a `while` loop to let the user keep guessing until they guess right number.
-
-</aside>
+---
 
 Remember...
 
-- **Read** the instructions tab in Replit
+- **Read** the instructions
 - **Plan** before you code
 - **Debug** if you aren't getting the desired output
 - **Attend** office hours if you need additional support

@@ -1,59 +1,44 @@
-# Practice Data Structures 
+# Practice: Data Structures 
 
-_Estimated Time: 2 hours_
+> 💡 This is your chance to put what you’ve learned into action. 
+>
+> Try solving these practice challenges to check that you understand the concepts.
 
----
+The **solutions** to each challenge are available, and you can view a video of the solution below each challenge. 
+Try to go through the whole challenge without using the solution.
 
-💡 This is your chance to put what you’ve learned into action. Try solving these practice challenges to check that you understand the concepts.
+_If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet._
 
-The solutions to the challenges are available in Replit. You can view a video of the solution below most challenges. Try to go through the challenges without using the solution.
+_Try the next practice challenges without looking at the solution. If you need more practice challenges, reach out on Discord._
 
-_If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet. Try the next practice challenge without looking at the solution. If you need more practice challenges, reach out on Discord._
+<aside>
 
-- **If you get stuck** 
-    1. Read the instructions again. 
-    2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team. 
-    3. You can click ‘**Submit**’ in Replit to view a solution. Don’t forget to try the solution out in your own code, and submit the project again.
+**If you get stuck** 
+1. Read the instructions again. 
+2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team. 
 
-## 1. Rotate List Contents
+</aside>
 
-You will write a function to rotate contents of a list
-
-**Access** and **submit** the assignment in Replit here: https://www.w3resource.com/python-exercises/file/python-io-exercise-7.php
-
-**[5-min video to solve the exercise @Muawiya]**
-
-## 2. Date Format
-
-You will write a function change date format
-
-**Access** and **submit** the assignment in Replit here: https://www.pyforschool.com/assignment/lists/date-format.html
-
-**[5-min video to solve the exercise @Muawiya]**
-
-## 3. Matrix Row Sum
+## Matrix Row Sum
 
 You will write a function to provide the sum of matrix rows.
 
-**Access** and **submit** the assignment in Replit here: https://www.pyforschool.com/assignment/lists/sum-of-row-array.html
+**Access** the assignment here: https://github.com/kiboschool/row-sum
 
 **[5-min video to solve the exercise @Muawiya]**
 
-## 4. Word Frequency
+## Word Frequency
 
 You will write a program to check word frequency within text.
 
-**Access** and **submit** the assignment in Replit here: https://replit.com/@kibo-programming-1/Word-Frequency#Redme.md
+**Access** the assignment here: https://github.com/kiboschool/word-frequency
 
 **[5-min video to solve the exercise @Muawiya]**
 
-## 5. Phone Book
+## Phone Book
 
-You will write a program to check word frequency within text.
+You will write a phone book program that manages contacts and numbers.
 
-**Access** and **submit** the assignment in Replit here: https://replit.com/@kibo-programming-1/Phone-Book#main.py
+**Access** the assignment here: https://github.com/kiboschool/phone-book
 
 **[5-min video to solve the exercise @Muawiya]**
-
-
-

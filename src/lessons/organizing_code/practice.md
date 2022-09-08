@@ -1,4 +1,4 @@
-# Practice: Loops
+# Practice: Organizing Code 
 
 > 💡 This is your chance to put what you’ve learned into action. 
 >
@@ -19,24 +19,16 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 </aside>
 
-## Print multiples
+## Distance Traveled
 
-Write a program that prints the numbers from 1 to 100, noting the multiples of 3 and 5.
+In this exercise, you'll use a helper function to help measure how far a footballer has run over the course of a match.
 
-**Access** the assignment here: https://github.com/kiboschool/print-multiples
+**Access** the assignment here: https://github.com/kiboschool/distance-traveled
 
-<aside>
 
-Watch the video below to see the full solution. Before checking the solution, make sure you spend enough time thinking and trying. This is really how you learn and build experience.
+## Date Format
 
-[**Print Multiples Solution**](https://www.loom.com/embed/ab9c0184aaee4f3a9b05a7e66fef46ff)
+In this exercise, you'll practice with helper functions to format dates.
 
-</aside>
+**Access** the assignment here: https://github.com/kiboschool/date-format
 
-## Scrabble Word Score
-
-In this example, you'll practice using loops to calculate the Scrabble score of different words.
-
-**Access** the assignment here: https://github.com/kiboschool/scrabble-word-score
-
----

@@ -2,15 +2,14 @@
 
 [Course Overview](programming-1.md)
 
-
 ## Lessons
 
 - [Basics & Data Types](lessons/basics_and_datatypes.md)
   - [Background](lessons/basics_and_datatypes/background.md)
   - [Data Types](lessons/basics_and_datatypes/data_types.md)
   - [Operators](lessons/basics_and_datatypes/operators.md)
-  - [Practice](lessons/basics_and_datatypes/practice.md)
   - [Package Import](lessons/basics_and_datatypes/package_import.md)
+  - [Practice](lessons/basics_and_datatypes/practice.md)
   - [Project](lessons/basics_and_datatypes/project.md)
 
 - [Conditionals](lessons/conditionals.md)
@@ -29,12 +28,12 @@
   - [Practice](lessons/functions/practice.md)
   - [Project](lessons/functions/project.md)
 
-- [Organizing Code](lessons/organizing-code.md)
-  - [More about functions](lessons/organizing-code/more_about_functions.md)
-  - [Design with functions](lessons/organizing-code/utility_functions.md)
-  - [Functions Readability Practices](lessons/organizing-code/readability_practices.md)
-  - [Practice](lessons/organizing-code/practice.md)
-  - [Project](lessons/organizing-code/project.md)
+- [Organizing Code](lessons/organizing_code.md)
+  - [More about functions](lessons/organizing_code/more_about_functions.md)
+  - [Design with functions](lessons/organizing_code/utility_functions.md)
+  - [Functions Readability Practices](lessons/organizing_code/readability_practices.md)
+  - [Practice](lessons/organizing_code/practice.md)
+  - [Project](lessons/organizing_code/project.md)
 
 - [Files](lessons/files.md)
   - [Basic File Operations](lessons/files/basic_file_operations.md)
