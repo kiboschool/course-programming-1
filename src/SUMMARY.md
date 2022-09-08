@@ -36,6 +36,10 @@
   - [Project](lessons/loops/project.md)
 
 - [Lists](lessons/lists.md)
+  - [List basics](lessons/lists/list-basics.md)
+  - [Mutating Lists](lessons/lists/mutating-lists.md)
+  - [Loop patterns](lessons/lists/loop-patterns.md)
+  - [Loops, Conditions, and Lists](lessons/lists/conditions-and-lists.md)
   - [Practice](lessons/lists/practice.md)
   - [Project](lessons/lists/project.md)
 
