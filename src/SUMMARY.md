@@ -44,6 +44,10 @@
   - [Project](lessons/lists/project.md)
 
 - [Functions](lessons/functions.md)
+  - [Function basics](lessons/functions/function-basics.md)
+  - [Building our own functions](lessons/functions/building-our-own-functions.md)
+  - [Return values](lessons/functions/return-values.md)
+  - [Modules](lessons/functions/modules.md)
   - [Practice](lessons/functions/practice.md)
   - [Project](lessons/functions/project.md)
 
