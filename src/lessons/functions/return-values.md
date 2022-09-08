@@ -13,7 +13,7 @@ Note that some functions do not necessarily return a result.
 
 You can visualize a function as a machine that takes in arguments, and spits out the return value:
 
-![Function Inputs and Outputs](/images/function-inputs-outputs.png)
+![Function Inputs and Outputs](./building-our-own-functions/function-arguments-return.png)
 
 Concretely, for the `add` function that we defined and called like this:
 
@@ -24,7 +24,7 @@ def add(a,b):
 add(3,5)
 ```
 
-![Function Return Values](/images/function-return-values.png)
+![Function Return Values](./building-our-own-functions/add-3-5-return.png)
 
 Programs can use the return value for further operations:
 
@@ -49,7 +49,7 @@ print("the result was", result) # the result was None
 
 The `print` in the function will print out the value, but it will not return it. `None` is the value that functions return by default. If they don’t return something else, they return `None`.
 
-![Return None](/images/return-none.png)
+![Return vs Print](./building-our-own-functions/return-vs-print.png)
 
 <aside>
 

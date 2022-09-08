@@ -88,7 +88,7 @@ Parameters **and arguments **are similar concepts. Parameters are in the definit
 
 A sample run of your code with argument Keno, i.e., `greet("Keno")` should look like this:
 
-![4%202%20Building%20Our%20Own%20Functions%20baf32b0ffc134773b0d51bf7b17cda3c/Untitled.png](/future-proof-with-python-feb-2022/working-with-data/variables-and-assignment/untitled.png)
+![sample run of greet person function](./building-our-own-functions/greet-keno-result.png)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/fpwp-feb2022/Greet-Person-Function" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
