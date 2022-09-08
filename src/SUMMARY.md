@@ -1,6 +1,9 @@
 # Programming 1
 
 [Course Overview](programming-1.md)
+[Weekly Projects](lessons/weekly-projects.md)
+[Midterm Project](lessons/midterm-project.md)
+[Final Project](lessons/final-project.md)
 
 ## Lessons
 
@@ -78,6 +81,3 @@
 
 - [Review and Preview](lessons/review.md)
 
-[Weekly Projects](lessons/weekly-projects.md)
-[Midterm Project](lessons/midterm-project.md)
-[Final Project](lessons/final-project.md)
