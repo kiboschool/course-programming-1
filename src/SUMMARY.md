@@ -28,6 +28,10 @@
   - [Splitting Strings](lessons/conditionals/split-strings.md)
 
 - [Loops](lessons/loops.md)
+  - [While loops](lessons/loops/while-loops.md)
+  - [For loops](lessons/loops/for-loops.md)
+  - [Range function](lessons/loops/range-function.md)
+  - [Debugging Loops](lessons/loops/debugging-loops.md)
   - [Practice](lessons/loops/practice.md)
   - [Project](lessons/loops/project.md)
 
