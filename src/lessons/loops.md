@@ -6,7 +6,9 @@ Loops reduce the amount of code you need to write. Instead of having to type out
 
 More than just saving you time as a programmer, loops let you tap into the computer's superpower: _speed_.
 
-## Summary
+## Learning Objectives
+
+By the end of these lessons, you'll have learned:
 
 - loops let you repeat code, letting you use the computer's speed
 - `while` repeats code for as long as a condition is True

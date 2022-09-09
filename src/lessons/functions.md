@@ -4,7 +4,9 @@ Functions are one of the most beautiful things in programming. They let you take
 
 Thinking in functions will be different from the programs you've written so far. Instead of thinking about input and output of your program (with `input` and `print`), you'll think about the input and output of your functions: _arguments_ and _return values_. Instead of planning all the steps your whole program needs, you'll think about which _functions_ it needs, and how those functions work together.
 
-## Summary
+## Learning Objectives
+
+Here's a summary of what you'll learn in these lessons:
 
 - Functions allow us to write some code once in our program, then run it as many times as needed.
 - Functions are used (i.e. called or invoked) by writing the name followed by parentheses, with the function's arguments in the parentheses.

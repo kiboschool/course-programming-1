@@ -8,11 +8,13 @@ The kinds of decisions will vary, from "is this number even?" to "did the user i
 
 In Python, the data type for representing yes-or-no _answers_ is the Boolean: `True` or `False`.
 
-## Summary
+## Learning Objectives
 
-- `if` statements let us write code that makes decisions
-- We can use comparison operators like `==`, `<`, `>` to compare values and get `True` or `False`
-- `elif` and `else` blocks let us handle more complicated branching situations
-- We can combine booleans expressions with `and`, `or`, and `not`
+This week, you'll learn:
+
+- `if` statements let you write code that makes decisions
+- You can use comparison operators like `==`, `<`, `>` to compare values and get `True` or `False`
+- `elif` and `else` blocks let you handle more complicated branching situations
+- You can combine booleans expressions with `and`, `or`, and `not`
 
 ![A group of snakes at the peak of Kibo](/images/snake_summit.png)

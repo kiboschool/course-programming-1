@@ -15,9 +15,9 @@ Part of getting started is learning how Python represents data. The other focus
 of these first few lessons will be the basic Python _data types_, what they are
 for, and how to convert between them.
 
-## Topic Summary
+## Learning Objectives
 
-Here are some of the specific topics you'll learn:
+Here are some of the specific topics you'll learn in these lessons:
 
 - **Comments** let us put text in a program that will be ignored by the program but are useful for humans reading the program. Comments in Python start with the `#` sign.
 - **Variables** are a way to store data with a name, so you can use it later. Creating a variable looks like `name = "Mo"` or `age = 22`
