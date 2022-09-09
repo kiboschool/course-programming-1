@@ -28,7 +28,6 @@
   - [Nested Conditionals](lessons/conditionals/multi-way-decisions/nested-conditionals.md)
   - [Practice](lessons/conditionals/practice.md)
   - [Project](lessons/conditionals/project.md)
-  - [Splitting Strings](lessons/conditionals/split-strings.md)
 
 - [Loops](lessons/loops.md)
   - [While loops](lessons/loops/while-loops.md)
@@ -43,6 +42,7 @@
   - [Mutating Lists](lessons/lists/mutating-lists.md)
   - [Loop patterns](lessons/lists/loop-patterns.md)
   - [Loops, Conditions, and Lists](lessons/lists/conditions-and-lists.md)
+  - [Splitting Strings](lessons/lists/split-strings.md)
   - [Practice](lessons/lists/practice.md)
 
 - [Functions](lessons/functions.md)
