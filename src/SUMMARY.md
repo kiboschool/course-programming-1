@@ -44,7 +44,6 @@
   - [Loop patterns](lessons/lists/loop-patterns.md)
   - [Loops, Conditions, and Lists](lessons/lists/conditions-and-lists.md)
   - [Practice](lessons/lists/practice.md)
-  - [Project](lessons/lists/project.md)
 
 - [Functions](lessons/functions.md)
   - [Function basics](lessons/functions/function-basics.md)
