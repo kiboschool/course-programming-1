@@ -1,10 +1,8 @@
 # Simple decisions
 
-_Estimated Time: 10 minutes_ 
+_Estimated Time: 10 minutes_
 
 ---
-
-![snakes standing awkwardly at a birthday party](/images/snake_party.png)
 
 Life is full of decisions.
 
@@ -16,7 +14,7 @@ Programs also need to make decisions. Depending on the circumstances, programs s
 
 In this lesson, you’ll learn how to write programs that can make simple decisions using `if` statements. `if` (and related keywords `else` and `elif`) will let you write code that can handle different situations appropriately.
 
-![2%201%20Simple%20decisions%20efbfa340f5df47bd9059c5d369f5793d/Screen_Shot_2021-07-27_at_3.10.10_PM.png](/future-proof-with-python/conditionals/simple-decisions/screen-shot-2021-07-27-at-3.10.10-pm.png)
+![flowchart illustrating decision about whether to stay at a party](/lessons/conditionals/simple-decisions/screen-shot-2021-07-27-at-3.10.10-pm.png)
 
 In the example above, you are going to stay at the party if you do not feel awkward. You can write that decision in a general `if` statement:
 
@@ -42,7 +40,7 @@ A one-branch `if` statement is the simplest **conditional statement**. Below is 
 
 <div style="text-align:center">
 
-![onebranchif](/future-proof-with-python/conditionals/simple-decisions/one-branch-if.png)
+![onebranchif](/lessons/conditionals/simple-decisions/one-branch-if.png)
 
 </div>
 
@@ -53,3 +51,5 @@ In the rest of this lesson, you’ll learn more about:
 - **boolean values** and **boolean expressions**
 - **conditional statements**
 - `if`, `elif`, and `else` keywords
+
+![snakes standing awkwardly at a birthday party](/images/snake_party.png)

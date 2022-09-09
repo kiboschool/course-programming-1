@@ -12,7 +12,7 @@ In Python, the syntax uses the keyword `if`, a **condition** followed by a colon
 
 ```python
 if response == "yes":
-	print("Proceeding...") 
+	print("Proceeding...")
 ```
 
 The `print` only runs if the value of the variable response is equal to "yes"
@@ -62,7 +62,7 @@ else:
 
 We want to check if a given number x is even or odd. The `%` operator is called ‘modulo’ and it returns the remainder after division. If the remainder is `0` when `x` is divided by `2`, then `x` is even. The flow control diagram looks like this:
 
-![2%201%20Simple%20decisions%20efbfa340f5df47bd9059c5d369f5793d/Untitled%201.png](/future-proof-with-python/conditionals/simple-decisions/untitled-1.png)
+![flow chart illustrating even or odd paths](/lessons/conditionals/simple-decisions/even-odd-flowchart.png)
 
 The boolean expression `x % 2 == 0` checks to see if the remainder of x divided by 2 is equal to 0. If this is true, then the first indented statement (called a branch) gets executed and the program prints "x is even". If the boolean expression is false, then the branch after the`else` gets executed instead and the program prints "x is odd".
 
@@ -77,10 +77,10 @@ If the user does not answer "yes" to the first question, encourage them to stay.
 
 </aside>
 
-![2%201%20Simple%20decisions%20efbfa340f5df47bd9059c5d369f5793d/Screen_Shot_2021-07-27_at_5.46.48_PM.png](/future-proof-with-python/conditionals/simple-decisions/screen-shot-2021-07-27-at-5.46.48-pm.png)
+![awkward party decision making flowchart](/lessons/conditionals/simple-decisions/do-you-feel-awkward-flowchart.png)
 
 A sample run of the code should look like this:
 
-![2%201%20Simple%20decisions%20efbfa340f5df47bd9059c5d369f5793d/Untitled%202.png](/future-proof-with-python/conditionals/simple-decisions/untitled-2.png)
+![Sample run of the stay-and-par-tay program](/lessons/conditionals/simple-decisions/par-tay-sample-run.png)
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W22-Stay-and-Par-tay" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>

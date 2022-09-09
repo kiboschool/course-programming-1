@@ -7,7 +7,7 @@
 - `*` performs **multiplication**
 - `/` performs **division**
 - `**` performs **exponentiation**
-- `%` performs **remainder (or modulus) operation**
+- `%` performs **modulo operation (the remainder after integer division)**
 
 ## What would happen?
 
@@ -37,3 +37,9 @@ print(4 + 3 * 2)
 ```
 
 </summary>
+
+It would print `10`.
+
+First, python multiplies `3` and `2` and gets `6`. Then it adds `6` to `4`, then it prints the final result.
+
+</details>

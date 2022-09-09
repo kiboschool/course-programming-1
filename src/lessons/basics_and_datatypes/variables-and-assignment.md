@@ -6,7 +6,7 @@ _Estimated Time: 15 minutes_
 
 ## What you need to know about variables
 
-- A Variable is a name you give to data, so you can use it later in the program
+- A _variable_ is a name you give to data, so you can use it later in the program
 - You assign a variable with `=`
 - There are lots names you can use for variables, but there are some rules
 - Using meaningful variable names makes your program better

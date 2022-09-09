@@ -15,7 +15,7 @@ This project is a chance to show off your creativity! You'll create a Mad Libs g
 
 **Access** the project here: https://github.com/kiboschool/mad-libs-project
 
---- 
+---
 
 Remember...
 

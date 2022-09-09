@@ -1,10 +1,8 @@
 # Boolean Expressions
 
-_Estimated Time: 20 minutes_ 
+_Estimated Time: 20 minutes_
 
 ---
-
-![a tired snake rests on the pages of a book on a desk](/images/snake_studies.png)
 
 Boolean is another Python data type. The only two Boolean possible values are `True` and `False`. These values are useful for writing code that makes decisions, like deciding whether or not to stay at the party.
 
@@ -84,3 +82,5 @@ Alternatively, you can enter these examples line-by-line in the Console itself. 
 TODO
 
 -->
+
+![a tired snake rests on the pages of a book on a desk](/images/snake_studies.png)
