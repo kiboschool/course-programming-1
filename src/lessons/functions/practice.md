@@ -82,7 +82,7 @@ You'll write a function that returns the smallest number in a list.
 
 2️⃣ Write a function that doubles all the elements in a list.
 
-**Access** the assignment here:
+**Access** the assignment here: https://github.com/kiboschool/double-list-elements
 
 <details><summary>Double List Elements: Solution</summary>
 
@@ -92,11 +92,9 @@ You'll write a function that returns the smallest number in a list.
 
 ## BMI with functions
 
-
 ⚖️ Remember your BMI assignment? In this assignment, you'll rewrite using functions instead.
 
-**Access** the assignment here:
-
+**Access** the assignment here: https://github.com/kiboschool/bmi-with-functions
 
 <details><summary>BMI with functions: Solution</summary>
 
