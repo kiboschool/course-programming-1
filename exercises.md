@@ -12,7 +12,6 @@ exercises, git urls, and where they'll end up with `cat exercise-map.txt`)
 
 ```sh
 mkdir -p .exercises
-pushd .exercises
 while read -r line; do
   project=`echo $line | cut -d ':' -f 1`
   mkdir -p $project
@@ -21,7 +20,6 @@ while read -r line; do
   git clone $url .
   popd
 done < ../exercise-map.txt
-popd
 ```
 
 ## Git pull all
@@ -35,6 +33,7 @@ find . -type d -maxdepth 2 -mindepth 2  |
 while read -r project; do
         pushd $project
         echo $project
+        git checkout main
         git pull
         popd
 done
@@ -48,12 +47,52 @@ i.e. if you added or removed an exercise (folder within one of the weeks in
 from .exercises:
 
 ```sh
-find . -type d -maxdepth 2 -mindepth 2  |
+setopt PUSHDSILENT
+find .exercises -type d -maxdepth 2 -mindepth 2  |
 while read -r project; do
   pushd $project
   echo -n "$project:"; git remote get-url origin
   popd
 done > exercise-map.txt
+```
+
+## Add another remote to all the exercises and push
+
+When we create a new github org to run the course, we need to create new repos, 
+add them as new remotes, and push each project and exercise to the new repo.
+
+* Edit so that the org name and remote name match the term
+* Requires the [Github CLI](https://cli.github.com/)
+
+from `.exercises`:
+
+```sh
+find . -type d -maxdepth 2 -mindepth 2  |
+while read -r project; do
+        pushd $project
+        echo $project
+        git checkout main
+        name=$(echo $project | cut -d '/' -f 3)
+        gh repo create "kibo-programming-1-oct-22/$name" --source=. --private --remote=oct-22 --push
+        popd
+done
+```
+
+## For all exercises, push a branch to a given remote
+
+change 'main' and 'oct-22' as appropriate
+
+from `.exercises`:
+
+```sh
+find . -type d -maxdepth 2 -mindepth 2  |
+while read -r project; do
+        pushd $project
+        echo $project
+        git checkout main
+        git push oct-22 main
+        popd
+done
 ```
 
 ## Fixup a Replit exercise
@@ -88,10 +127,10 @@ co main
 After you run the above, you should have a directory `.exercises` so that `tree
 -L 2 .exercises` shows the following:
 
-(updated 9/2/22; good to keep this up to date with the actual exercises)
+(updated 9/13/22; good to keep this up to date with the actual exercises)
 
 ```
-.
+.exercises
 ├── 01-basics-and-datatypes
 │   ├── ac-load-estimator
 │   ├── body-mass-index
@@ -100,6 +139,7 @@ After you run the above, you should have a directory `.exercises` so that `tree
 ├── 02-conditionals
 │   ├── exam-results
 │   ├── money-for-books
+│   ├── quick-draw
 │   └── rock-paper-scissors-project
 ├── 03-loops
 │   ├── guess-my-number-project
@@ -110,26 +150,26 @@ After you run the above, you should have a directory `.exercises` so that `tree
 │   ├── longest-word
 │   ├── roster-change
 │   ├── safari-animals
-│   ├── squad-info-chat-bot-project
 │   └── squad-mates
 ├── 05-functions
 │   ├── add-list-numbers
-│   ├── greet-person-function
-│   ├── py-distance-traveled
-│   ├── quick-draw
-│   └── smallest-item-in-a-list
-├── 06-organizing-code
+│   ├── bmi-with-functions
 │   ├── circle-area
-│   ├── data-processor
-│   ├── date-format
-│   ├── message-encode-decode
+│   ├── double-list-elements
+│   ├── greet-person-function
+│   ├── smallest-item-in-a-list
 │   └── unit-conversion-functions
+├── 06-organizing-code
+│   ├── date-format
+│   ├── distance-traveled
+│   ├── microprocessor-simulation
+│   └── random-story-generator
 ├── 07-files
+│   ├── binary-file-info
 │   ├── binary-scorekeeping
 │   ├── count-file-lines
+│   ├── directory-maintainer
 │   ├── file-checks
-│   ├── read-binary-file
-│   ├── read-file-into-array
 │   └── replace-char-in-file
 ├── 08-data-structures
 │   ├── log-analyzer-project
@@ -137,8 +177,12 @@ After you run the above, you should have a directory `.exercises` so that `tree
 │   ├── row-sum
 │   └── word-frequency
 ├── 09-libraries
+│   ├── fetching-web-data
 │   ├── json-parsing
-│   └── requests-exercise
-└── 10-review
-    └── robot-translator
+│   └── message-encode-decode
+├── 10-review
+│   └── robot-translator
+└── projects
+    ├── final-project-pop-analysis
+    └── midterm-project-team-chatbot
 ```
