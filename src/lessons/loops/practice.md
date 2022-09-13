@@ -23,7 +23,7 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 Write a program that prints the numbers from 1 to 100, noting the multiples of 3 and 5.
 
-**Access** the assignment here: https://github.com/kiboschool/print-multiples
+**Access** the assignment here: https://classroom.github.com/a/Mtvsp9WU
 
 <aside>
 
