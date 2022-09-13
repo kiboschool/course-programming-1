@@ -21,9 +21,9 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 ## Print multiples
 
-Write a program that prints the numbers from 1 to 100, noting the multiples of 3 and 5.
+[![Print Multiples](https://img.shields.io/badge/Open%20Project-Print%20Multiples-blue)](https://classroom.github.com/a/Mtvsp9WU)
 
-**Access** the assignment here: https://classroom.github.com/a/Mtvsp9WU
+Write a program that prints the numbers from 1 to 100, noting the multiples of 3 and 5.
 
 <aside>
 
