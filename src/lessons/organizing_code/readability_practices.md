@@ -20,16 +20,16 @@ def greeting(name: str) -> str:
 ```
 
 Why would you use `Argument Annotation`:
-- Faster Development: Argument annotation will uncover mistakes more quickly and protects from passing wrong values.
-- Users of your code: This syntax will be more clear for members who are trying to use your code.
-- Documentation: This can be part of your function documentation - some people consider it the whole documentation of the function.
+- **Faster Development:** Argument annotation will uncover mistakes more quickly and protects from passing wrong values.
+- **Users of your code:** This syntax will be more clear for members who are trying to use your code.
+- **Documentation:** This can be part of your function documentation - some people consider it the whole documentation of the function.
 
-> **_NOTE:_**  Argument Annotation is NOT required and it is NOT a performance booster
+> **_NOTE:_**  Argument Annotation is NOT mandatory and it is NOT a performance booster
 
 ## Function Documentation
 Python's convention for a function or module documentation is called `Docstring`
 
-Docstring is a string that is usually written as the first statement of a function or module explaining the main functionality of this function or module. 
+__Docstring__ is a string that is usually written as the first statement of a function or module explaining the main functionality of this function or module. 
 Docstrings can take the form of one line or multiple lines depends on the information it includes.
 
 ### Dcostring example
