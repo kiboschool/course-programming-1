@@ -1,4 +1,4 @@
-# 6.2 Utility Functions
+# 6.2 Helper Functions
 
 Estimated Time: 40 Minutes
 
@@ -6,16 +6,16 @@ In this section, you will more about functions from a design perspective.
 
 ## Import Your Own Functions
 We previously discussed a way to import basic modules from an outer code. Here we will check how do we import functions from our code.
-Sometimes we need to design a program across many files where each of them has the implementation of specific functions.
+Sometimes we need to design a program across many files where each of them has an implementation of specific functions.
 
-A main function would need to import specific functions from internal files within your project.
+A main function may need to import other helper functions from within your project.
 Imagine that you have a file called `areas.py` where you have the following function:
 
 ```
 def square_area(length, width):
     return length * width
 ```
-You are implementing another general module that calculates areas of shapes. You can import this function by:
+You can use this `helper function` when implementing another general module that calculates areas of shapes: 
 
 ```
 # Import statment
@@ -25,7 +25,7 @@ from areas import square_area
 sq_area = square_area(10, 20) 
 ```
 
-You can also change the name of the function at import - example:
+If you do not like the name of the original function but you still want to use it. You can also change the name of the function at import - example:
 
 ```
 # Import statment
@@ -65,24 +65,26 @@ The contents of the random library are ::
 
 > **_NOTE:_**  dir function have other usages which are out of the scope of this lesson.
 
-## Design with Functions (Utilities)
+## Design with Functions (Helpers/Utilities)
 Whenever you start thinking about implementing a program. You need to take some points into consideration regarding manageability of your code.
 
 ### Functions added value
 Examples of some aspects to check when start thinking about functions:
-- Reusability: Functions are "reusable parts" of code that can be called at any part of the whole program. Try to identify most repetitive parts of your code and move them into functions.  
-- Readability: This is related somehow to the first point. Moreover, having clean functions with clear names increases readability of your code which assists other programmers to integrate well with your program.
-- Function Stack: When implementing functions, you need to make sure that they integrate well. Avoid the case where you have many functions calling each other where each function implements a tiny operation.
+- **Reusability:** Functions are "reusable parts" of code that can be called at any part of the whole program. Try to identify most repetitive parts of your code and move them into functions.  
+- **Readability:** This is related somehow to the first point. Moreover, having clean functions with clear names increases readability of your code which assists other programmers to integrate well with your program.
+- **Function Stack:** When implementing functions, you need to make sure that they integrate well. Avoid the case where you have many functions calling each other where each function implements a tiny operation.
 
-### Utilities
-A main concept to approach coding problems is **Divide & Conquer**. Taking a big problem and decompose it into smaller ones. 
-In a general software program, implementing a wide flow can take several steps. Approaching each one of these as a standalone problem may make it easier to implement. Each step can take the form of one or more functions depending on complexity level.
-A group of internal functions that we implement for our own usage are called **utility functions**.
+### Helper Functions
+One of the main concepts to approach coding problems is **Divide & Conquer**. Taking a big problem and decompose it into smaller ones. 
+In a general software program, implementing a long flow can take several steps. Approaching each one of these as a standalone problem may make it easier to implement. 
+Each step can take the form of one or more functions depending on its complexity level.
+A group of internal functions that we implement for our own usage are called **helper functions**.
 
-Imagine that you are asked to implement a program that heavily depends on basic calculation operations (addition, division, subtraction, multiplication). At this case it makes sense to have an internal module called `utilities.py` that implements all of these functions.
+Imagine that you are asked to implement a program that has a high dependency on basic calculation operations (addition, division, subtraction, and multiplication). 
+At this case it makes sense to have an internal module called `helpers.py` that implements all of these functions.
 An example usage of the module would be something like:
 ```
-from utilities import addition, division, subtraction, multiplication
+from helpers import addition, division, subtraction, multiplication
 
     def student_average(students, stdudent_count):
         sum = 0 
@@ -92,9 +94,9 @@ from utilities import addition, division, subtraction, multiplication
         avg = division(sum, stdudent_count)
 ```
 ## Simple Use Case
-At this section, we will study a use case where we need to the apply the **Divide & Conquer** strategy in our design.
+At this section, we will study a use case where we need to apply the **Divide & Conquer** strategy in our design.
 
-Imagine the case that you are asked to design and implement a software program to assist 7th grade students how to calculate area of various shapes.
+Imagine the case that you are asked to design and implement a software program to assist 7th grade students in understanding how to calculate area of various shapes.
 The program starts by asking the user to enter a shape from a list, for example:
 - Rectangle
 - Circle 
@@ -103,11 +105,11 @@ The program starts by asking the user to enter a shape from a list, for example:
 Based on this choice, the program continues by asking the user for needed inputs to calculate the area of the needed shape.
 
 One option is to implement the whole code into one long file that has functions for the areas of each shape. In that case:
-- What would happen when you need to add a new shape function? And where? Most probably that the file will get longer with misleading parts of code.
+- What would happen when you need to add a new shape function? And where? What will happen if you need to widen your project to have another feature?
 - Imagine that you need to use same shape functions at another project. How would you do that? 
 - A team member of yours wants to give you a hand in implementation - how would you organise this ?
 
-One the other hand, let us break the problem into two parts (and then check previous mentioned points):
+On the other hand, let us break the problem into two parts (and then check previous mentioned points):
 - Part 1 - **Core Functions** - Main operational functions that the whole program would need.
 - Part 2 - **Main Flow** - Program flow and steps that would use core functions to implement the flow of the program and user interaction.
 
@@ -157,6 +159,6 @@ print(f"Calculated area for {shape_choice} is {area}")
 ``` 
 
 If we take a closer look at this design, we notice the following:
-- What would happen when you need to add a new shape function? And where? --> It will be added at the utility module, so you can import it anywhere in your code.
-- Imagine that you need to use same shape functions at another project. How would you do that? --> You will simply import the utilities module by `import utilities` after copying the module into your project.
-- Integration with other team members will be easier, each team member can start working on a different file.
+- What would happen when you need to add a new shape function? And where? --> __It will be added at the utility module, so you can import it anywhere in your code.__
+- Imagine that you need to use same shape functions at another project. How would you do that? --> __You will simply import the utilities module by `import utilities` after having a clear path for module__.
+- Integration with other team members will be easier, __each team member can start working on a different file.__
