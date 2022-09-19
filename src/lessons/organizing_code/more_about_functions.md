@@ -1,17 +1,19 @@
 # Function argument styles
 
-In this section, you will more about function signatures, syntax, and return values.
+Estimated Time: 50 Minutes
+
+In this section, you will learn more about function signatures, syntax, and return values.
 
 ## Default Argument Values
 
-You recall from "Function 1" week that we talked about function argument. If we have a greeting function with two arguments for example, it would look like something like this:
+You recall from "Functions" week that we talked about function arguments. If we have a greeting function with two arguments for example, it would look like something like this:
 
 ```
 def greet(name, message):
     print("Hello", name + ', ' + msg)
 ```
 
-Let us have a closer look at the arguments. What would happen if we call this function with a wrong number of arguments (one argument for example)? For instance, `greet("Alice")`
+Let us have a closer look at these arguments. What would happen if we call this function with a wrong number of arguments __(one argument for example)__? For instance, `greet("Alice")`
 In that case, python interpreter will show an error saying the following:
 
 ```TypeError: greet() missing 1 required positional argument: 'msg'```
@@ -20,7 +22,7 @@ In that case, python interpreter will show an error saying the following:
 
 There is a way in python where we can program our function to use a `default` argument value in case it did not get a value from the user or the calling function.
 
-Providing a default value can be done using **=** operator as follows:
+Providing a default value can be done using **`=`** operator as follows:
 ```
 def greet(name, msg="Good morning!"):
     print("Hello", name + ', ' + msg)
@@ -34,7 +36,7 @@ Output will be:
 Hello Alice, Good morning!
 Hello Ben, How are you?
 ```
-At this call, `name` is a mandatory argument and the function will not be move forward without it. On the other hand, there is a default greeting message that the function will use in case no other message was inserted.
+At this call, `name` is a mandatory argument and the function will not be move forward without it. On the other hand, there is a __default__ greeting message that the function will use in case no other message was inserted.
 
 ### Default with non Default Arguments
 

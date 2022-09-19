@@ -2,7 +2,7 @@
 
 Estimated Time: 20 Minutes
 
-In this section, you will more about functions documentation and readability.
+In this section, you will learn more about functions documentation and readability.
 
 ## Argument Annotation
 Up to this lesson, we were using functions with direct arguments.
