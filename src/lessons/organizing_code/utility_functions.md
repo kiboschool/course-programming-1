@@ -11,13 +11,13 @@ Sometimes we need to design a program across many files where each of them has a
 A main function may need to import other helper functions from within your project.
 Imagine that you have a file called `areas.py` where you have the following function:
 
-```
+```python
 def square_area(length, width):
     return length * width
 ```
 You can use this `helper function` when implementing another general module that calculates areas of shapes: 
 
-```
+```python
 # Import statment
 from areas import square_area
 
@@ -27,7 +27,7 @@ sq_area = square_area(10, 20)
 
 If you do not like the name of the original function but you still want to use it. You can also change the name of the function at import - example:
 
-```
+```python
 # Import statment
 from areas import square_area as sq
 
@@ -38,7 +38,7 @@ sq_area = sq(10, 20)
 One way to know what functions does a module provide is by using the built-in function called `dir()`
 for example - it we want to check attributes and functions within `random` module, we may do something like:
 
-```
+```python
 import random
  
 # Prints list which contains names of
@@ -49,7 +49,7 @@ print("The contents of the random library are::")
 print(dir(random))
 ``` 
 Output:
-```
+```python
 The contents of the random library are ::
 
 ['BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST',
@@ -83,7 +83,7 @@ A group of internal functions that we implement for our own usage are called **h
 Imagine that you are asked to implement a program that has a high dependency on basic calculation operations (addition, division, subtraction, and multiplication). 
 At this case it makes sense to have an internal module called `helpers.py` that implements all of these functions.
 An example usage of the module would be something like:
-```
+```python
 from helpers import addition, division, subtraction, multiplication
 
     def student_average(students, stdudent_count):
@@ -115,7 +115,7 @@ On the other hand, let us break the problem into two parts (and then check previ
 
 We will start by implementing core functions into an internal module called `utilities.py` that may look like:
 
-```
+```python
 from math import pi
 
 def circle_area(radius):
@@ -132,7 +132,7 @@ def triangle_area():
 ```
 Once we have our core functions ready for usage, we can proceed by implementing the flow itself, which may look like:
 
-```
+```python
 from utilities import circle_area, rectangle_area, triangle_area
 
 area = 0

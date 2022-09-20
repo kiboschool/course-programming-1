@@ -9,7 +9,7 @@ Up to this lesson, we were using functions with direct arguments.
 
 Python 3.5+ allows us to use type hints and argument annotations as follows:
 
-```
+```python
 # No Argument Annotation
 def greeting(name):
   return 'Hello, {}'.format(name)
@@ -36,7 +36,7 @@ Docstrings can take the form of one line or multiple lines depends on the inform
 
 #### One Line Docstring
 One line simple description of the function.
-```
+```python
 def divide(a, b) -> float:
     """This function divides the value of a by b and returns a float result"""
     pass
@@ -44,7 +44,7 @@ def divide(a, b) -> float:
 #### Multi-line Docstring
 A paragraph that explains the functionality by adding an explanation of each argument as well as return value options.
 
-```
+```python
 def divide(a, b) -> float:
     """
     This function divides the value of a by b and returns a float result

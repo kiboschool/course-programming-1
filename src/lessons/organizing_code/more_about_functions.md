@@ -8,7 +8,7 @@ In this section, you will learn more about function signatures, syntax, and retu
 
 You recall from "Functions" week that we talked about function arguments. If we have a greeting function with two arguments for example, it would look like something like this:
 
-```
+```python
 def greet(name, message):
     print("Hello", name + ', ' + msg)
 ```
@@ -23,7 +23,7 @@ In that case, python interpreter will show an error saying the following:
 There is a way in python where we can program our function to use a `default` argument value in case it did not get a value from the user or the calling function.
 
 Providing a default value can be done using **`=`** operator as follows:
-```
+```python
 def greet(name, msg="Good morning!"):
     print("Hello", name + ', ' + msg)
 
@@ -49,7 +49,7 @@ A function may have a mix of default and non default arguments (mandatory and op
 ### Calling with keyword argument
 
 We can call function with their keyword arguments. It that case, position would not be important.
-```
+```python
 # 2 keyword arguments
 greet(name = "Bruce",msg = "How do you do?")
 
@@ -68,7 +68,7 @@ Python allows us to pass a variable number of arguments to functions. Main symbo
 
 > **_NOTE:_**  *args allow us to pass variable number of arguments to a function. The star means the input list of variables is iterable.
 
-```
+```python
 def greeting(*argv):
     for arg in argv:
         print(arg)
@@ -87,7 +87,7 @@ Kibo
 ```
 
 Another example that uses an extra first argument would look like:
-```
+```python
 def greeting(first_word, *argv):
     print("First word :", first_word)
     for arg in argv:
@@ -108,7 +108,7 @@ Kibo
 
 > **_NOTE:_**  **kwargs allow us to pass variable number of keyworded arguments to a function. Keyworded means that you provide a name for the variable. kwargs are close to a dictionary.
 
-```
+```python
 def students(**kwargs):
     for key, value in kwargs.items():
         print("%s == %s" % (key, value))
@@ -127,7 +127,7 @@ student_3 == Ope
 
 ### Hybrid Usage of *args & *kwargs
 It is possible to use both of *args & *kwargs to pass data to functions. Check the following greeting example
-```
+```python
 def greeting(*args, **kwargs):
     print("args: ", args)
     print("kwargs: ", kwargs)
@@ -149,7 +149,7 @@ Example:
 Let us implement a function that takes two numbers and perform addition, subtraction, multiplication, and division upon them.
 It would like something like this:
 
-```
+```python
 def basic_calculator(a, b):
     sum = a + b
     diff = a - b
@@ -163,7 +163,7 @@ Notice the return line -> We can return multiple values one after another with a
 
 How do we access that from the calling side?
 
-```
+```python
 num1 = 5
 num2 = 10
 
@@ -185,13 +185,13 @@ Variables in __main__ are sometimes called global because they can be accessed f
 It is common to use global variables for flags; that is, boolean variables that indicate (“flag”) whether a condition is true. For example, some programs use a flag named verbose to control the level of detail in the output:
 
 verbose = True
-```
+```python
 def example1():
     if verbose:
         print('Running example1')
 ```
 If you try to reassign a global variable, you might be surprised. The following example is supposed to keep track of whether the function has been called:
-```
+```python
 been_called = False
 
 def example2():
@@ -200,7 +200,7 @@ def example2():
 But if you run it you will see that the value of been_called doesn’t change. The problem is that example2 creates a new local variable named been_called. The local variable goes away when the function ends, and has no effect on the global variable.
 
 To reassign a global variable inside a function you have to declare the __global__ variable before you use it:
-```
+```python
 been_called = False
 
 def example2():
@@ -210,7 +210,7 @@ def example2():
 The global statement tells the interpreter something like, “In this function, when I say been_called, I mean the global variable; don’t create a local one.”
 
 Here’s an example that tries to update a global variable:
-```
+```python
 count = 0
 
 def example3():
@@ -221,7 +221,7 @@ If you run it you get:
 UnboundLocalError: local variable 'count' referenced before assignment
 ```
 Python assumes that count is local, and under that assumption you are reading it before writing it. The solution, again, is to declare count global.
-```
+```python
 def example3():
     global count
     count += 1
