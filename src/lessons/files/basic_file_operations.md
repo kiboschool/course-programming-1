@@ -188,6 +188,6 @@ os.remove("check.txt")
 ```
 
 ## File Methods 
-You can always check Google for more information about file function. 
+You can always check Google for more information about file functions. 
 
 Check the following for a [documentation of main file methods](https://python-reference.readthedocs.io/en/latest/docs/file/) we talked about many of them in this section  
