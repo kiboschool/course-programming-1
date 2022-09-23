@@ -10,7 +10,7 @@ If you get stuck, confused, or have trouble with the project, you should use the
 
 In this project, you will be working to analyze production log files to produce useful data for management reporting.
 
-**Access** the assignment here: https://github.com/kiboschool/log-analyzer-project
+**Access** the assignment here: https://github.com/kiboschool/log-analyzer
 
 Remember...
 

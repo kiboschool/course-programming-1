@@ -13,7 +13,7 @@
 
 This project is a chance to show off your creativity! You'll create a Mad Libs game using variables, input, and output.
 
-**Access** the project here: https://github.com/kiboschool/mad-libs-project
+**Access** the project here: https://github.com/kiboschool/mad-libs
 
 ---
 

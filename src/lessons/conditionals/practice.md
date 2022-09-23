@@ -52,6 +52,12 @@ Watch the video below to see the full solution
 
 ![A cool snake with blue tinted sunglasses is coiled around some books at the library](/images/cool_library_snake.png)
 
+## Rock, Paper, Scissors
+
+In this exercise, you'll recreate the classic game of rock, paper, scissors.
+
+**Access** the assignment here: https://github.com/kiboschool/rock-paper-scissors
+
 ## Quick Draw
 
 In this exercise, you will implement a quick draw game to see how fast the

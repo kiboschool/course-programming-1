@@ -8,7 +8,7 @@
 
 This is your chance to be creative with your team. You can make a really fun and funny project together that meets all the requirements.
 
-**Access** the assignment here: https://github.com/kiboschool/team-info-chat-bot-project
+**Access** the assignment here: https://github.com/kiboschool/chatbot
 
 Remember...
 

@@ -43,4 +43,4 @@ In this example, you'll practice using loops to calculate the Scrabble score of 
 
 In this exercise, practice writing a number guessing game.
 
-**Access** the assignment here: https://github.com/kiboschool/guess-my-number-project
+**Access** the assignment here: https://github.com/kiboschool/guess-my-number

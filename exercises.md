@@ -53,7 +53,7 @@ while read -r project; do
   pushd $project
   echo -n "$project:"; git remote get-url origin
   popd
-done > exercise-map.txt
+done | sort > exercise-map.txt
 ```
 
 ## Add another remote to all the exercises and push
