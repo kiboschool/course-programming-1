@@ -76,6 +76,5 @@
   - [Library Basics](lessons/libraries/library_basics.md)
   - [Common Libraries](lessons/libraries/common_libs.md)
   - [Practice](lessons/libraries/practice.md)
-  - [Project](lessons/libraries/project.md)
 
 - [Review and Preview](lessons/review.md)
