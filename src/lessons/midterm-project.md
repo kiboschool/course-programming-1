@@ -1,5 +1,7 @@
 # Midterm Project
 
+**Due Date - Nov 13**
+
 ---
 > 👥 This is a team project. Pair up with a small team (2-4 students) to work with you.
 > If you have trouble collaborating, or get stuck on the project, use the **#help-python** channel in Discord or message an instructor.

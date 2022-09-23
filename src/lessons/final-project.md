@@ -1,6 +1,6 @@
 # Final Project
 
-**Due date: TBD**
+**Due date: Dec 16**
 
 > 💡 This is an individual project. You are expected to work independently.
 >

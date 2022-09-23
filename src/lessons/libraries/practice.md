@@ -33,11 +33,11 @@ In this exercise, you'll parse some data using Python's built-in JSON library.
 
 **Access** the assignment here: https://github.com/kiboschool/json-parsing
 
-## JSON-to-CSV Flask Server
+## Message Encode and Decode
 
-In this exercise, you'll build a Flask web server that generates a CSV from a
-JSON file.
+In this exercise, you'll build a Flask web server that canencode and decode
+messages.
 
-**Access** the assignment here: https://github.com/moawiah/Week09_EX1
+**Access** the assignment here: https://github.com/kiboschool/message-encode-decode
 
 **[5-min video to solve the exercise @Muawiya]**

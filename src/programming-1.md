@@ -46,7 +46,3 @@ Here's a welcome video from your instructor.
 - Week 8: Data Structures
 - Week 9: Libraries
 - Week 10: Review, Advanced topics
-
-## Course Schedule
-
-TBD

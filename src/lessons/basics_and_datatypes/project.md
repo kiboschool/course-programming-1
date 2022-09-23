@@ -1,6 +1,6 @@
 # Project
 
-**Due date: TBD**
+**Due date: Oct 17**
 
 > 👥 This is a team project. Find a teammate (or two teammates, for a maximum of three students per team) from your squad, and schedule time to work on the project together.
 >
