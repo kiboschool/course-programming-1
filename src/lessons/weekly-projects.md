@@ -10,7 +10,7 @@ The projects will be challenging, and it's recommended that you complete the
 material and practice problems before you start the project each week.
 
 - [Week 1: Mad Libs](https://github.com/kiboschool/mad-libs) (Due Oct 17)
-- [Week 2: Bill Calculator](https://github.com/kiboschool/rock-paper-scissors) (Due Oct 24)
+- [Week 2: Bill Calculator](https://github.com/kiboschool/bill-calculator) (Due Oct 24)
 - [Week 3: Password Validator](https://github.com/kiboschool/password-validator) (Due Oct 31)
 - [Week 4 and 5: Midterm Project](./midterm-project.md) (Due Nov 13)
 - [Week 6: Microprocessor Simulation](https://github.com/kiboschool/microprocessor-simulation) (Due Nov 21)
