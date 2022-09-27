@@ -39,6 +39,5 @@
 .exercises/09-libraries/fetching-web-data:git@github.com:kiboschool/fetching-web-data.git
 .exercises/09-libraries/json-parsing:git@github.com:kiboschool/json-parsing.git
 .exercises/09-libraries/message-encode-decode:git@github.com:kiboschool/message-encode-decode.git
-.exercises/10-review/robot-translator:git@github.com:moawiah/Robot_Message_Construction.git
 .exercises/projects/final-project-pop-analysis:git@github.com:kiboschool/population-analysis.git
 .exercises/projects/midterm-project-team-chatbot:git@github.com:kiboschool/squad-info-chat-bot-project.git
