@@ -15,6 +15,8 @@ Part of getting started is learning how Python represents data. The other focus
 of these first few lessons will be the basic Python _data types_, what they are
 for, and how to convert between them.
 
+[Welcoming video - Course Instructor @Mohammad]
+
 ## Learning Objectives
 
 Here are some of the specific topics you'll learn in these lessons:
