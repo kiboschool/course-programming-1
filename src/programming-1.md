@@ -27,9 +27,7 @@ all that you've learned, and make something creative.
 
 <aside>
 
-Here's a welcome video from your instructor.
-
-[3-min video to welcome students! @Muawiya]
+[Here's a welcome video from your instructor.](https://www.loom.com/share/081681b662c346079703fb23b5227b53)
 
 </aside>
 
