@@ -4,7 +4,30 @@ Everything you do on the computer has a computer program — “software” — 
 
 We write computer programs to help us solve problems or perform tasks, like editing documents, browsing web pages, sharing images, or chatting with friends.
 
-### Translating for machines
+Everything on a computer is a program behind the scenes.
+
+This very moment, you are reading on a computer, with a web browser. The browser is a program, built by a large team. But, how do they actually do it? What does a program look like when they are writing it? How does it work?
+
+This is the question we'll focus on first: **What are computer programs?**
+
+- Programming languages let us write instructions for computers using words
+- Programming languages get translated into 1s and 0s the machine understands
+- Python is a beginner-friendly language that has tons of real-world use
+- You can make basic programs in Python using `print`, `input`, `+`, and `=`
+
+## Programs are...
+
+> **Programs are text that a computer can execute as instructions.**
+
+That means you can read them and write them with the keyboard.
+
+Programs use special symbols and keywords. The symbols and the order they have to go in is called the **syntax**.
+
+If a program has valid syntax, then the computer can run it. If the program has the right logic, it will do what the programmer wanted. The syntax, grammar, and vocabulary make up a **Programming Language**.
+
+We're learning Python, so we're going to learn what words and symbols are allowed in Python, and how to structure them to make the computer do what we want.
+
+## Translating for machines
 
 Underneath the screens and keyboards, computers are mechanical. They only understand 1s and 0s. But, _people don’t think in 1s and 0s_! When you want something, you use words.
 
@@ -45,234 +68,6 @@ As you can see:
 - Python is popular for **data science**, **mathematics**, **web development**, and more. It’s commonly used for “scripting” - small programs to do specific tasks.
 - Python is a widely recommended language for beginners. The syntax is not as hard to get started with as some other languages, and you can build cool, real-world projects with it.
 
-## Basic Python
-
-Over the next few weeks, you’ll learn about Python in more detail. These are just a few topics to get you started:
-
-### 1. Print: Showing output from your program
-
-The easiest way to make your program display some result is to use `print`.
-
-Here’s an example:
-
-```python
-print("This is the output")
-```
-
-The program would output:
-
-`This is the output`
-
-- You use the keyword `print`
-- Then parentheses
-- Inside the `( )` you put the value you want to show
-- Text has to go in inside quote marks `" "`
-
-To run code and test our programs, we use **Replit**. Below is an example of a Replit code file embedded in the lesson.
-
-Click the green ▶️ button to run a program and see the output in the Console box.
-
-_Note: if the embedded code below doesn’t work, you can click this link to go directly to the repl: [https://replit.com/@kibocurriculum/Output-with-print](https://replit.com/@kibocurriculum/Output-with-print)_
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/@kibocurriculum/Output-with-print?lite=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-<aside>
-
-💡 Try to change the text between the `" "` and run the program again by clicking the green 'Run' button. Notice the output in the Console window.
-
-</aside>
-
-### 2. More than one print
-
-If you want more than one line of output, you can use more than one `print`.
-
-```python
-print("This is line 1")
-print("This is line 2")
-print("This is line 3")
-```
-
-Which would output:
-
-```text
-This is line 1
-This is line 2
-This is line 3
-```
-
-Try editing the code below to print more than one line.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/@kibocurriculum/Output-with-print?lite=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-### 3. Variables
-
-You can give a value a name, and use it later, using a variable.
-
-```python
-message = "I love programming"
-print(message)
-print(message)
-print(message)
-```
-
-`message` is a variable. It stores the value `"I love programming"`.
-
-The equals sign `=` assigns the value to the variable.
-
-The program would output:
-
-```text
-I love programming
-I love programming
-I love programming
-```
-
-Click the green ▶️ button to run the program and see the output in the Console box.
-
-_Note: if the embedded code below doesn’t work, you can click this link to go directly to the repl: [https://replit.com/@kibocurriculum/Using-a-variable](https://replit.com/@kibocurriculum/Using-a-variable)_
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/@kibocurriculum/Using-a-variable?lite=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-### 4. Adding with `+`
-
-In Python, you can add things together with the `+` operator.
-
-```python
-print(10 + 10) # 20
-print(10 + 154) # 164
-print(12345 + 23456) # 35801
-```
-
-Computers are good at arithmetic — they are very fancy calculators.
-
-Python can also add text together with `+`:
-
-```python
-message = " loves programming"
-print("Adesola" + message)
-print("Chidi" + message)
-print("Ebbe" + message)
-```
-
-The program would output:
-
-`Adesola loves programming`
-`Chidi loves programming`
-`Ebbe loves programming`
-
-Click the green ▶️ button to run a program and see the output in the Console box.
-
-_Note: if the embedded code below doesn’t work, you can click this link to go directly to the repl: [https://replit.com/@kibocurriculum/Adding-with](https://replit.com/@kibocurriculum/Adding-with)_
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/@kibocurriculum/Adding-with?lite=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-### 5. Input from the user
-
-Python can ask the user to type in a message using `input`.
-
-```python
-favorite = input("What is your favorite thing? ")
-print("I like " + favorite + " too!")
-```
-
-When the program sees `input`, it prints the message and waits for the user to enter their response. Then, it continues from there.
-
-The variable `favorite` stores the value that the user typed in.
-
-If the user typed in `playing soccer`, then the output would look like:
-
-`What is your favorite thing? playing soccer`
-`I like playing soccer too!`
-
-When you run this program, be sure to click in the black “Console” box to type a response and press Enter.
-
-_Note: if the embedded code below doesn’t work, you can click this link to go directly to the repl: [https://replit.com/@kibocurriculum/Input-from-the-user#main.py](https://replit.com/@kibocurriculum/Input-from-the-user#main.py)_
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/@kibocurriculum/Input-from-the-user?lite=true" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-## In summary
-
-- Programming languages get translated into 1s and 0s the machine understands
-- Python is a beginner-friendly language that has tons of real-world use
-- You can make basic programs in Python using `print`, `input`, `+`, and `=`
-
-# 3. Assignment
-
-Complete these challenges in Replit. You’ll practice using input and output in Python, and you’ll learn how assignments in Replit will work.
-
-<aside>
-
-⚠️ **You must submit the two Replit assignments** below to gain admission to the program.
-
-</aside>
-
-<aside>
-
-⚠️ Before you can start these assignments, you need to **join the class team in Replit.** [Click here to join the team](https://replit.com/teams/join/vpzrgkzskvjopkzikzgtcfeudbpyhhyf-challenge-fpwp6).
-
-</aside>
-
-## Task 1: Hello, World
-
-Traditionally, the first program you write in a new language is a program that says “Hello, World!”.
-
-Click the link below to access the assignment in Replit, then follow the directions in the **Instructions** tab.
-
-<aside>
-
-➡️ **Access** and **submit** the task in Replit here: [https://replit.com/team/challenge-fpwp6/1-hello-world](https://replit.com/team/challenge-fpwp6/1-hello-world)
-
-</aside>
-
-## Task 2: Decrypt Me
-
-Encryption and decryption play an important role in information security and computer science. It’s used everywhere to secure the transmitted data between two entities. In this exercise, we have a sample program that decrypts secret messages. In this task, you will follow some steps to decrypt a secret message.
-
-Click the link below to access the assignment in Replit, then follow the directions in the **Instructions** tab.
-
-<aside>
-
-➡️ **Access** and **submit** the task in Replit here: [https://replit.com/team/challenge-fpwp6/Decrypt-me](https://replit.com/team/challenge-fpwp6/Decrypt-me)
-
-</aside>
-
-<details><summary><strong>If you get stuck, click here.</strong></summary>
-
-Watch this video to see how to solve the challenge, step by step.
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/bd70ce6e605a48fbad8742da64b9a03d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
-
-## Programs
-
-Everything on a computer is a program behind the scenes.
-
-This very moment, you are reading on a computer, with a web browser. The browser is a program, built by a large team. But, how do they actually do it? What does a program look like when they are writing it? How does it work?
-
-This is the question we'll focus on first: **What are computer programs?**
-
-In <a href="/future-proof-with-python/admissions-challenge.md" target="_blank">Intro to Programming in Python</a> you learned...
-
-- Programming languages let us write instructions for computers using words
-- Programming languages get translated into 1s and 0s the machine understands
-- Python is a beginner-friendly language that has tons of real-world use
-- You can make basic programs in Python using `print`, `input`, `+`, and `=`
-
-Let’s review.
-
-### Programs are...
-
-> **Programs are text that a computer can execute as instructions.**
-
-That means you can read them and write them with the keyboard.
-
-Programs use special symbols and keywords. The symbols and the order they have to go in is called the **syntax**.
-
-If a program has valid syntax, then the computer can run it. If the program has the right logic, it will do what the programmer wanted. The syntax, grammar, and vocabulary make up a **Programming Language**.
-
-We're learning Python, so we're going to learn what words and symbols are allowed in Python, and how to structure them to make the computer do what we want.
-
 ## How do you write programs?
 
 We need two things to start writing programs of our own:
@@ -280,9 +75,10 @@ We need two things to start writing programs of our own:
 1. A **Text Editor**: A tool to write text
 2. An **Interpreter or a Compiler:** A tool to translate your code to computer-executable programs.
 
-In this course, we're going to use <a href="https://replit.com/" target="_blank">Replit</a>, because it has both of those pieces: a **text editor** and an **interpreter**.
+In this course, we recommend using VSCode as your text editor, and the built-in 
+terminal for VSCode to run the Python interpreter.
 
-Replit also has other helpful features that we'll use: multiplayer mode, comments, sharing, and assignments.
+We'll also use Replit for other helpful features: multiplayer mode and sharing.
 
 <details>
 <summary>
@@ -305,7 +101,13 @@ Text Editors for programming have features like **Syntax Highlighting** that dis
 
 </details>
 
-## Code Comments
+## A Brief Tour of Python
+
+Over the next few weeks, you’ll learn about Python in more detail. 
+
+First, we'll quickly illustrate some of the basics, to get you started.
+
+## Comments: Explaining your code
 
 > **Programs are written and read by people.**
 
@@ -313,15 +115,11 @@ That means that when writing code, we prioritize **both** making the computer do
 
 We can help others make sense of our code through its structure, and with comments.
 
-<aside>
-
-📺 Watch this video to learn about comments.
-
-</aside>
+<details>
+<summary><strong>📺 Watch this video to learn about comments.</strong></summary>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/7AihnEjsglc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-## Comments
+</details>
 
 In the example below, the first two lines are **code comments**.
 
@@ -346,3 +144,136 @@ print(message * number_of_copies)
 ```
 
 The comments explain the result of running the code.
+
+### Print: Showing output from your program
+
+The easiest way to make your program display some result is to use `print`.
+
+Here’s an example:
+
+```python
+print("This is the output")
+```
+
+The program would output:
+
+```
+This is the output
+```
+
+- You use the keyword `print`
+- Then parentheses
+- Inside the `( )` you put the value you want to show
+- Text has to go in inside quote marks `" "`
+
+To run code in line with the lessons, we'll use Trinket, 
+
+Click the ▶️  button to run the program and see the output.
+
+<div style="position: relative;">
+<iframe src="https://trinket.io/embed/python/a709bfd326" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+</div>
+
+<aside>
+
+💡 Try to change the text between the `" "` and run the program again by clicking the green 'Run' button. Notice the output in the Console window.
+
+If you want more than one line of output, you can use more than one `print`.
+
+```python
+print("This is line 1")
+print("This is line 2")
+print("This is line 3")
+```
+
+Try editing the code to print more than one line.
+
+</aside>
+
+### Variables: Storing values to reuse
+
+You can give a value a name, and use it later, using a variable.
+
+```python
+message = "I love programming"
+print(message)
+print(message)
+print(message)
+```
+
+`message` is a variable. It stores the value `"I love programming"`.
+
+The equals sign `=` assigns the value to the variable.
+
+The program would output:
+
+```text
+I love programming
+I love programming
+I love programming
+```
+
+Click the ▶️  button to run the program and see the output.
+
+<iframe src="https://trinket.io/embed/python/90601e3027" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### Adding things together with `+`
+
+In Python, you can add things together with the `+` operator.
+
+```python
+print(10 + 10) # 20
+print(10 + 154) # 164
+print(12345 + 23456) # 35801
+```
+
+Computers are good at arithmetic — they are very fancy calculators.
+
+Python can also add text together with `+`:
+
+```python
+message = " loves programming"
+print("Adesola" + message)
+print("Chidi" + message)
+print("Ebbe" + message)
+```
+
+The program would output:
+
+```
+Adesola loves programming
+Chidi loves programming
+Ebbe loves programming
+```
+
+Click the ▶️  button to run the program and see the output.
+
+<iframe src="https://trinket.io/embed/python/fee059f28c" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+### Input: get some data from the user
+
+Python can ask the user to type in a message using `input`.
+
+```python
+favorite = input("What is your favorite thing? ")
+print("I like " + favorite + " too!")
+```
+
+When the program sees `input`, it prints the message and waits for the user to enter their response. Then, it continues from there.
+
+The variable `favorite` stores the value that the user typed in.
+
+If the user typed in `playing soccer`, then the output would look like:
+
+`What is your favorite thing? playing soccer`
+`I like playing soccer too!`
+
+When you run this program, be sure to click in the “Result” box to type a response, and press Enter.
+
+<iframe src="https://trinket.io/embed/python/f1b1832ddc" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+## In summary
+
+- Programming languages get translated into 1s and 0s the machine understands
+- Python is a beginner-friendly language that has tons of real-world use
+- You can make basic programs in Python using `print`, `input`, `+`, and `=`
