@@ -17,7 +17,7 @@ print("Hello, world")
 
 You’ve written code like this from your first “Hello, World” program. When you run it, the output shows up.
 
-In Replit, output shows in the ‘Console’ tab. On early computers, there was _only_ a text console. On the earliest computers, there wasn’t a screen at all. Instead, the output was printed out on paper. The output now shows up in the Console in our web browser, but we still call the function `print`.
+On early computers, there was _only_ a text console. On the earliest computers, there wasn’t a screen at all. Instead, the output was printed out on paper. The output now shows up in the Console in our web browser, but we still call the function `print`.
 
 ```python
 print("We can print any string we want")
@@ -75,17 +75,20 @@ int("3.5") # ValueError: invalid literal for int() with base 10: '3.5'
 
 <aside>
 
-👩🏿‍💻 Let's practice assigning and printing user input. Modify the code below by following the directions in the **Instructions** tab.
+👩🏿‍💻 Practice assigning and printing user input. Modify the code below by following the directions in the **Instructions** tab.
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W13-Input-Hours-of-Sleep" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/26b8d8973b" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <aside>
 
 📌 Here's what the output should look like when you run the program
 
-![p15.png](p15.png)
+```
+how many hours of sleep do you normally get? 7
+Doctors recommend 8 hours of sleep every night, and you sleep 7 hours most nights
+```
 
 </aside>
 
@@ -102,8 +105,8 @@ What happens when there’s nothing between the parentheses? Or if you leave off
 Sometimes, the best way to find things out about how Python works is to try it out.
 
 > **Experiment with `print` to find out what it does in different situations**
->
-> [https://replit.com/@kibocurriculum/Explore-With-Print](https://replit.com/@kibocurriculum/Explore-With-Print)
+
+<iframe src="https://trinket.io/embed/python/2a663e0eb8" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## Print with multiple arguments
 
@@ -133,18 +136,14 @@ Function **arguments** let the same function do something different each time yo
 
 <aside>
 
-👉🏿 Let's take a look at a Python program that gives instructions to add two numbers:
+👉🏿 Let's take a look at a Python program that adds two numbers:
 
-👩🏿‍💻 Below is a program hosted on Replit.
-
-1. [**Click** on the link to open the exercise](https://replit.com/@kibocurriculum/add-two-numbers)
-2. **Run** the code using the green "Run ▷" button
-3. **Follow** the prompts in the `Console` tab, to enter two numbers
-4. **See** the results of the program
-
-[https://replit.com/@kibocurriculum/add-two-numbers](https://replit.com/@kibocurriculum/add-two-numbers)
+1. **Run** the code
+2. **Follow** the prompts to enter two numbers
+3. **See** the results of the program
 
 </aside>
+<iframe src="https://trinket.io/embed/python/aefce9f2f4" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 Here's the code for the exercise:
 
@@ -178,22 +177,11 @@ Try more inputs to the program. What happens if you enter something that's not a
 
 <aside>
 
-👩🏿‍💻 Update the code below to add three numbers and print the total. Modify the code below by following the directions in the **Instructions** tab.
+👩🏿‍💻 Update the code below to add three numbers and print the total. Modify the code below by following the directions. 
 \*\*
 
 </aside>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W14-Add-Three-Numbers" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-<aside>
-
-🆘 If you have trouble solving this challenge:
-
-1. Read the instructions again.
-2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
-3. Don't spend more than 10 minutes stuck on this problem. If you've spent more time than that, take a look at the solution below.
-
-</aside>
+<iframe src="https://trinket.io/embed/python/ec55c4db92" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <details><summary>Solution: Add Three Numbers</summary>
 
@@ -202,10 +190,8 @@ first_num = int(input("enter first number: "))
 second_num = int(input("enter second number: "))
 third_num = int(input("enter third number: "))
 
-# change the line below
 total = first_num + second_num + third_num
 
-# edit the text that will show up
 print("the sum of the three numbers is: ", total)
 ```
 

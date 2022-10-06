@@ -83,11 +83,11 @@ These variable names are descriptive and helpful!
 
 <aside>
 
-👩🏿‍💻 Let's practice assigning values to variables and printing variables. Read the code below, and make the changes requested in the comments.
+👩🏿‍💻  Practice assigning values to variables and printing variables. Read the code below, and make the changes requested in the comments.
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W11-Practice-Variables-and-Assignment-Practice" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/5b7fff8d1d" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <details>
 <summary><strong>Solution</strong> (try for 5 minutes before looking!)</summary>
