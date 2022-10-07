@@ -1,0 +1,57 @@
+# Getting Help
+
+If you have any trouble understanding the concepts or stuck with a problem, we expect you to reach out for help! Below are the different ways to get help in this class.
+
+## channel #help-prog1
+
+<img src="../images/help-channel.png" />
+
+The first place to go is always the #help-prog1 channel. Share your question there so that me and your peers can help as soon as we can.
+
+## Message me on Discord
+
+If your question was not answered on time by me or your colleagues, you can message me directly on Discord. I'll try to answer as soon as I can.
+
+## Office Hours
+
+I will be holding weekly office hours on **Tuesdays 13:00 GMT**. It's an online Zoom meeting where we can have a chat about anything you want to ask about. I'll post the join link in the **#help-prog1 -> announcements** on the same day.
+
+<img src="../images/help-announcements.png" />
+
+# Tips on Asking For Help
+
+When asking for help, include the following information:
+
+1. Details of your goal.
+
+   _"I am trying to [goal]."_
+
+2. Details of what you have tried so far.
+
+   _"I have tried [details of how you have tried to solve the problem already]."_
+
+3. Helpful context.
+
+   _“Here’s a screenshot of my code."_
+
+**❌ Don’t Write**
+
+- “need help”
+- “I’m stuck on problem 3”
+- “Can anyone help?”
+- “Hi”
+
+**✅ Do Write**
+
+- “I’m working on solving problem three, and getting this error when I run my code: [screenshot]. Can anyone help explain this error? I don’t get it.”
+- “I’m trying to print all the values in this list for my project, but it keeps saying `NameError: name ‘item’ is not defined`. Here's a screenshot of my code. I tried changing the list, but that didn't work."
+
+## Screenshots
+
+It’s often helpful to include a screenshot with your question. Here’s how:
+
+- **Windows:** press the Windows key + Print Screen key
+  - the screenshot will be saved to the Pictures > Screenshots folder
+  - _alternatively: press the Windows key + Shift + S to open the snipping tool_
+- **Mac:** press the Command key + Shift key + 4
+  - it will save to your desktop, and show as a thumbnail
