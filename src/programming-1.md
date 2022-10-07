@@ -1,5 +1,9 @@
 # Programming 1
 
+**CSF002**
+
+_6 ECTS Credits_
+
 ## What you'll learn
 
 The course will help you develop an appreciation for programming as a problem
@@ -25,11 +29,39 @@ the tech industry.
 The course culminates in a final group project, where you'll get to demonstrate
 all that you've learned, and make something creative.
 
-## Programming I Content
+## Meeting Times
+
+Note that all times are listed in GMT, please convert to your local timezone.
+
+* Class 1: Wednesdays from 3:00pm - 4:30pm GMT
+* Class 2: Thursdays from 4:30pm - 6:00pm GMT
+* Office hours will be on Tuesdays at 1:00pm GMT
+
+## Instructor
+
+Mohammed Saudi
+
+[mohammed.saudi@kibo.school](mailto:mohammed.saudi@kibo.school)
+
+Please contact on Discord first with questions about the course.
+
+## Course Overview
+
+Kibo CS Faculty member Muawiya Asali introduces the design of the course.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/081681b662c346079703fb23b5227b53?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-## Course Overview
+## Learning Outcomes
+
+By the end of the course, you will be able to:
+* Describe the basics of the Python programming language
+* Use variables to store, retrieve and calculate information
+* Utilize core programming tools such as functions and loops
+* Explain the principles of data structures & how they are used
+* Apply principles of algorithmic thinking and programming to solve problems
+* Build upon existing code and libraries
+
+## Weekly Topics
 
 - Week 1: Basics & Data Types
 - Week 2: Conditionals
@@ -41,3 +73,20 @@ all that you've learned, and make something creative.
 - Week 8: Data Structures
 - Week 9: Libraries
 - Week 10: Review, Advanced topics
+
+## Assessments
+
+Your overall course grade is made up of:
+
+- Weekly assignments: 50%
+- Midterm Project: 25%
+- Final Project: 25%
+
+* **Weekly Assignments**: Each week, you will have several ungraded exercises 
+  to practice the concepts you learned that week. You will also have a
+  _project_, a substantive graded program to write.
+* **Midterm and Final Project**: You will have two larger projects, midway
+    through the course and at the end of the course, reflecting all that you've
+    learned up to that point.
+
+More details about your assignments are given on the next few pages.
