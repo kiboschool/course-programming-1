@@ -73,7 +73,7 @@ The values passed to the function are called **arguments**. In this example, `3`
 🤷🏿‍♂️ An **argument** is a value provided to a function when the function is called.
 A **parameter** is a named spot in a function definition, where the argument will go.
 
-Parameters **and arguments **are similar concepts. Parameters are in the definition, arguments are when you actually call the function. It’s not super important that you memorize which is which. A lot of programmers use the terms interchangeably.
+Parameters and arguments are similar concepts. Parameters are in the definition, arguments are when you actually call the function. It’s not super important that you memorize which is which. A lot of programmers use the terms interchangeably.
 
 </aside>
 
@@ -81,31 +81,42 @@ Parameters **and arguments **are similar concepts. Parameters are in the definit
 
 <aside>
 
-
 👩🏿‍💻 Write a function called **greet** which will print out three lines of personalized greeting. The function should take as its argument a name then print the messages below. Modify the starter code below.
 
 </aside>
 
+<iframe src="https://trinket.io/embed/python/5b923551c2" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 A sample run of your code with argument Keno, i.e., `greet("Keno")` should look like this:
 
-![sample run of greet person function](./building-our-own-functions/greet-keno-result.png)
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/fpwp-feb2022/Greet-Person-Function" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+```
+Welcome to Kibo, Keno
+We're glad you're here Keno.
+Keno, how did you hear about us?
+```
 
 <aside>
 
 
 🤔 Modify the code above to put the function definition at the end of the program. What do you notice happens? Try it first then click below for the explanation.
 
-- Explanation
-
-    If you put the function definition at the end of the program, you will get an error. A function must be defined before you use it in your program. If you write greet(Keno) first, Python doesn't know this function and will error. We must define functions at the beginning of our programs before we use them. **There is a way however to get around this (call a function that its definition comes later in the file) but it is out of our discussion scope now)**.
-
 </aside>
-j
+
+<details><summary>Explanation</summary>
+
+If you put the function definition at the end of the program, you will get an error. 
+
+A function must be defined before you use it in your program. If you try to call 
+`greet("Keno")` before the function `greet` is defined, Python doesn't know how 
+to run the function, and will raise a NameError.
+
+</details>
+
 ## Functions can have any code inside
 
-Any code can go inside a function. Variables, loops, conditions, other function calls — it all works. Anything that you’ve written in a program so far can go inside a function.
+Any code can go inside a function. Variables, loops, conditions, other function 
+calls — it all works. Anything that you’ve written in a program so far can go 
+inside a function.
 
 ```python
 # A function with an if/else statement
@@ -133,9 +144,13 @@ print(add_up_to(100)) # 9900
 
 <aside>
 
-
 ⚠️ **Indentation**
-Make sure you get the indentation right. Indent one more level for each block some code is inside of. So, if some code is inside a condition, and the conditional is inside a function, the code in the conditional is indented 2 times.
+
+Make sure you get the indentation right.
+
+Indent one more level for each block some code is inside of. So, if some code is 
+inside a condition, and the condition is inside a function, the code in the 
+conditional is indented 2 times.
 
 ```python
 # Showing the indentation with ->

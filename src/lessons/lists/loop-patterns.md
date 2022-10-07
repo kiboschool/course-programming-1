@@ -102,7 +102,7 @@ _Remember, you can use the third argument to_ `range` _to control the step size.
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W43-Sum-of-Range" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/4203943828" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <details>
 <summary>Solution (try for 10-20 minutes before peeking)</summary>
@@ -115,5 +115,8 @@ for i in range(10,101,2):
   total+=i
 print(total)
 ```
+
+Note: there's a built-in Python function called `sum` that can do this for us.
+But, that's not a great way to practice using loops!
 
 </details>

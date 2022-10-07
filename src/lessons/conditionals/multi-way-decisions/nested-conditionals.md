@@ -74,5 +74,5 @@ else:
 With this many levels of nesting, it's a little hard to tell which statement
 goes with which, but you can still match them up.
 
-Copy this code to a new replit and try it out! You may have to practice using
-the tab key on your keyboard 😉.
+Copy this code and try it out! You may have to practice using the tab key on 
+your keyboard 😉.

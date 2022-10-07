@@ -21,7 +21,9 @@ for variable in items:
 
 The flow chart of a `for` loop is:
 
-![3%202%20for%20Loops%20721ac373d0a3462ab0af763db53992b7/Untitled.png](/future-proof-with-python/loops/for-loops/untitled.png)
+<img alt="For loop flowchart" src="/lessons/loops/for-loops/for-loop-flowchart.png" height="500"/>
+
+## Comparing For and While loops
 
 Let's take a look at an example of a `for` loop:
 
@@ -58,7 +60,9 @@ while n > 0:
 print('Blastoff!')
 ```
 
-🤔 Compare the two code examples above (the `for` loop and the `while` loop). What do you notice about them?
+🤔 Compare the two code examples above (the `for` loop and the `while` loop). 
+
+What do you notice about them?
 
 <details><summary><code>while</code> vs. <code>for</code></summary>
 
@@ -95,10 +99,16 @@ We’ll cover the list syntax `[5, 4, 3, 2, 1]` in more detail later in the cour
 
 👩🏿‍💻 Write a `for` loop that displays Hello, plus each name in the list. Follow the code comments in the below Replit exercise.
 
-The output should be like this screenshot:
+The output should be like this:
 
-![3%202%20for%20Loops%20721ac373d0a3462ab0af763db53992b7/Untitled%201.png](/future-proof-with-python/loops/for-loops/untitled-1.png)
+```
+Hello William
+Hello Keno
+Hello Ope
+Hello Mohammed
+Hello Misan
+```
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W32-For-Loop-Practice" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/741868c5f0" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

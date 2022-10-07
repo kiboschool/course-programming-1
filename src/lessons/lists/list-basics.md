@@ -91,7 +91,7 @@ Remember that lists are **indexed starting at 0**. So the first item has positio
 
 You can think of a list index as an **offset.** Indexes answer the question: _"How many spaces from the start do I go to find the item?"_
 
-![array_indices_explanation.png](/future-proof-with-python/lists-and-loops/list-basics/array-indices-explanation.png)
+![array_indices_explanation.png](/lessons/lists/list-basics/array-indices-explanation.png)
 
 In this list, you have to move 0 spaces to get to `"Kenya"`, so it is at index `0`. You have to move 2 spaces to get to Ethiopia, so it is at index `2`.
 
@@ -117,7 +117,7 @@ print(countries[1] + " is a nice place to visit") # Ghana is a nice place to vis
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W41-Accessing-List-Items" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/7a8f4f2dbb" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <details>
 <summary>Solution Code (try for 5 minutes before peeking)</summary>

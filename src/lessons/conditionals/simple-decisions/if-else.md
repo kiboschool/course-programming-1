@@ -39,7 +39,7 @@ print("Goodbye")         # runs no matter what
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W21-If-Awkward" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/3acf190b0d" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ## If-Else
 
@@ -72,15 +72,20 @@ When writing conditional statements, **you must pay attention to indentation**. 
 
 <aside>
 
-👩🏿‍💻 Modify the code below to match the flow chart using an `else` block.
+👩🏿‍💻 Modify the code to match the flow chart using an `else` block.
 If the user does not answer "yes" to the first question, encourage them to stay.
 
 </aside>
 
-![awkward party decision making flowchart](/lessons/conditionals/simple-decisions/do-you-feel-awkward-flowchart.png)
+<img alt="awkward party decision making flowchart" src="/lessons/conditionals/simple-decisions/do-you-feel-awkward-flowchart.png" height="350"/>
+
+<iframe src="https://trinket.io/embed/python/861143ef37" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 A sample run of the code should look like this:
 
-![Sample run of the stay-and-par-tay program](/lessons/conditionals/simple-decisions/par-tay-sample-run.png)
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W22-Stay-and-Par-tay" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+```
+Hello! What's your name? Opeyemi
+Hello Opeyemi! Let's see if it's time to leave this party.
+Is it awkward? I'm not sure
+Stay and par-tay!
+```

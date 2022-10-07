@@ -65,13 +65,9 @@ Try this quiz to check how well you understand what list operations will do.
 
 👩🏿‍💻 Modify the code below to perform operations on a list.
 
-A sample run of your code should look like this:
-
-![967C2CAE-7F32-4C99-A035-74A8D0E206C1-535-0003A68938832020.png](/future-proof-with-python/lists-and-loops/list-basics/c2cae-7f32-4c99-a035-74a8d0e206c1-535-0003a68938832020.png)
-
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W42-Mutating-A-List" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/0839b74c22" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <details><summary>Solution Code (try for 5 minutes before peeking)</summary>
 

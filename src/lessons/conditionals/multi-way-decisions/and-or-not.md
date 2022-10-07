@@ -83,13 +83,3 @@ You could express the same thing with `<=`.
 if not (x < 10 or x > 100):
 	print("x is a medium sized number")
 ```
-
-## Practice: Print multiples
-
-In this practice, you will write a program that asks the user for a number then prints a statement based on the number the user enters.
-
-<aside>
-
-[✂️ **Access** and **submit** the practice here](https://replit.com/team/kibo-fpwp6/Print-multiples)
-
-</aside>

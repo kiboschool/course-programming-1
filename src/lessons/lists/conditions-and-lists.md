@@ -1,4 +1,4 @@
-# Conditions and Lists
+# Loops, Conditions, and Lists
 
 <aside>
 
@@ -68,7 +68,7 @@ We use an `if` statement and the modulo operator to find the even values, and ad
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W45-Sum-of-Odd-Numbers" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/757e006f5a" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <details>
 <summary>Solution (try for at least 10-20 minutes before looking)</summary>
@@ -112,13 +112,9 @@ With one small change, this same code works to find the largest value instead.
 
 👩🏿‍💻 Follow the prompts in the comments to write a program to find the smallest number among numbers the user enters.
 
-The program should look like this when it runs:
-
-![enter.png](/future-proof-with-python/lists-and-loops/debugging-loops-and-lists/enter.png)
-
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W46-Interactive-Minimum" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/8516951ee4" width="100%" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 <details>
 <summary>Solution (try for at least 10-20 minutes before looking)</summary>

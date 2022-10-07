@@ -25,7 +25,7 @@ Unlike an `if` statement, however, after executing the block, a `while` loop che
 
 Here’s a flow chart depicting a `while` loop:
 
-![3%201%20while%20Loops%2085d2cab20b38436b81b4c9fbb404a14d/Untitled.png](/future-proof-with-python/loops/while-loops/untitled.png)
+![While loops flowchart](/lessons/loops/while-loops/while-loops-flowchart.png)
 
 The flow of a `while` statement is:
 
@@ -51,7 +51,7 @@ while user_entry != password:
 
 In the example above, the program will keep prompting the user for a password _while_ the user's input is not the expected value.
 
-![Untitled Project.gif](/future-proof-with-python/loops/while-loops/untitled-project.gif)
+![Password prompt interactive](/lessons/loops/while-loops/password-interactive.gif)
 
 Below is another example:
 
@@ -93,7 +93,7 @@ while a < 10:
 
 Let’s visualize how this code runs:
 
-![SophisticatedWhisperedHamadryas-max-1mb.gif](/future-proof-with-python/loops/while-loops/sophisticatedwhisperedhamadryas-max-1mb.gif)
+![While loop visualization](/lessons/loops/while-loops/while-loop-visualization.gif)
 
 In the animation, you can see the variable `a` change over time, and the loop condition checked before each execution of the loop body.
 
@@ -128,21 +128,15 @@ print ("Done!")
 
 4 is always greater than 0, and `x` never changes, so the loop runs forever.
 
-If you accidentally write an infinite loop, you will have to figure out how to stop it. Sometimes you’ll need to force-close the program. If you accidentally run an infinite loop in Replit, press “Stop” at the top of the page, or press Control + C in the console.
+If you accidentally write an infinite loop, you will have to figure out how to stop it. Sometimes you’ll need to force-close the program. If you accidentally run an infinite loop in a repl or terminal, you can press Control + C in the console to end the program.
 
 ### Infinite Loop Demo
 
-<aside>
-
 ♾️ Try running this demo of an infinite loop.
 
-Click to open the replit. Press Run button to start the program and see the output - it keeps on printing forever!
+> Press the Stop button to end the program. Otherwise, it will run on forever! Or, at least until you leave the page.
 
-Press the Stop button to end the program. Otherwise, it will run on forever! Or, at least until you leave the page.
-
-[https://replit.com/@kibocurriculum/Infinite-Loop-Demo#main.py](https://replit.com/@kibocurriculum/Infinite-Loop-Demo#main.py)
-
-</aside>
+<iframe src="https://trinket.io/embed/python/7098abab1d" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 
 ## Practice: Loop Prediction
@@ -174,4 +168,4 @@ The condition `i > 13` will be `False` because 10 is not greater than 13. So, th
 
 </aside>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W31-Count-with-While" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<iframe src="https://trinket.io/embed/python/b94b6e570b" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>

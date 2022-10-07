@@ -45,12 +45,14 @@ There is no limit on the number of `elif` statements that can be added, but the 
 
 </aside>
 
-![free food flowchart](/lessons/conditionals/multi-way-decisions/free-food-flowchart.png)
+<img alt="free food flowchart" src="/lessons/conditionals/multi-way-decisions/free-food-flowchart.png" height="350"></img>
 
-Sample run of the code now look like this:
+<iframe src="https://trinket.io/embed/python/42bc9d1f39" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+The sample run of the code should now look like this:
 
 ![Sample run with elif statement](/lessons/conditionals/multi-way-decisions/elif-sample-run.png)
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://replit.com/team/kibo-fpwp6/W23-Free-Food" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+Nice!
 
 ![Snakes around a birthday cake](/images/snakes_with_cakes.png)

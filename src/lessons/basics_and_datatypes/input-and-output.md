@@ -105,8 +105,8 @@ What happens when there’s nothing between the parentheses? Or if you leave off
 Sometimes, the best way to find things out about how Python works is to try it out.
 
 > **Experiment with `print` to find out what it does in different situations**
-
-<iframe src="https://trinket.io/embed/python/2a663e0eb8" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+> Open up a python REPL in your editor to do some experimenting. (Open a
+> terminal and type 'python3' and press enter.
 
 ## Print with multiple arguments
 

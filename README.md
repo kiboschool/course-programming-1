@@ -113,12 +113,7 @@ Remember - commits to main get built and deployed to the production site; others
 ## TODO
 
 - there are inline TODO comments; search for them!
-- lots of videos and replits are tied to the FPWP version of the course; they
-    should be updated
+- lots of videos are tied to the FPWP version of the course; they should be updated
 - similarly: padlets, looms, survey forms..
-- there's still weird stuff in mdbook; artifacts from the original notion
-    export... they should be fixed!
+- there's still weird stuff in mdbook; artifacts from the original notion export... they should be fixed!
     - e.g. using details/summary for the exercise hints
-- weeks 5-9 are missing!
-- Consider: do we want students to use replit for the whole course? If not, when
-    should they switch (and what to, local editing)?
