@@ -9,6 +9,10 @@
 
 ## 🤖 Team Info Bot
 
+The midterm project will be a chatbot project that you complete with a team.
+You'll get to exercise your creativity and show off your Python skills.
+
+<!--
 This is your chance to be creative with your team. You can make a really fun and funny project together that meets all the requirements.
 
 **Access** the assignment here: https://github.com/kiboschool/chatbot
@@ -20,3 +24,4 @@ Remember...
 - **Debug** if you aren't getting the desired output
 - **Attend** office hours if you need additional support
 - **Ask** for help in Discord
+-->

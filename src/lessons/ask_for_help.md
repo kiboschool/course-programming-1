@@ -1,6 +1,6 @@
 # Getting Help
 
-If you have any trouble understanding the concepts or stuck with a problem, we expect you to reach out for help! Below are the different ways to get help in this class.
+If you have any trouble understanding the concepts or stuck on a problem, we expect you to reach out for help! Below are the different ways to get help in this class.
 
 ## channel #help-prog1
 
@@ -14,7 +14,7 @@ If your question was not answered on time by me or your colleagues, you can mess
 
 ## Office Hours
 
-I will be holding weekly office hours on **Tuesdays 13:00 GMT**. It's an online Zoom meeting where we can have a chat about anything you want to ask about. I'll post the join link in the **#help-prog1 -> announcements** on the same day.
+I will be holding weekly office hours on **Tuesdays 13:00 GMT**. It's an online Zoom meeting where we can chat about anything. I'll post the join link in the **#help-prog1 -> announcements** on the same day.
 
 <img src="../images/help-announcements.png" />
 
@@ -55,3 +55,19 @@ It’s often helpful to include a screenshot with your question. Here’s how:
   - _alternatively: press the Windows key + Shift + S to open the snipping tool_
 - **Mac:** press the Command key + Shift key + 4
   - it will save to your desktop, and show as a thumbnail
+
+## Peer collaboration
+
+You can work with your peers on exercises, and on some of the projects, as
+specified in the project instructions.
+
+When you work with a peer, be sure that you:
+
+- Collaborate effectively: communicate with your peers about when you will meet
+  and what you will do
+- **Write code yourself**: do not just watch someone else solve the problem. You
+  have to write lots of code in this course in order to succeed.
+- Read and understand your peers' code: seeing how someone else solves a problem
+  can help you learn new techniques, or you might have a better technique to
+  share with your partner. If there's something in their code you are confused
+  by, _ask_

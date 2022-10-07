@@ -8,6 +8,12 @@
 
 ## Population Analysis
 
+Your final project will be a data analysis problem. You'll use what you've
+learned so far to understand a population dataset, and have a chance to
+creatively explore in other directions.
+
+<!--
+
 This is a chance to be creative with the new skills you've learned.
 
 In this project, you will be guided through an initial analysis of population
@@ -43,3 +49,5 @@ Here's what we'll be looking for when evaluating your project:
   learned in the course?
 - Do your analysis, code, and presentation demonstrate creativity, understanding, and clear
   communication?
+
+-->

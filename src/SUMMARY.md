@@ -15,12 +15,11 @@
   - [Operators](lessons/basics_and_datatypes/operators.md)
   - [Variables and Assignment](lessons/basics_and_datatypes/variables-and-assignment.md)
   - [Input and Output](lessons/basics_and_datatypes/input-and-output.md)
-      <!-- - [Package Import](lessons/basics_and_datatypes/package_import.md) -->
+  - [Package Import](lessons/basics_and_datatypes/package_import.md)
   - [String formatting](lessons/basics_and_datatypes/string-concatenation-and-f-strings.md)
   - [Practice](lessons/basics_and_datatypes/practice.md)
   - [Project](lessons/basics_and_datatypes/project.md)
 
-<!--
 - [Conditionals](lessons/conditionals.md)
 
   - [Simple Decisions](lessons/conditionals/simple-decisions.md)
@@ -89,4 +88,3 @@
   - [Practice](lessons/libraries/practice.md)
 
 - [Review and Preview](lessons/review.md)
-  -->
