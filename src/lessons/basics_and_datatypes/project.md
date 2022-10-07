@@ -4,7 +4,7 @@
 
 > 👥 This is a team project. Find a teammate (or two teammates, for a maximum of three students per team) from your squad, and schedule time to work on the project together.
 >
-> If you have trouble finding a partner, or have trouble with the project, use the **#help-python** channel in Discord. You can work with anyone, you are not restricted to your squad. You are also allowed to work on your own, but it’s good practice to work together.
+> If you have trouble finding a partner, or have trouble with the project, use the **#help-prog1** channel in Discord. You can work with anyone, you are not restricted to your squad. You are also allowed to work on your own, but it’s good practice to work together.
 
 > You can work together by sharing your screen, or by joining a team project on
 > Replit. Be sure that everyone on the team submits the project, for credit.

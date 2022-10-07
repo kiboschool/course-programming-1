@@ -4,7 +4,7 @@
 
 > 💡 This is an individual project. You are expected to work independently.
 >
-> If you get stuck, confused, or have trouble with the project, you should use the **#help-python** channel in Discord or message an instructor. Try not to spoil the project for others - use Discord spoiler tags if you are going to include a screenshot or code sample.
+> If you get stuck, confused, or have trouble with the project, you should use the **#help-prog1** channel in Discord or message an instructor. Try not to spoil the project for others - use Discord spoiler tags if you are going to include a screenshot or code sample.
 
 ## Population Analysis
 
@@ -37,9 +37,9 @@ a chance to show off what you've made.
 
 Here's what we'll be looking for when evaluating your project:
 
-* Does the code run without errors?
-* Does the solution solve the initial prompt?
-* Does your extension from the initial analysis make use of the skills you've
-    learned in the course?
-* Do your analysis, code, and presentation demonstrate creativity, understanding, and clear
-    communication?
+- Does the code run without errors?
+- Does the solution solve the initial prompt?
+- Does your extension from the initial analysis make use of the skills you've
+  learned in the course?
+- Do your analysis, code, and presentation demonstrate creativity, understanding, and clear
+  communication?
