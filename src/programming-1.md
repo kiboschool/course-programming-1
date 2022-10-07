@@ -84,9 +84,10 @@ Your overall course grade is made up of:
 
 * **Weekly Assignments**: Each week, you will have several ungraded exercises 
   to practice the concepts you learned that week. You will also have a
-  _project_, a substantive graded program to write.
+  _project_, a substantive graded program to write. There are 6 projects in
+  total, each worth 10% of your final grade.
 * **Midterm and Final Project**: You will have two larger projects, midway
     through the course and at the end of the course, reflecting all that you've
-    learned up to that point.
+    learned up to that point. Each contributes 25% of your final grade.
 
 More details about your assignments are given on the next few pages.
