@@ -1,6 +1,7 @@
 # Programming 1
 
 [Course Overview](programming-1.md)
+[Getting Help](lessons/ask_for_help.md)
 [Weekly Projects](lessons/weekly-projects.md)
 [Midterm Project](lessons/midterm-project.md)
 [Final Project](lessons/final-project.md)
