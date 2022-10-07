@@ -41,3 +41,9 @@ all that you've learned, and make something creative.
 - Week 8: Data Structures
 - Week 9: Libraries
 - Week 10: Review, Advanced topics
+
+## Course Grading
+
+- Weekly assignments: 50%
+- Midterm Project: 25%
+- Final Project: 25%
