@@ -73,17 +73,11 @@ Make sure you give yourself enough time to solve the practice without watching t
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/vuy5ScUuMYk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </details>
 
-## Bonus: Decryption
-
-This task is a bonus (and you may have seen it before).
+## Decryption
 
 Encryption and decryption play an important role in information security and computer science. It’s used everywhere to secure the transmitted data between two entities. In this exercise, we have a sample program that decrypts secret messages. In this task, you will follow some steps to decrypt a secret message.
 
-<aside>
-
 **Access** the task here: https://github.com/kiboschool/decrypt-me
-
-</aside>
 
 <details><summary><strong>Watch the video to see the full solution. </strong></summary>
 
@@ -91,4 +85,30 @@ Encryption and decryption play an important role in information security and com
 
 </details>
 
+<aside>
 
+### Importing Packages
+
+As the course moves on, you'll write more and more complicated programs. So far,
+each program has been made of just one file. Python allows you to split code
+into different files, and then use functions from a different file in your code.
+
+To use a function from another file, you'll use the `import` keyword.
+
+Here's an example:
+
+```python
+# import 
+import random
+
+# print a random int between 1 and 100
+print(random.randint(1,100))
+```
+
+This code imports the `random.randint` function to generate random numbers.
+
+In the practice exercise on Decryption and the bonus task for the week
+1 project, you'll to see `import` in action. You'll learn more about functions, 
+files, and packages later on in the course.
+
+</aside>
