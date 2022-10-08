@@ -19,6 +19,7 @@
   - [Practice](lessons/basics_and_datatypes/practice.md)
   - [Project](lessons/basics_and_datatypes/project.md)
 
+<!--
 - [Conditionals](lessons/conditionals.md)
 
   - [Simple Decisions](lessons/conditionals/simple-decisions.md)
@@ -87,3 +88,4 @@
   - [Practice](lessons/libraries/practice.md)
 
 - [Review and Preview](lessons/review.md)
+  -->
