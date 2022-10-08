@@ -3,7 +3,9 @@
 ## Welcome to Week 1!
 
 <aside>
-Kibo CS faculty member Mohammad intrudces Week 1.
+
+Kibo CS faculty member Mohammad introduces Week 1.
+
 </aside>
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/jBEpjBqT3Fk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 

@@ -47,40 +47,58 @@ There are more rules for other types, but we're skipping them for now.
 
 <aside>
 
-### Video Notes
+## Data Types
 
-- Every value in Python has a type, for example, **string**, **float**, and **integer**. You can find out what type a value is by using the `type()` function.
-- **Strings** are for representing text.
-  - They look like this: `"Kibo School"`, starting and ending with `"`, the _double quote_.
-  - When you add them together with `+`, Python _concatenates_ the strings. It sticks them together end to end, like this:
-    ```python
-    school_name = "Kibo"
-    print("I love " + school_name) # "I love Kibo"
-    ```
-  - They are called _strings_ because they are a series (a ‘string’) of characters. The string `"Kibo"` is made of the characters `'K'`, `'i'`, `'b'`, `'o'`.
-- **Integers** are for representing positive and negative whole numbers.
+Every value in Python has a type, for example, **string**, **float**, and **integer**. You can find out what type a value is by using the `type()` function.
 
-  - They look like numbers: `10`, `9019`, or `-5`
-  - Python works like a calculator. It can do math with `+`, `-`, `*`, `/` and more.
+### Strings
 
-    ```python
-    10 + 5 # 15
+**Strings** are for representing text.
 
-    value = 100
-    value + 10 # 110
-    value - 10 # 90
-    value * 10 # 1000
-    value / 10 # 10
-    ```
+They look like this: `"Kibo School"`, starting and ending with `"`, the _double quote_.
 
-- **Floats** are for representing fractional numbers
-  - They look like numbers with a decimal point: `10.5`, `90.19`, or `-0.781`
-  - Python stores them differently from integers, so they show something different when you call `type` on them
-- **TypeError** is a common error you get when the types don’t match, like if you tried to add a string and a number.
-  ```python
-  "Hello" + "5" # "Hello5"
-  "Hello" + 5 # TypeError
-  ```
-- There are lots more Python types that we didn’t cover. You can look them up by using Google to find the Python documentation.
+When you add them together with `+`, Python _concatenates_ the strings. It sticks them together end to end, like this:
+```python
+school_name = "Kibo"
+print("I love " + school_name) # "I love Kibo"
+```
 
-</aside>
+They are called _strings_ because they are a series (a ‘string’) of characters. The string `"Kibo"` is made of the characters `'K'`, `'i'`, `'b'`, `'o'`.
+
+### Integers
+
+**Integers** are for representing positive and negative whole numbers.
+
+They look like numbers: `10`, `9019`, or `-5`
+
+Python works like a calculator. It can do math with `+`, `-`, `*`, `/` and more.
+
+```python
+10 + 5 # 15
+
+value = 100
+value + 10 # 110
+value - 10 # 90
+value * 10 # 1000
+value / 10 # 10
+```
+
+### Floats
+
+**Floats** are for representing fractional numbers
+
+They look like numbers with a decimal point: `10.5`, `90.19`, or `-0.781`
+
+Python stores them differently from integers, so they show something different when you call `type` on them
+
+### TypeErrors
+
+**TypeError** is a common error you get when the types don’t match, like if you tried to add a string and a number.
+
+```python
+"Hello" + "5" # "Hello5"
+"Hello" + 5 # TypeError
+```
+There are lots more Python types that we didn’t cover. You can look them up by using Google to find the Python documentation.
+
+> **Question** What do you happens when you add a float and an integer?

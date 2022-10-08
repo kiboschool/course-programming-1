@@ -12,6 +12,8 @@ Your final project will be a data analysis problem. You'll use what you've
 learned so far to understand a population dataset, and have a chance to
 creatively explore in other directions.
 
+More details about the final project will be shared later on.
+
 <!--
 
 This is a chance to be creative with the new skills you've learned.

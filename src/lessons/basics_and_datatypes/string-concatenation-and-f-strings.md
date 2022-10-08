@@ -57,7 +57,14 @@ f-strings have other formatting powers, but we’ll leave it at rounding floats 
 
 </aside>
 
-<iframe src="https://trinket.io/embed/python/a3a93a486d" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+Open a new file in VSCode to practice with f-strings.
+
+* Try printing some messages using f-strings and variables
+* Try rounding a float to a specific number of digit
+
+Looking at the f-strings documentation, what other tricks do you want to try? If
+you find something you think is particularly useful or interesting, share it
+with your classmates in Discord.
 
 <details><summary>Solution: F-strings practice</summary>
 
