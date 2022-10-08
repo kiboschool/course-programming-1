@@ -138,7 +138,6 @@ If you accidentally write an infinite loop, you will have to figure out how to s
 
 <iframe src="https://trinket.io/embed/python/7098abab1d" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
-
 ## Practice: Loop Prediction
 
 🤔 Look at the following code snippet. **What will the output be? Why?**

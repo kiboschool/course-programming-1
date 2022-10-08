@@ -4,6 +4,13 @@
 
 _6 ECTS Credits_
 
+## Welcome to Programming I
+
+<aside>
+Kibo CS Faculty member Mohammed Saudi motivates the course.
+</aside>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/VFxKjByWtzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## What you'll learn
 
 The course will help you develop an appreciation for programming as a problem
@@ -76,19 +83,13 @@ By the end of the course, you will be able to:
 - Week 9: Libraries
 - Week 10: Review, Advanced topics
 
-<<<<<<< HEAD
-## Course Grading
-=======
 ## Assessments
 
 Your overall course grade is made up of:
->>>>>>> main
 
 - Weekly assignments: 50%
 - Midterm Project: 25%
 - Final Project: 25%
-<<<<<<< HEAD
-=======
 
 * **Weekly Assignments**: Each week, you will have several ungraded exercises
   to practice the concepts you learned that week. You will also have a
@@ -99,4 +100,3 @@ Your overall course grade is made up of:
   learned up to that point. Each contributes 25% of your final grade.
 
 More details about your assignments are given on the next few pages.
->>>>>>> main
