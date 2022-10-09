@@ -45,8 +45,6 @@ There are more rules for other types, but we're skipping them for now.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/xvmPtqoEBn8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
-<aside>
-
 ## Data Types
 
 Every value in Python has a type, for example, **string**, **float**, and **integer**. You can find out what type a value is by using the `type()` function.
@@ -101,4 +99,4 @@ Python stores them differently from integers, so they show something different w
 ```
 There are lots more Python types that we didn’t cover. You can look them up by using Google to find the Python documentation.
 
-> **Question** What do you happens when you add a float and an integer?
+> **Question:** What do you happens when you add a float and an integer?
