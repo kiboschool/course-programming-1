@@ -7,11 +7,9 @@
 > Try solving these practice challenges to check that you understand the concepts.
 
 The **solutions** to each challenge are available, and you can view a video of the solution below each challenge.
-Try to go through the whole challenge without using the solution.
-
-_If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet._
-
-_Try the next practice challenges without looking at the solution. If you need more practice challenges, reach out on Discord._
+* Try to go through the whole challenge without using the solution.
+* If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet.
+* Try the next practice challenges without looking at the solution. If you need more practice challenges, reach out on Discord.
 
 <aside>
 
@@ -20,6 +18,18 @@ _Try the next practice challenges without looking at the solution. If you need m
 2. Remember **G**o **C**limb **K**ibo - first Google, then ask the Community on Discord, then reach out to Kibo instructional team.
 
 </aside>
+
+## Submission
+
+**Reminder**: This practice is not graded. You should submit your work on Github
+Classroom so that your instructor can check your code, but you will not normally
+get feedback on the practice assignments.
+
+This video shows how to get assignment code onto your computer, and how to
+submit it to Github Classroom. You can ignore the parts about submitting in
+Gradescope and Woolf for the practice exercises.
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/b6f344e3887d46d7a63d5cafac2fc21e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Currency Conversion
 

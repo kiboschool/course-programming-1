@@ -76,6 +76,22 @@ By the end of the course, you will be able to:
 - Week 9: Libraries
 - Week 10: Review, Advanced topics
 
+## How the course works
+
+There are multiple ways you'll learn in this course:
+
+* Read and engage with the materials on this site
+* Attend live class and complete the activities in class
+* Practice with exercises to try out the concepts
+* Complete projects to demonstrate what you have learned
+
+Active engagement is necessary for success in the course! You should try to
+write lots of programs, so that you can explore the concepts in a variety of
+ways.
+
+You are encouraged to seek out additional practice problems outside of the
+practice problems included in the course.
+
 ## Assessments
 
 Your overall course grade is made up of:
@@ -93,3 +109,19 @@ Your overall course grade is made up of:
   learned up to that point. Each contributes 25% of your final grade.
 
 More details about your assignments are given on the next few pages.
+
+## Tools
+
+In this course, we are using these tools to work on code. If you haven't set up
+your laptop and installed the software yet, follow the guide in
+[https://github.com/kiboschool/setup-guides](https://github.com/kiboschool/setup-guides).
+
+* **Github** is a website that hosts code. We'll use it as a place to keep our project and assignment code.
+* **Github Classroom** is a tool for assigning individual and team projects on Github. 
+* **VSCode** is your code editor. It's where you'll write code to solve
+    programming assignments. It also has an embedded terminal, where you can run
+    Python to try out your code and test that it works.
+* **Gradescope** is a grading platform. We'll use it to track assignment
+    submissions and give you feedback on your work.
+* **Woolf** is our accreditation partner. We'll track work there too, so that
+    you get credit towards your degree.
