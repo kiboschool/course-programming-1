@@ -11,18 +11,18 @@ OS is one of the most useful modules that comes with the standard python utility
 ### Working Directory
 The folder where the Python script is running is known as the Current Directory. This is not the path where the Python script is located. Usind OS we can locate the current working directory using `os.getcwd()`
 ```
-# Python program to explain os.getcwd() method 
-          
-# importing os module 
-import os 
-      
-# Get the current working 
-# directory (CWD) 
-cwd = os.getcwd() 
-      
-# Print the current working 
-# directory (CWD) 
-print("Current working directory:", cwd) 
+# Python program to explain os.getcwd() method
+
+# importing os module
+import os
+
+# Get the current working
+# directory (CWD)
+cwd = os.getcwd()
+
+# Print the current working
+# directory (CWD)
+print("Current working directory:", cwd)
 ```
 
 > **_NOTE:_**  **Whenever you call files by their direct names, python starts looking in the current working directory**
@@ -30,26 +30,26 @@ print("Current working directory:", cwd)
 What about the case when we need to change the current working directory? For that, OS module has another method called `os.chdir()`.
 
 ```
-# Python program to change the 
-# current working directory     
-import os 
-# Function to Get the current  
-# working directory 
-def current_path(): 
-    print("Current working directory before") 
-    print(os.getcwd()) 
-    print() 
-    
-    
-# Driver's code 
-# Printing CWD before 
-current_path() 
-    
-# Changing the CWD 
-os.chdir('../') 
-    
-# Printing CWD after 
-current_path() 
+# Python program to change the
+# current working directory
+import os
+# Function to Get the current
+# working directory
+def current_path():
+    print("Current working directory before")
+    print(os.getcwd())
+    print()
+
+
+# Driver's code
+# Printing CWD before
+current_path()
+
+# Changing the CWD
+os.chdir('../')
+
+# Printing CWD after
+current_path()
 ```
 The example above changes the current working directory to one parent folder in tree.
 
@@ -73,9 +73,9 @@ A JSON file may look like
 ```
 It sometimes can be useful to get a JSON file as an input to your program so you can tune some parameters. Examples of items that can be in a JSON configuration file:
  - Mode of operation
- - Configuration Numbers 
+ - Configuration Numbers
  - Specific Metadata
- 
+
 ### JSON to Python
 How would we read and access a JSON object given to us as an input?
 ```
@@ -86,7 +86,7 @@ x =  '{ "name":"John", "age":30, "city":"New York"}'
 y = json.loads(x)
 # the result is a Python dictionary:
 print(y["age"])
-``` 
+```
 
 Output: `30`
 You can notice from the example above that a JSON object was converted to a python dict. That way you can then apply what we have learn at dictionaries to work with JSON data.
@@ -110,7 +110,7 @@ y = json.dumps(x)
 # the result is a JSON string:
 print(y)
 ```
-> **_TODO:_**  **Run the example by yourself**
+> **Try running the example by yourself**
 
 ### JSON Files
 In case we have a JSON file, how would we then access it within python? The answer here is related to what we have already learnt at Files
@@ -177,13 +177,13 @@ Encoding data has mainly teo steps:
 
 ```
 import base64
-  
+
 sample_string = "Welcome to Programming 1 at KIBO"
 sample_string_bytes = sample_string.encode("ascii")
-  
+
 base64_bytes = base64.b64encode(sample_string_bytes)
 base64_string = base64_bytes.decode("ascii")
-  
+
 print(f"Encoded string: {base64_string}")
 ```
 
@@ -195,14 +195,14 @@ Decoding would be the opposite of the two steps wen mentioned earlier. Let us ta
 
 ```
 import base64
-  
-  
+
+
 base64_string ="V2VsY29tZSB0byBQcm9ncmFtbWluZyAxIGF0IEtJQk8="
 base64_bytes = base64_string.encode("ascii")
-  
+
 sample_string_bytes = base64.b64decode(base64_bytes)
 sample_string = sample_string_bytes.decode("ascii")
-  
+
 print(f"Decoded string: {sample_string}")
 ```
 Output:

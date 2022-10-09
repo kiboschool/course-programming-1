@@ -9,7 +9,7 @@ material and practice problems before you start the project each week.
 There will also be a midterm project and a final project, described on the next
 pages.
 
-- [Week 1: Mad Libs](https://github.com/kiboschool/mad-libs) (Due Oct 17)
+- [Week 1: Mad Libs](./basics_and_datatypes/project.md) (Due Oct 17)
 - Week 2: Bill Calculator (Due Oct 24)
 - Week 3: Password Validator (Due Oct 31)
 - Week 4 and 5: **Midterm Project** (Due Nov 13)
@@ -19,12 +19,12 @@ pages.
 - Week 9 and 10: **Final Project** (Due Dec 16)
 
 <!-- TODO: comment in as we release each week
-- [Week 2: Bill Calculator](https://github.com/kiboschool/bill-calculator) (Due Oct 24)
-- [Week 3: Password Validator](https://github.com/kiboschool/password-validator) (Due Oct 31)
+- [Week 2: Bill Calculator](./conditionals/project.md) (Due Oct 24)
+- [Week 3: Password Validator](./loops/project.md) (Due Oct 31)
 - [Week 4 and 5: **Midterm Project**](./midterm-project.md) (Due Nov 13)
-- [Week 6: Microprocessor Simulation](https://github.com/kiboschool/microprocessor-simulation) (Due Nov 21)
-- [Week 7: Directory Maintainer](https://github.com/kiboschool/directory-maintainer) (Due Nov 28)
-- [Week 8: Log File Analyzer](https://github.com/kiboschool/log-analyzer) (Due Dec 05)
+- [Week 6: Microprocessor Simulation](./organizing_code/project.md) (Due Nov 21)
+- [Week 7: Directory Maintainer](./files/project.md) (Due Nov 28)
+- [Week 8: Log File Analyzer](./data_structures/project.md) (Due Dec 05)
 - [Week 9 and 10: **Final Project**](./final-project.md) (Due Dec 16)
 -->
 

@@ -10,7 +10,7 @@ If you get stuck, confused, or have trouble with the project, you should use the
 
 🔢 Write a program to validate a password that a user enters.
 
-**Access** the assignment here: https://github.com/kiboschool/password-validator
+[![password-validator](https://img.shields.io/static/v1?label=Open%20Project&message=password%20validator&color=blue)](https://classroom.github.com/a/PmxKTYKG)
 
 ---
 

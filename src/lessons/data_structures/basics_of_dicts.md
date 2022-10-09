@@ -4,7 +4,7 @@ Estimated Time: 35 Minutes
 
 In this section, you will be introduced to a new data structure in python called a dictionary. What is it? Why do we need it? And basic usage.
 
-## What is a Dictionary 
+## What is a Dictionary
 A Dictionary is one of the greatest features of python. It acts a building block for more complicated algorithms and coding solutions.
 
 A dictionary is like a list, but more general. In a list, the indices have to be integers; in a dictionary they can be (almost) any type.
@@ -76,7 +76,7 @@ To see whether something appears as a value in a dictionary, you can use the met
 True
 ```
 
-## Dictionary Common Use Case - Collection of Counters 
+## Dictionary Common Use Case - Collection of Counters
 Suppose you are given a string and you want to count how many times each letter appears. There are several ways you could do it:
 
 - You could create 26 variables, one for each letter of the alphabet. Then you could traverse the string and, for each character, increment the corresponding counter, probably using a chained conditional.
@@ -121,7 +121,7 @@ Dictionaries have a method called get that takes a key and a default value. If t
 0
 ```
 
-> **_TODO:_** As an exercise, use get to write histogram more concisely. You should be able to eliminate the if statement.
+> **Try it yourself** As an exercise, use `get` to write the histogram more concisely. You should be able to eliminate the if statement.
 
 ## Global Variables with Dicts
 We recall from Lesson 6.1 that we discussed global variables and how to change them. If a global variable refers to a mutable value, you can modify the value without declaring the variable:

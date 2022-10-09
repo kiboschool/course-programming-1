@@ -23,7 +23,7 @@ data using all the concepts you've learned in the course. Once you've completed
 the initial analysis, you can choose what other analysis or features you'd like
 to add to the project.
 
-**Access** the assignment here: https://github.com/kiboschool/population-analysis
+[![population-analysis](https://img.shields.io/static/v1?label=Open%20Project&message=population%20analysis&color=blue)](https://classroom.github.com/a/IgR9720c)
 
 Remember...
 

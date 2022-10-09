@@ -24,7 +24,7 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 📝 Write a program that lets a user enter their exam score, then tells the user if they have passed the exam. The user must score more than 70 to pass the exam.
 
-**Access** the assignment here: https://github.com/kiboschool/exam-results
+[![exam-results](https://img.shields.io/static/v1?label=Open%20Project&message=exam%20results&color=blue)](https://classroom.github.com/a/A7oNEg73)
 
 <aside>
 
@@ -40,7 +40,7 @@ Watch the video below to see the solution process
 
 📚 In this assignment, you'll write a program to help someone figure out if they have enough money for all the books they want to buy, using if/else statements.
 
-**Access** the assignment here: https://github.com/kiboschool/money-for-books
+[![money-for-books](https://img.shields.io/static/v1?label=Open%20Project&message=money%20for%20books&color=blue)](https://classroom.github.com/a/R_0ByaI4)
 
 <aside>
 
@@ -56,13 +56,13 @@ Watch the video below to see the full solution
 
 In this exercise, you'll recreate the classic game of rock, paper, scissors.
 
-**Access** the assignment here: https://github.com/kiboschool/rock-paper-scissors
+[![rock-paper-scissors](https://img.shields.io/static/v1?label=Open%20Project&message=rock%20paper%20scissors&color=blue)](https://classroom.github.com/a/5HVcFLrp)
 
 ## Quick Draw
 
 In this exercise, you will implement a quick draw game to see how fast the
 user's reactions are.
 
-**Access** the assignment here: https://github.com/kiboschool/quick-draw
+[![quick-draw](https://img.shields.io/static/v1?label=Open%20Project&message=quick%20draw&color=blue)](https://classroom.github.com/a/Tww_mgmN)
 
 ![Snake cowboy smokes in a deserted street in a frontier town](/images/snake_cowboy.png)

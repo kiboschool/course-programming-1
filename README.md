@@ -3,8 +3,6 @@
 - See course info: https://degree-planner.programming.africa/?f=CS101
 - See info about Kibo's BSc. Computer Science: https://kibo.school/degree/
 
-Created from the [Kibo Course Template](https://github.com/rrcobb/course-template)
-
 ## What's here?
 
 ```
@@ -44,7 +42,7 @@ The static site output will be built to `output`, but that's git ignored.
 
 ### src/SUMMARY.md
 
-This gets turned into the sidebar on the site. 
+This gets turned into the sidebar on the site.
 
 It's the text that should show, plus links to other md files in `src/`.
 
@@ -109,11 +107,3 @@ vercel, assign a production domain, and set up auto-deploys.
 If you'd like to preview changes, push to a branch (like the `draft` branch that will hang around). Check the #tech-status channel in Slack for a link to the preview when you make a change.
 
 Remember - commits to main get built and deployed to the production site; others just get previews.
-
-## TODO
-
-- there are inline TODO comments; search for them!
-- lots of videos are tied to the FPWP version of the course; they should be updated
-- similarly: padlets, looms, survey forms..
-- there's still weird stuff in mdbook; artifacts from the original notion export... they should be fixed!
-    - e.g. using details/summary for the exercise hints

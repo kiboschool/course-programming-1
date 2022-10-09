@@ -17,7 +17,7 @@ The details of the project will be shared later on.
 <!--
 This is your chance to be creative with your team. You can make a really fun and funny project together that meets all the requirements.
 
-**Access** the assignment here: https://github.com/kiboschool/chatbot
+[![chatbot](https://img.shields.io/static/v1?label=Open%20Project&message=chatbot&color=blue)](https://classroom.github.com/a/J2xjliEN)
 
 Remember...
 

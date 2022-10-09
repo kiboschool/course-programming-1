@@ -12,7 +12,7 @@ In this project, you'll write a program to calculate the water or electricity
 bill. You'll use conditionals and boolean logic, as well as strings, numbers,
 math, input, and output.
 
-Access the project here: https://github.com/kiboschool/bill-calculator
+[![bill-calculator](https://img.shields.io/static/v1?label=Open%20Project&message=bill%20calculator&color=blue)](https://classroom.github.com/a/qBmIXtkF)
 
 Remember...
 

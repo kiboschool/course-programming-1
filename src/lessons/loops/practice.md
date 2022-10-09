@@ -37,10 +37,10 @@ Watch the video below to see the full solution. Before checking the solution, ma
 
 In this example, you'll practice using loops to calculate the Scrabble score of different words.
 
-**Access** the assignment here: https://github.com/kiboschool/scrabble-word-score
+[![scrabble-word-score](https://img.shields.io/static/v1?label=Open%20Project&message=scrabble%20word%20score&color=blue)](https://classroom.github.com/a/Kr4MeJoJ)
 
 ## Guess My Number
 
 In this exercise, practice writing a number guessing game.
 
-**Access** the assignment here: https://github.com/kiboschool/guess-my-number
+[![guess-my-number](https://img.shields.io/static/v1?label=Open%20Project&message=guess%20my%20number&color=blue)](https://classroom.github.com/a/gUPe7o2Y)

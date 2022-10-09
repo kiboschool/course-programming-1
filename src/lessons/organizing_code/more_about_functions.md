@@ -143,7 +143,7 @@ We previously talked about the `return` keyword in functions and how can a funct
 What about the cases where we need to return more than one value as an output of a process. We can always use lists and dicts to collect values and return them.
 Moreover, we sometimes need to return immutable values for which we can use data type called `tuple`. A tuple is similar to a list but with immutable values.
 
-> **_TODO:_**  Check the differences between a list and a tuple.
+> **Practice reading the docs:**  Check the differences between a list and a tuple.
 
 Example:
 Let us implement a function that takes two numbers and perform addition, subtraction, multiplication, and division upon them.

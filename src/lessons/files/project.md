@@ -13,7 +13,7 @@ automate categorizing and moving files within a messy directory.
 
 You'll practice lots of filesystem manipulation.
 
-**Access** the assignment here: https://github.com/kiboschool/directory-maintainer
+[![directory-maintainer](https://img.shields.io/static/v1?label=Open%20Project&message=directory%20maintainer&color=blue)](https://classroom.github.com/a/JyIqfBuo)
 
 ---
 

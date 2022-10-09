@@ -26,21 +26,24 @@ The following are among the most important:
 - urllib
 - re
 
-> **_TODO:_** Lookup each of the ubove mentioned libraries, and check what is its contecxt.
+> Look up each of these libraries. Read about what the library is for.
 
-> **_TODO:_** Check the list of all standard library modules at http://www.python.org/doc/
+> Check the list of all standard library modules at http://www.python.org/doc/
 
-## Usage 
-Use import to load a library module into a program’s memory. Then refer to things from the __module as module_name.thing_name__
-Python uses __.__ to mean “part of”.
+## Using modules
 
-Using string, one of the modules in the standard library:
+Use `import` to load a library module into a program’s memory. Then refer to things from the module as `module_name.thing_name`
+Python uses `.` to mean “part of”.
+
+Here's an example using the `string` module, a standard library module for common string operations:
+
 ```
 import string
 
 print('The lower ascii letters are', string.ascii_lowercase)
 print(string.capwords('capitalise this sentence please.'))
 ```
+
 Output:
 ```
 The lower ascii letters are abcdefghijklmnopqrstuvwxyz
@@ -48,7 +51,8 @@ Capitalise This Sentence Please.
 ```
 
 ### Install a Library
-Some libraries are not part of standard python, so you need to install them using `pip`.
+
+Some libraries are not part of standard Python, so you need to install them using `pip`.
 `pip install <library>`
 
 You need to check the documentation for the needed library to get the correct pip command.
@@ -66,7 +70,7 @@ NAME
 
 MODULE REFERENCE
     https://docs.python.org/3.6/library/string
-    
+
     The following documentation is automatically generated from the Python
     source files.  It may be incomplete, incorrect or include features that
     are considered implementation detail and may vary between Python
@@ -75,7 +79,7 @@ MODULE REFERENCE
 
 DESCRIPTION
     Public module variables:
-    
+
     whitespace -- a string containing all ASCII whitespace
     ascii_lowercase -- a string containing all ASCII lowercase letters
     ascii_uppercase -- a string containing all ASCII uppercase letters
@@ -87,7 +91,7 @@ DESCRIPTION
     printable -- a string containing all ASCII characters considered printable
 ```
 
-## Specific Imports 
+## Specific Imports
 We can use from __<module>__ import __<method>__ to load only specific items from a library module. Then refer to them directly without library name as prefix.
 ```
 from string import ascii_letters
@@ -124,7 +128,7 @@ Alias is useful for libraries that are frequently used or have long names. E.g.,
 
 
 > **_Using the correct method withing a Library:_**
->> **Practice Question:** Given the variables year, month and day, how would you generate a date in the standard iso format: 
+>> **Practice Question:** Given the variables year, month and day, how would you generate a date in the standard iso format:
 `year = 2016, month = 10, day = 22`
 >> - Which standard library module could help you?
 >> - Which function would you select from that module?
@@ -136,7 +140,7 @@ Alias is useful for libraries that are frequently used or have long names. E.g.,
 >> `print(iso_date)`
 
 
-> **_Ways to import a library:_** 
+> **_Ways to import a library:_**
 >> **Practice Question:** Match the following print statements with the appropriate library calls
 >> Library calls:
 >> A) from string import digits

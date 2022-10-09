@@ -25,7 +25,7 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 You will write a function to greet the user.
 
-**Access** the assignment here: https://github.com/kiboschool/greet-person-function
+[![greet-person-function](https://img.shields.io/static/v1?label=Open%20Project&message=greet%20person%20function&color=blue)](https://classroom.github.com/a/lj7uVFi0)
 
 **[5-min video to solve the exercise @Muawiya]**
 
@@ -33,7 +33,7 @@ You will write a function to greet the user.
 
 You will write a function to calculate the area of a circle.
 
-**Access** the assignment here: https://github.com/kiboschool/circle-area
+[![circle-area](https://img.shields.io/static/v1?label=Open%20Project&message=circle%20area&color=blue)](https://classroom.github.com/a/BE2mCfLp)
 
 <details><summary>Area of Circle: Solution</summary>
 
@@ -45,7 +45,7 @@ You will write a function to calculate the area of a circle.
 
 You'll write functions to convert between units.
 
-**Access** the assignment here: https://github.com/kiboschool/unit-conversion-functions
+[![unit-conversion-functions](https://img.shields.io/static/v1?label=Open%20Project&message=unit%20conversion%20functions&color=blue)](https://classroom.github.com/a/xlA6i22a)
 
 <details><summary>Unit Conversions: Solution</summary>
 
@@ -57,7 +57,7 @@ You'll write functions to convert between units.
 
 You'll write a function that sums all the numbers in a list.
 
-**Access** the assignment here: https://github.com/kiboschool/add-list-numbers
+[![add-list-numbers](https://img.shields.io/static/v1?label=Open%20Project&message=add%20list%20numbers&color=blue)](https://classroom.github.com/a/d5vvvPyq)
 j
 
 <details><summary>Add numbers: Solution</summary>
@@ -70,7 +70,7 @@ j
 
 You'll write a function that returns the smallest number in a list.
 
-**Access** the assignment here: https://github.com/kiboschool/smallest-item-in-a-list
+[![smallest-item-in-a-list](https://img.shields.io/static/v1?label=Open%20Project&message=smallest%20item%20in%20a%20list&color=blue)](https://classroom.github.com/a/HhdixN0U)
 
 <details><summary>Smallest Item in List Solution video</summary>
 
@@ -82,7 +82,7 @@ You'll write a function that returns the smallest number in a list.
 
 2️⃣ Write a function that doubles all the elements in a list.
 
-**Access** the assignment here: https://github.com/kiboschool/double-list-elements
+[![double-list-elements](https://img.shields.io/static/v1?label=Open%20Project&message=double%20list%20elements&color=blue)](https://classroom.github.com/a/f_NkiaTa)
 
 <details><summary>Double List Elements: Solution</summary>
 
@@ -94,7 +94,7 @@ You'll write a function that returns the smallest number in a list.
 
 ⚖️ Remember your BMI assignment? In this assignment, you'll rewrite using functions instead.
 
-**Access** the assignment here: https://github.com/kiboschool/bmi-with-functions
+[![bmi-with-functions](https://img.shields.io/static/v1?label=Open%20Project&message=bmi%20with%20functions&color=blue)](https://classroom.github.com/a/CM15un_o)
 
 <details><summary>BMI with functions: Solution</summary>
 

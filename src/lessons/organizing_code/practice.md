@@ -23,17 +23,17 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 In this exercise, you'll use a helper function to help measure how far a footballer has run over the course of a match.
 
-**Access** the assignment here: https://github.com/kiboschool/distance-traveled
+[![distance-traveled](https://img.shields.io/static/v1?label=Open%20Project&message=distance%20traveled&color=blue)](https://classroom.github.com/a/GGrIsiXL)
 
 ## Random Story Generator
 
 In this exercise, you'll write a story with blanks (like your Mad Libs story), but fill them in with random words instead of input from the user.
 
-**Access** the assignment here: https://github.com/kiboschool/random-story-generator
+[![random-story-generator](https://img.shields.io/static/v1?label=Open%20Project&message=random%20story%20generator&color=blue)](https://classroom.github.com/a/hOx3U1Wh)
 
 
 ## Date Format
 
 In this exercise, you'll practice with helper functions to format dates.
 
-**Access** the assignment here: https://github.com/kiboschool/date-format
+[![date-format](https://img.shields.io/static/v1?label=Open%20Project&message=date%20format&color=blue)](https://classroom.github.com/a/D8gy-smr)

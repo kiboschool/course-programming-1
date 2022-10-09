@@ -6,7 +6,7 @@ _Estimated Time: 1 hour_
 
 # What is a list?
 
-In your life, you’ve come across all kinds of lists - grocery lists, todo lists, the attendance roll at school, the roster of your football team. Lists in Python are a way to represent many pieces of data, like you do on those lists. Instead of just one number, string, or boolean, a list can hold many pieces of data at once.
+In your life, you’ve come across all kinds of lists - grocery lists, to-do lists, the attendance roll at school, the roster of your football team. Lists in Python are a way to represent many pieces of data, like you do on those lists. Instead of just one number, string, or boolean, a list can hold many pieces of data at once.
 
 When working with lists in your life, there are a few core actions you perform:
 
@@ -175,5 +175,3 @@ countries[-2] # "Ethiopia"
 ```
 
 Negative indices start counting from the end of the list, so `-1` is the last index, and `-2` is the second-to-last, and so on.
-
-<!-- TODO: add practice on accessing list items -->
