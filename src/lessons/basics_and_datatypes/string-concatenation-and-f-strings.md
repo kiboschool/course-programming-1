@@ -31,8 +31,9 @@ print(f"The alarm went off at exactly 6:00 AM as it had every morning for the pa
 
 Instead of using `+` to combine the variable and the string, we start the string with `f` and we use `{}` to insert the variable right inside the string. That way, there’s less confusion about quote marks and spaces.
 
+Check the following video on how to check some commands using _python console_.
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/share/1d6800ff8c9f479f9a3ffd03f89e3c34" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/1d6800ff8c9f479f9a3ffd03f89e3c34" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 
 ### Other f-string uses
