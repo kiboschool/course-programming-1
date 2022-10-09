@@ -52,13 +52,6 @@ Mohammed Saudi
 
 Please contact on Discord first with questions about the course.
 
-## Course Overview
-
-<aside>
-Kibo CS Faculty member Muawiya Asali introduces the design of the course.
-</aside>
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/081681b662c346079703fb23b5227b53?hide_owner=true&hide_share=true&hide_title=true&hideEmbedTopBar=true" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
 ## Learning Outcomes
 
 By the end of the course, you will be able to:
