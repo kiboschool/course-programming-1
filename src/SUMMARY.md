@@ -89,3 +89,5 @@
 
 - [Review and Preview](lessons/review.md)
   -->
+
+[Additional Practice](lessons/additional-practice.md)
