@@ -108,6 +108,10 @@ Your overall course grade is made up of:
   through the course and at the end of the course, reflecting all that you've
   learned up to that point. Each contributes 25% of your final grade.
 
+Your projects will be hosted on Github and turned in on Gradescope (see the
+Tools section below). Projects will be scored in Gradescope based on whether
+they complete the task successfully and effectively.
+
 More details about your assignments are given on the next few pages.
 
 ## Tools
