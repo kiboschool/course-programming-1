@@ -20,6 +20,10 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 </aside>
 
+Check this video on how to use python **REPL** to test boolean expressions and conditions.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/9dfafa43e05d471e80b7adc52960137e" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ## Exam results
 
 📝 Write a program that lets a user enter their exam score, then tells the user if they have passed the exam. The user must score more than 70 to pass the exam.
