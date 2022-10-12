@@ -1,15 +1,16 @@
 # Practice: Conditionals
 
+---
+
 > 💡 This is your chance to put what you’ve learned into action.
 >
 > Try solving these practice challenges to check that you understand the concepts.
 
 The **solutions** to each challenge are available, and you can view a video of the solution below each challenge.
-Try to go through the whole challenge without using the solution.
 
-_If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet._
-
-_Try the next practice challenges without looking at the solution. If you need more practice challenges, reach out on Discord._
+* Try to go through the whole challenge without using the solution.
+* If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet.
+* Try the next practice challenges without looking at the solution. If you need more practice challenges, reach out on Discord.
 
 <aside>
 
@@ -26,15 +27,13 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 [![exam-results](https://img.shields.io/static/v1?label=Open%20Project&message=exam%20results&color=blue)](https://classroom.github.com/a/A7oNEg73)
 
-<aside>
+<details><summary>Watch the video to see the solution process</summary>
 
-Watch the video below to see the solution process
-
-[**Exam Results Solution**](https://www.loom.com/embed/c0feac819d2d49ecbb5146c7c262ab27)
-
-</aside>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/c0feac819d2d49ecbb5146c7c262ab27" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ![A snake looking quizically at its exam paper](/images/snake_exam.png)
+
+</details>
 
 ## Money for Books
 
@@ -42,21 +41,13 @@ Watch the video below to see the solution process
 
 [![money-for-books](https://img.shields.io/static/v1?label=Open%20Project&message=money%20for%20books&color=blue)](https://classroom.github.com/a/R_0ByaI4)
 
-<aside>
+<details><summary>Watch the video to see the full solution</summary>
 
-Watch the video below to see the full solution
-
-[**Money for Books Solution**](https://youtu.be/P5XvolfsQtY)
-
-</aside>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P5XvolfsQtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![A cool snake with blue tinted sunglasses is coiled around some books at the library](/images/cool_library_snake.png)
 
-## Rock, Paper, Scissors
-
-In this exercise, you'll recreate the classic game of rock, paper, scissors.
-
-[![rock-paper-scissors](https://img.shields.io/static/v1?label=Open%20Project&message=rock%20paper%20scissors&color=blue)](https://classroom.github.com/a/5HVcFLrp)
+</details>
 
 ## Quick Draw
 
@@ -65,4 +56,16 @@ user's reactions are.
 
 [![quick-draw](https://img.shields.io/static/v1?label=Open%20Project&message=quick%20draw&color=blue)](https://classroom.github.com/a/Tww_mgmN)
 
+<details><summary>Watch the video to see the full solution</summary>
+
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://www.loom.com/embed/2952347e63a1497b982df66218870052" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ![Snake cowboy smokes in a deserted street in a frontier town](/images/snake_cowboy.png)
+
+</details>
+
+## Rock, Paper, Scissors
+
+In this exercise, you'll recreate the classic game of rock, paper, scissors.
+
+[![rock-paper-scissors](https://img.shields.io/static/v1?label=Open%20Project&message=rock%20paper%20scissors&color=blue)](https://classroom.github.com/a/5HVcFLrp)
