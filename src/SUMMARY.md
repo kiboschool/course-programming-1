@@ -5,6 +5,7 @@
 [Weekly Projects](lessons/weekly-projects.md)
 [Midterm Project](lessons/midterm-project.md)
 [Final Project](lessons/final-project.md)
+[Live Classes](lessons/live-classes.md)
 
 ## Lessons
 
