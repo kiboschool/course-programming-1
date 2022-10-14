@@ -90,14 +90,15 @@ member' dialog is really bad. Do this instead.
 - also adds any other org members to this team, so, be aware
 - create the team and org
 - update the org name and team name as appropriate
+- if there are more than 100 students in a class, add a `&page=2` to the query 
 
 be careful and run this line by line.
 
 ```sh
-SETOPT interactivecomments
+setopt interactivecomments
 org="kibo-programming-1-oct-22"
 team="all-students"
-students=$(gh api -X GET /orgs/$org/members | jq -r '.[].login')
+students=$(gh api -X GET "/orgs/$org/members?per_page=100" | jq -r '.[].login')
 echo $students | 
 while read -r student; do
   echo "/orgs/$org/teams/$team/memberships/$student"
