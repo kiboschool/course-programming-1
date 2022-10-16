@@ -78,6 +78,35 @@ while read -r project; do
 done
 ```
 
+## Add all the students as members of a team
+
+It's useful to have a team for 'all the students' which you can then add to
+other repos to give specific permissions. But... clicking through the 'add team
+member' dialog is really bad. Do this instead.
+
+- requires gh and jq
+- requires all the students to have joined the gh org (e.g. by accepting a gh
+    classroom assignment)
+- also adds any other org members to this team, so, be aware
+- create the team and org
+- update the org name and team name as appropriate
+- if there are more than 100 students in a class, add a `&page=2` to the query 
+
+be careful and run this line by line.
+
+```sh
+setopt interactivecomments
+org="kibo-programming-1-oct-22"
+team="all-students"
+students=$(gh api -X GET "/orgs/$org/members?per_page=100" | jq -r '.[].login')
+echo $students | 
+while read -r student; do
+  echo "/orgs/$org/teams/$team/memberships/$student"
+  # uncomment to actually do the thing
+  # gh api -X PUT "/orgs/$org/teams/$team/memberships/$student" -F role='member'
+done
+```
+
 ## For all exercises, push a branch to a given remote
 
 change 'main' and 'oct-22' as appropriate

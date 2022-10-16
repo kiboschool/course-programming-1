@@ -5,6 +5,7 @@
 [Weekly Projects](lessons/weekly-projects.md)
 [Midterm Project](lessons/midterm-project.md)
 [Final Project](lessons/final-project.md)
+[Live Classes](lessons/live-classes.md)
 
 ## Lessons
 
@@ -31,6 +32,7 @@
   - [Practice](lessons/conditionals/practice.md)
   - [Project](lessons/conditionals/project.md)
 
+<!--
 - [Loops](lessons/loops.md)
 
   - [While loops](lessons/loops/while-loops.md)
