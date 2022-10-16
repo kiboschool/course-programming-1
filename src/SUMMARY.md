@@ -20,7 +20,6 @@
   - [Practice](lessons/basics_and_datatypes/practice.md)
   - [Project](lessons/basics_and_datatypes/project.md)
 
-<!--
 - [Conditionals](lessons/conditionals.md)
 
   - [Simple Decisions](lessons/conditionals/simple-decisions.md)
@@ -33,6 +32,7 @@
   - [Practice](lessons/conditionals/practice.md)
   - [Project](lessons/conditionals/project.md)
 
+<!--
 - [Loops](lessons/loops.md)
 
   - [While loops](lessons/loops/while-loops.md)

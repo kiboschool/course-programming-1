@@ -1,9 +1,5 @@
 # Simple decisions
 
-_Estimated Time: 10 minutes_
-
----
-
 Life is full of decisions.
 
 - Do I stay at the party, or is it too awkward?
