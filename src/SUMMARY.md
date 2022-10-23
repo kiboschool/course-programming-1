@@ -32,7 +32,6 @@
   - [Practice](lessons/conditionals/practice.md)
   - [Project](lessons/conditionals/project.md)
 
-<!--
 - [Loops](lessons/loops.md)
 
   - [While loops](lessons/loops/while-loops.md)
@@ -42,6 +41,7 @@
   - [Practice](lessons/loops/practice.md)
   - [Project](lessons/loops/project.md)
 
+<!--
 - [Lists](lessons/lists.md)
 
   - [List basics](lessons/lists/list-basics.md)
