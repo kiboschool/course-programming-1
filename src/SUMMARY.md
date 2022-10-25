@@ -41,6 +41,7 @@
   - [Practice](lessons/loops/practice.md)
   - [Project](lessons/loops/project.md)
 
+<!---
 
 - [Lists](lessons/lists.md)
 
