@@ -11,6 +11,7 @@ in github classroom, you can reach out in Discord to be added to the team.
 | ---- | ------------------ | --------------- | --------------------- | --------------------- |
 | 1    | Basics & Datatypes | [Code][w1-code] | [YouTube][w1-video-1] | [YouTube][w1-video-2] |
 | 2    | Conditionals       | [Code][w2-code] | [YouTube][w2-video-1] | [YouTube][w2-video-2] |
+| 2    | Loops              | [Code][w3-code] | [YouTube][w3-video-1] | [YouTube][w3-video-2] |
 
 [w1-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class1
 [w1-video-1]: https://youtu.be/65054g99EAY
@@ -18,3 +19,6 @@ in github classroom, you can reach out in Discord to be added to the team.
 [w2-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class2
 [w2-video-1]: https://youtu.be/ZEJvHK_iYnQ
 [w2-video-2]: https://youtu.be/VnAfwjPnAmo
+[w3-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class3
+[w3-video-1]: https://youtu.be/9REq5unG2H0
+[w3-video-2]: https://youtu.be/IbZMsPMagqw
