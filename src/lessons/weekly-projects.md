@@ -9,7 +9,7 @@ material and practice problems before you start the project each week.
 There will also be a midterm project and a final project, described on the next
 pages.
 
-- [Week 1: Mad Libs](./basics_and_datatypes/project.md) (Due Oct 17)
+- Week 1: Mad Libs(Due Oct 17)
 - Week 2: Bill Calculator (Due Oct 24)
 - Week 3: Password Validator (Due Oct 31)
 - Week 4 and 5: **Midterm Project** (Due Nov 13)

@@ -41,8 +41,6 @@
   - [Practice](lessons/loops/practice.md)
   - [Project](lessons/loops/project.md)
 
-<!---
-
 - [Lists](lessons/lists.md)
 
   - [List basics](lessons/lists/list-basics.md)
@@ -51,6 +49,8 @@
   - [Loops, Conditions, and Lists](lessons/lists/conditions-and-lists.md)
   - [Splitting Strings](lessons/lists/split-strings.md)
   - [Practice](lessons/lists/practice.md)
+
+<!---
 
 - [Functions](lessons/functions.md)
 
