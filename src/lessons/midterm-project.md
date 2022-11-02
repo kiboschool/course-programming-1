@@ -14,7 +14,6 @@ You'll get to exercise your creativity and show off your Python skills.
 
 The details of the project will be shared later on.
 
-<!--
 This is your chance to be creative with your team. You can make a really fun and funny project together that meets all the requirements.
 
 [![chatbot](https://img.shields.io/static/v1?label=Open%20Project&message=chatbot&color=blue)](https://classroom.github.com/a/J2xjliEN)
@@ -26,4 +25,3 @@ Remember...
 - **Debug** if you aren't getting the desired output
 - **Attend** office hours if you need additional support
 - **Ask** for help in Discord
--->
