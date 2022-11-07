@@ -27,8 +27,6 @@ You will write a function to greet the user.
 
 [![greet-person-function](https://img.shields.io/static/v1?label=Open%20Project&message=greet%20person%20function&color=blue)](https://classroom.github.com/a/lj7uVFi0)
 
-**[5-min video to solve the exercise @Muawiya]**
-
 ## Area of a circle
 
 You will write a function to calculate the area of a circle.

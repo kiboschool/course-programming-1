@@ -25,20 +25,14 @@ You will write a function to provide the sum of matrix rows.
 
 [![row-sum](https://img.shields.io/static/v1?label=Open%20Project&message=row%20sum&color=blue)](https://classroom.github.com/a/K_rAenKA)
 
-**[5-min video to solve the exercise @Muawiya]**
-
 ## Word Frequency
 
 You will write a program to check word frequency within text.
 
 [![word-frequency](https://img.shields.io/static/v1?label=Open%20Project&message=word%20frequency&color=blue)](https://classroom.github.com/a/k5CAlt2N)
 
-**[5-min video to solve the exercise @Muawiya]**
-
 ## Phone Book
 
 You will write a phone book program that manages contacts and numbers.
 
 [![phone-book](https://img.shields.io/static/v1?label=Open%20Project&message=phone%20book&color=blue)](https://classroom.github.com/a/dbQOL_m2)
-
-**[5-min video to solve the exercise @Muawiya]**
