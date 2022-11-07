@@ -50,8 +50,6 @@
   - [Splitting Strings](lessons/lists/split-strings.md)
   - [Practice](lessons/lists/practice.md)
 
-<!---
-
 - [Functions](lessons/functions.md)
 
   - [Function basics](lessons/functions/function-basics.md)
@@ -59,6 +57,7 @@
   - [Return values](lessons/functions/return-values.md)
   - [Practice](lessons/functions/practice.md)
 
+<!---
 - [Organizing Code](lessons/organizing_code.md)
 
   - [Design with functions](lessons/organizing_code/utility_functions.md)
@@ -67,6 +66,7 @@
   - [Modules](lessons/organizing_code/modules.md)
   - [Practice](lessons/organizing_code/practice.md)
   - [Project](lessons/organizing_code/project.md)
+
 
 - [Files](lessons/files.md)
 
