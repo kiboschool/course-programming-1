@@ -1,4 +1,4 @@
-# Week 6: Organizing Code
+# Organizing Code
 
 With data types, variables, lists, loops, and functions, you have the tools to build more complicated programs. As you've seen by now, there are lots of ways to solve any given programming problem. So... what makes a _good_ solution?
 
