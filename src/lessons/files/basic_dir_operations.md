@@ -1,7 +1,5 @@
 # 7.2 Basic Directory Operations
 
-Estimated Time: 40 Minutes
-
 In this section, you will be introduced to basic directory operations in python.
 
 ## Files & Directories

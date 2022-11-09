@@ -1,9 +1,5 @@
 # Variables and assignment
 
-_Estimated Time: 15 minutes_
-
----
-
 ## What you need to know about variables
 
 - A _variable_ is a name you give to data, so you can use it later in the program

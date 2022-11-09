@@ -1,9 +1,5 @@
 # Nested Conditionals
 
-_Estimated Time: 15 minutes_
-
----
-
 One of the coolest things about Python is that you can use pieces of syntax in lots of situations.
 
 The code in an `if` statement's body can have any valid Python.
@@ -60,7 +56,7 @@ if len(password) > 8:
   if any(number in password for number in "0123456789"):
     if password != password.lower():
       if password != password.upper():
-        print("Password valid. Account created.") 
+        print("Password valid. Account created.")
       else:
         print("password must contain a lowercase letter")
     else:
@@ -74,5 +70,5 @@ else:
 With this many levels of nesting, it's a little hard to tell which statement
 goes with which, but you can still match them up.
 
-Copy this code and try it out! You may have to practice using the tab key on 
+Copy this code and try it out! You may have to practice using the tab key on
 your keyboard 😉.

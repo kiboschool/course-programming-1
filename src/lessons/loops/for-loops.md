@@ -1,9 +1,5 @@
 # For loops
 
-_Estimated Time: 1 hour_
-
----
-
 We often want code to run again and again, until it’s time to stop. We learned that a `while` loop is a great tool when you know the stopping condition.
 
 In this section we will explore a second tool for repeating code: the `for` loop. A `for` loop is a good fit when we want to run a block of code a definite number of times, or when we want to iterate over list of things.
@@ -60,7 +56,7 @@ while n > 0:
 print('Blastoff!')
 ```
 
-🤔 Compare the two code examples above (the `for` loop and the `while` loop). 
+🤔 Compare the two code examples above (the `for` loop and the `while` loop).
 
 What do you notice about them?
 

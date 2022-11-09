@@ -1,6 +1,4 @@
-# 8.2 Dictionaries - Advanced Topics
-
-Estimated Time: 40 Minutes
+# Dictionaries - Advanced Topics
 
 In this section, you will learn more about dictionaries and some prooblem solving with dicts.
 
@@ -51,35 +49,35 @@ A reverse lookup is much slower than a forward lookup; if you have to do it ofte
 
 > **_NOTE:_** Rasing Exceptions and handling them was scanned here quickly. This topic will be covered in more detail at Programming 2
 
-## Fibonacci  
+## Fibonacci
 Fibonacci is a mathematical function that has the following definition: https://en.wikipedia.org/wiki/Fibonacci_number
 
 One implementation of this function in python would be:
 ```
 def PrintFibonacci(length):
-    #Initial variable for the base case. 
+    #Initial variable for the base case.
     first = 0
     second = 1
 
     #Printing the initial Fibonacci number.
     print(first, second, end=" ")
 
-    #decreasing the length by two because the first 2 Fibonacci numbers 
+    #decreasing the length by two because the first 2 Fibonacci numbers
     #already printed.
     length -= 2
-    
+
     #Loop until the length becomes 0.
     while length > 0:
 
         #Printing the next Fibonacci number.
         print(first + second, end=" ")
 
-        #Updating the first and second variables for finding the next number. 
+        #Updating the first and second variables for finding the next number.
         temp = second
         second = first + second
         first = temp
 
-        #Decreasing the length that states the Fibonacci numbers to be 
+        #Decreasing the length that states the Fibonacci numbers to be
         #printed more.
         length -= 1
 
@@ -91,7 +89,7 @@ if __name__ == "__main__":
 
 Output for 7:
 ```
-Fibonacci Series - 
+Fibonacci Series -
 1 1 2 3 5 8
 ```
 

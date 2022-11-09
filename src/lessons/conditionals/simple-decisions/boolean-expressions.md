@@ -1,9 +1,5 @@
 # Boolean Expressions
 
-_Estimated Time: 20 minutes_
-
----
-
 Boolean is another Python data type. The only two Boolean possible values are `True` and `False`. These values are useful for writing code that makes decisions, like deciding whether or not to stay at the party.
 
 ## Boolean Expressions

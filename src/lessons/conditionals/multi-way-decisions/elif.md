@@ -1,9 +1,5 @@
 # Elif
 
-_Estimated Time: 15 minutes_
-
----
-
 ### If-elif statements
 
 `if` and `else` let us express conditions with two possible outcomes. But what if there are more than two possibilities we want to express in our program? `elif` stands for "else if". It lets us check more conditions, so we can cover as many conditions as we want.

@@ -1,7 +1,5 @@
 # 8.3 Dictionaries & Lists
 
-Estimated Time: 20 Minutes
-
 In this section, we will check relations between dictionaries and lists
 
 ## Dictionaries & Lists - Lookup Time Perspective

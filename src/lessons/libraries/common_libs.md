@@ -1,7 +1,5 @@
 # 9.2 Libraries
 
-Estimated Time: 45 Minutes
-
 In this section, we will check some common python libs, and their basic functionality.
 
 ## OS Module

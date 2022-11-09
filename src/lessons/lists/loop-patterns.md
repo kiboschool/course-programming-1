@@ -1,9 +1,5 @@
 # Loop patterns
 
-_Estimated Time: 40 minutes_
-
----
-
 You’ve learned and practiced some of the core actions of working with lists. You can create a list, add and remove items, and perform actions for all of the items. Now it’s time to learn to write code that uses lists and loops to solve problems.
 
 Using lists and loops together, you can answer questions about data.
