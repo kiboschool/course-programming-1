@@ -37,3 +37,13 @@ In this exercise, you'll write a story with blanks (like your Mad Libs story), b
 In this exercise, you'll practice with helper functions to format dates.
 
 [![date-format](https://img.shields.io/static/v1?label=Open%20Project&message=date%20format&color=blue)](https://classroom.github.com/a/D8gy-smr)
+
+## Refactor another project
+
+Tidying up your old code is a good way to review what you've learned already, and to practice noticing opportunities to reorganize your code.
+
+Using the tips and techniques you learned this week, go back and review code that you wrote for a previous week. What do you see about that code that you can improve?
+
+- Can you extract a helper function?
+- Can you rename a function or variable to be more meaningful?
+- Can you restructure the code to have less nesting?
