@@ -57,6 +57,7 @@
   - [Return values](lessons/functions/return-values.md)
   - [Practice](lessons/functions/practice.md)
 
+<!--
 - [Organizing Code](lessons/organizing_code.md)
 
   - [Program Design](lessons/organizing_code/program_design.md)
@@ -90,5 +91,6 @@
   - [Practice](lessons/libraries/practice.md)
 
 - [Review and Preview](lessons/review.md)
+-->
 
 [Additional Practice](lessons/additional-practice.md)
