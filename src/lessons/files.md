@@ -1,4 +1,4 @@
-# Week 7: Files
+# Files
 
 You use different kinds of files all the time! Text files, python programs, images, pdfs, audio and video files -- there's lots of different kinds. Lots of applications are focused on doing different tasks with files. Instagram? Download and display image files. iTunes? Show and play audio files. Photoshop? Microsoft Word? Audacity? They're specialized programs for editing different kinds of files (photos, rich text documents, and audio). Even a web browser is, in some ways, a fancy file viewer, for files shared across different servers.
 

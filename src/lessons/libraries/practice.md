@@ -25,8 +25,6 @@ You'll get data from a web source using the `requests` library.
 
 [![fetching-web-data](https://img.shields.io/static/v1?label=Open%20Project&message=fetching%20web%20data&color=blue)](https://classroom.github.com/a/lqfhwH6L)
 
-**[5-min video to solve the exercise @Muawiya]**
-
 ## JSON Parsing
 
 In this exercise, you'll parse some data using Python's built-in JSON library.
@@ -39,5 +37,3 @@ In this exercise, you'll build a Flask web server that canencode and decode
 messages.
 
 [![message-encode-decode](https://img.shields.io/static/v1?label=Open%20Project&message=message%20encode%20decode&color=blue)](https://classroom.github.com/a/G0v3v-Cw)
-
-**[5-min video to solve the exercise @Muawiya]**

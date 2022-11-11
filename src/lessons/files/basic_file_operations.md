@@ -1,21 +1,19 @@
 # 7.1 Basic File Operations
 
-Estimated Time: 45 Minutes
-
 In this section, you will be introduced to basic file operations in python.
 
-## Basic Operations 
+## Basic Operations
 You may encounter many use cases to integrate files within your program:
 - Data that somebody shared with you using a file
 - A Report that you need to create by the end of your program
-- List of operations that you need to process and perform within your code 
+- List of operations that you need to process and perform within your code
 and many more..
 
 At this section, we will check how do we perform file basic operations in python. These are:
 - Opening a file
 - Closing a file
 - Reading from a file and access file data in code
-- Deleting a file 
+- Deleting a file
 
 > **_NOTE:_** There are different ways in python to perform these operations. You are highly recommended to check modules documentation for more information
 
@@ -32,7 +30,7 @@ f = open("test.txt")    # open file in current directory
 f = open("C:/Python38/README.txt")  # specifying full path
 ```
 At this snippet, `f` is our file handler and we will see later how do we perform file operations using handlers.
- 
+
 ### File Modes
 The `open` function has more than one argument. Apart from a file name, it has a **mode** and **encoding** arguments.
 
@@ -91,7 +89,7 @@ This block makes sure that whenever an exception happens within try scope -> the
 > **_NOTE:_**  Try..except..finally is the way we handle exceptions within a python program. We will talk about this in detail in Programming 2.
 
 ### With Function
-The most recommended way to close a file is by using `with` statement. This ensures that the file is closed when we exit a `with` block. 
+The most recommended way to close a file is by using `with` statement. This ensures that the file is closed when we exit a `with` block.
 When using this approach, we do not need to use the `close` function to explicitly close the file.
 
 ```python
@@ -187,7 +185,7 @@ import os
 os.remove("check.txt")
 ```
 
-## File Methods 
-You can always check Google for more information about file functions. 
+## File Methods
+You can always check Google for more information about file functions.
 
-Check the following for a [documentation of main file methods](https://python-reference.readthedocs.io/en/latest/docs/file/) we talked about many of them in this section  
+Check the following for a [documentation of main file methods](https://python-reference.readthedocs.io/en/latest/docs/file/) we talked about many of them in this section

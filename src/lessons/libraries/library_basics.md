@@ -1,7 +1,5 @@
 # 9.1 Libraries
 
-Estimated Time: 30 Minutes
-
 In this section, you will more about libraries, their usage and importance.
 
 ## What is a Library

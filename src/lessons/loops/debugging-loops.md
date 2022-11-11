@@ -1,9 +1,5 @@
 # Debugging loops
 
-_Estimated Time: 1 hour_
-
----
-
 Usually it takes more than one try to write the code to solve a problem with loops. When the code isn’t working correctly, you need a strategy for figuring out what is happening, and to fix it.
 
 ## Loop debugging: Printing each step

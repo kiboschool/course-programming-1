@@ -1,9 +1,5 @@
 # Multi way decisions
 
-_Estimated Time: 10 minutes_
-
----
-
 In this section, we will explore writing conditional statements when there are more than two possible outcomes.
 
 First, we'll learn the `elif` keyword. It lets you add another conditional

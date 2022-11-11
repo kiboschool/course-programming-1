@@ -57,12 +57,13 @@
   - [Return values](lessons/functions/return-values.md)
   - [Practice](lessons/functions/practice.md)
 
-<!---
+<!--
 - [Organizing Code](lessons/organizing_code.md)
 
-  - [Design with functions](lessons/organizing_code/utility_functions.md)
-  - [More about functions](lessons/organizing_code/more_about_functions.md)
-  - [Functions Readability Practices](lessons/organizing_code/readability_practices.md)
+  - [Program Design](lessons/organizing_code/program_design.md)
+  - [Helper Functions](lessons/organizing_code/helper_functions.md)
+  - [Arguments](lessons/organizing_code/arguments.md)
+  - [Readability](lessons/organizing_code/readability.md)
   - [Modules](lessons/organizing_code/modules.md)
   - [Practice](lessons/organizing_code/practice.md)
   - [Project](lessons/organizing_code/project.md)
@@ -90,5 +91,6 @@
   - [Practice](lessons/libraries/practice.md)
 
 - [Review and Preview](lessons/review.md)
+-->
 
 [Additional Practice](lessons/additional-practice.md)

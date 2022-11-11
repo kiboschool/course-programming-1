@@ -1,7 +1,5 @@
 # 8.1 Dictionary Basics
 
-Estimated Time: 35 Minutes
-
 In this section, you will be introduced to a new data structure in python called a dictionary. What is it? Why do we need it? And basic usage.
 
 ## What is a Dictionary

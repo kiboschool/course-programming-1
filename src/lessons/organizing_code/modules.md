@@ -12,6 +12,8 @@ Here are a few examples:
 
 There are tons of modules and libraries out there. When you need to implement some feature and you don't know how, you can search for a module that provides these functions for you.
 
+You can also write your own modules, like the `utilities` module from the first example in the discussion of helper functions.
+
 ## Importing Modules
 
 To use a module, you’ll need to `import` it using Python’s module system. You’ve used `import` before, for code like this:
@@ -24,12 +26,80 @@ print(random_number) # 76 (when I ran it - different each time)
 
 `random` is a **module** with useful functions like `randint`, which generates a random number. Modules are python’s way of grouping related functions.
 
-## What functions does a module provide?
+## Importing from modules you wrote
+
+You've seen how to import from external modules like `random`. But what about importing functions from your own code?
+
+You can import functions from other files within your project using `import` too.
+
+Imagine that you have a file called `utilities.py` where you have the following function:
+
+```python
+def square_area(length, width):
+    return length * width
+```
+
+You can import this helper function from another file by using the name of the file it's from:
+
+```python
+# (in main.py)
+from utilities import square_area
+
+result = square_area(10, 20)
+```
+
+Since `square_area` is in the file `utilities.py`, you can import it using `from utilities`. The name of the file is where you import from.
+
+> Note: If you take a look at how the tests work in your exercises, they often import code from `main.py` to test.
+
+## Renaming imports
+
+If you want to use a different name for something you import, you can change the name using `as`. For example:
+
+```python
+from utilities import square_area as sq
+
+result = sq(10, 20)
+```
+
+### dir() built-in function
+
+One way to know what functions does a module provides is by using the built-in function `dir()`
+
+For example, run this snippet to see all the variables and functions in the `random` module:
+
+```python
+import random
+
+print("The contents of the random library are:")
+print(dir(random))
+```
+
+When I run this, I see:
+
+```python
+The contents of the random library are:
+
+['BPF', 'LOG4', 'NV_MAGICCONST', 'RECIP_BPF', 'Random', 'SG_MAGICCONST',
+'SystemRandom', 'TWOPI', '_BuiltinMethodType', '_MethodType', '_Sequence',
+'_Set', '__all__', '__builtins__', '__cached__', '__doc__', '__file__', '__loader__',
+'__name__', '__package__', '__spec__', '_acos', '_ceil', '_cos', '_e', '_exp',
+'_inst', '_log', '_pi', '_random', '_sha512', '_sin', '_sqrt', '_test', '_test_generator',
+'_urandom', '_warn', 'betavariate', 'choice', 'expovariate', 'gammavariate', 'gauss',
+'getrandbits', 'getstate', 'lognormvariate', 'normalvariate', 'paretovariate', 'randint',
+'random', 'randrange', 'sample', 'seed', 'setstate', 'shuffle', 'triangular', 'uniform',
+'vonmisesvariate', 'weibullvariate']
+```
+
+This is a lot of output! `dir()` doesn't explain what any of those variables or
+functions do, but you can look up the documentation for any of the ones that
+seem interesting.
+
+## Reading the Docs
 
 To find the functions that a module provides, you can use Google, or look at the documentation (”docs”) for that module.
 
 [https://docs.python.org/3/library/random.html#module-random](https://docs.python.org/3/library/random.html#module-random) is the link to the docs for the `random` module. Click it to see everything there is to know about `random`.
-
 
 ### 📖 Tips for Reading Documentation
 

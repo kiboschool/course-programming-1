@@ -1,9 +1,5 @@
 # Range function
 
-_Estimated Time: 30 minutes_
-
----
-
 ## Range function
 
 There’s another way to tell the `for` loop what values to iterate over. `range()` is a function that generates a series of numbers within a certain range.

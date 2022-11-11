@@ -1,9 +1,5 @@
 # And, Or, Not
 
-_Estimated Time: 15 minutes_
-
----
-
 In Python, you can combine conditions using the _logical operators_ `and`, `or`,
 and `not`. They let you express more complex conditions, like "even numbers
 greater than 100" or "the password must be between 8 and 26 characters long, and include
@@ -69,7 +65,7 @@ If the input is not greater than 100, it will print output to tell the user that
 
 <details><summary> 🤔 How else could you write this snippet? </summary>
 
-You could express the same thing with `<=`. 
+You could express the same thing with `<=`.
 
 `response <= 100` is equivalent to `not response > 100`
 

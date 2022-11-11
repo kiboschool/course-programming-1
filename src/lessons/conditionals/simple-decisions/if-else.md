@@ -1,9 +1,5 @@
 # If/Else
 
-_Estimated Time: 30 minutes_
-
----
-
 ## Conditional statements
 
 A conditional statement runs code based on a specific condition.

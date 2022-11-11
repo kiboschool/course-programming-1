@@ -122,7 +122,7 @@ inside a function.
 # A function with an if/else statement
 def check_password(attempt):
 	password = "sEcRetPaSsWoRd"
-	if attempt = password:
+	if attempt == password:
 		return "You're in!"
 	else:
 		return "Access denied"
