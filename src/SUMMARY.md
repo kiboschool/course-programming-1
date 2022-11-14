@@ -67,6 +67,8 @@
   - [Practice](lessons/organizing_code/practice.md)
   - [Project](lessons/organizing_code/project.md)
 
+<!-- >
+
 - [Files](lessons/files.md)
 
   - [Basic File Operations](lessons/files/basic_file_operations.md)
