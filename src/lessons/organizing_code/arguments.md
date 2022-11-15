@@ -4,7 +4,7 @@ You've written lots of functions that accept arguments. Python has a few ways to
 
 ## Keyword arguments
 
-Python lets you call functions with _keyword arguments_. Here's a simple example to
+Python allows us to pass arguments using their names. This way, you can pass arguments without caring about the order. This feature called _keyword arguments_. Here's a simple example to
 demonstrate the syntax:
 
 ```python
@@ -33,7 +33,7 @@ def greet(name, msg):
     print("Hello", name + ', ' + msg)
 ```
 
-Let us have a closer look at these arguments. What would happen if we call this function with a wrong number of arguments __(one argument for example)__? For instance, `greet("Alice")`
+Let us have a closer look at these arguments. What would happen if we call this function with a wrong number of arguments **(one argument for example)**? For instance, `greet("Alice")`
 
 In that case, python interpreter will show an error saying the following:
 
@@ -55,6 +55,7 @@ greet2("Ben", "How are you?")
 ```
 
 The output will be:
+
 ```
 Hello Alice, Good morning!
 Hello Ben, How are you?
@@ -153,6 +154,7 @@ print(product(5, 2, 10, 10))
 ```
 
 output:
+
 ```
 1000
 ```
@@ -163,7 +165,9 @@ _Note: there is a related concept `**kwargs`, for keyword arguments that you may
 
 You already know how to use the `return` keyword to return a specific value from a function.
 
-What about the cases where you need to return more than one value? Python only allows returning a single value from a function, but using a _wrapper_ like a list, you can return more than one thing.
+What about the cases where you need to return more than one value?
+
+Python only **allows returning a single value** from a function, but using a _wrapper_ like a list or tuple, you can return more than one thing.
 
 For example, here is a function that takes two numbers and performs addition, subtraction, multiplication, and division upon them.
 
@@ -176,6 +180,8 @@ def basic_calculator(a, b):
 
     return [sum, diff, mul, div]
 ```
+
+## Tuples
 
 But, a list isn't always the right way to represent this. A list can have items added to it or removed from it, and that isn't what usually what we mean when we return a value.
 

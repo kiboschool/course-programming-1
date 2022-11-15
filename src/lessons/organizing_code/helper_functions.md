@@ -1,14 +1,18 @@
-# Helper functions
+# Functions
 
 One of the core purposes of functions is to split programs up into pieces that _make sense_.
 
-Helper functions represent just one task that a program has to do. Instead of
-doing every operation one line after the other, helper functions isolate parts
+Good functions should represent just one task that a program has to do. Instead of
+doing every operation one line after the other, functions isolate parts
 of the problem, so that your code can be simpler.
 
-## Divide and Conquer
+## Helper Functions
 
-One of the main concepts to approach coding problems is **Divide & Conquer**.
+You might use functions just to **help** other functions work, making it easier to read and organize your code without so much thinking about reusability. Sometimes we call such functions **helper functions**. Some people use the names "function" and "helper function" to mean the same thing, as functions always help.
+
+## Decomposition
+
+One of the main concepts to approach solving problems is **Decomposition**.
 That means taking a big problem and decomposing it into smaller ones.
 
 A task like _"build a simulator for a microprocessor"_ sounds really
@@ -18,11 +22,11 @@ pieces seems much more manageable.
 
 Approaching each step as a standalone problem makes the whole program easier to implement.
 
-A function that solves just one piece of a larger program is called a **helper function**.
+<!-- A function that solves just one piece of a larger program is called a **helper function**. -->
 
 ## Case Study: Geometry Tutor
 
-Let's apply the **Divide & Conquer** strategy to design a program.
+Let's apply the **Decomposition** strategy to design a program.
 
 Imagine you are asked to build a program to assist 7th grade students in understanding how to calculate area of various shapes.
 
@@ -38,16 +42,18 @@ Depending on the choice the user enters, it asks the user to enter the to calcul
 
 One option is to implement the whole code into one long file without splitting it into functions.
 
-Given this program, answer these questions:
+<aside>
+As a practice, implement the above program without using functions and try to answer the below questions:
+</aside>
 
 - What would need to change about the program if it needed to support another shape?
 - What would need to change about the program if it needed to display the _perimeter_ as well as the area?
 - If you wanted to use the shape functions in another project, how would you do that?
 - A team member of yours wants to give you a hand in implementation - how would you organise this?
 
-Let's explore what the code would look like if we used helper functions.
+Let's explore what the code would look like if we used functions.
 
-- Part 1: **Helper Functions** - operations that program would need
+- Part 1: **Functions** - operations that program would need
 - Part 2: **Main Flow** - steps for user interaction, using the helper functions
 
 We will start functions into an internal module called `utilities.py`:
@@ -121,5 +127,5 @@ clear, and don't depend on or affect anything outside of the function.
 code does. Choosing good names for your functions and arguments will make
 your code more clear to them (or to you!)
 
-Usually, you want helper functions to be short, do just one job, and be named
+Usually, you want functions to be short, do just one job, and be named
 based on what they do.

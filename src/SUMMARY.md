@@ -61,13 +61,14 @@
 - [Organizing Code](lessons/organizing_code.md)
 
   - [Program Design](lessons/organizing_code/program_design.md)
-  - [Helper Functions](lessons/organizing_code/helper_functions.md)
+  - [Decomposition and Functions](lessons/organizing_code/helper_functions.md)
   - [Arguments](lessons/organizing_code/arguments.md)
   - [Readability](lessons/organizing_code/readability.md)
   - [Modules](lessons/organizing_code/modules.md)
   - [Practice](lessons/organizing_code/practice.md)
   - [Project](lessons/organizing_code/project.md)
 
+<!-- >
 
 - [Files](lessons/files.md)
 
