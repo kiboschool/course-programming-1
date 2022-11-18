@@ -14,6 +14,7 @@ in github classroom, you can reach out in Discord to be added to the team.
 | 3    | Loops              | [Code][w3-code] | [YouTube][w3-video-1] | [YouTube][w3-video-2] |
 | 4    | Lists              | [Code][w4-code] | [YouTube][w4-video-1] | [YouTube][w4-video-2] |
 | 5    | Functions          | [Code][w5-code] | [YouTube][w5-video-1] | [YouTube][w5-video-2] |
+| 6    | Organizing Code    | [Code][w6-code] | [YouTube][w6-video-1] | [YouTube][w6-video-2] |
 
 [w1-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class1
 [w1-video-1]: https://youtu.be/65054g99EAY
@@ -30,3 +31,6 @@ in github classroom, you can reach out in Discord to be added to the team.
 [w5-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class5
 [w5-video-1]: https://youtu.be/6HX0RATeFsg
 [w5-video-2]: https://youtu.be/9KDPDtbL_kc
+[w6-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class6
+[w6-video-1]: https://youtu.be/vGIfeHHRq44
+[w6-video-2]: https://youtu.be/xcJ_FGEtctY
