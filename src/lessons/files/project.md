@@ -2,9 +2,14 @@
 
 **Due date: Nov 28**
 
-💡 This is team project, you can work with a partner. Plaese make sure to team up with a partner ahead of time. You both need to join the same Github Classroom team. Make sure that both of your names are associated with the submission in Gradescope.
+💡 This is a pair project. You can work with a partner if you choose. Communicate
+with your partner ahead of time, then join the same Github Classroom team. Make 
+sure that both of your names are associated with the submission in Gradescope.
 
-If you get stuck, confused, or have trouble with the project, you should use the **#help-prog1** channel in Discord or message an instructor. Try not to spoil the project for others - use Discord spoiler tags if you are going to include a screenshot or code sample.
+If you get stuck, confused, or have trouble with the project, you should use the 
+**#help-prog1** channel in Discord or message an instructor. Try not to spoil 
+the project for others - use Discord spoiler tags if you are going to include a 
+screenshot or code sample.
 
 ## Directory Maintainer
 
@@ -17,14 +22,20 @@ You'll practice lots of filesystem manipulation.
 
 ## How should you work together?
 
-You need to communicate about work splitting and areas of responsibility. You will implement a function with small features, try to communicate who is responsible for which feature.
+You need to communicate about work splitting and areas of responsibility. Decide
+who will be responsible for each of the features of the project.
 
-For instance, each student can take more responsibility to support a specific feature within code:
+Here's one way you might split up the work:
 
-- Team member 1: Size threshold feature
-- Team member 2: Log windows feature
+- Discuss the plan for the project
+- Pair program on creating the destination folders and the File Categorization
+- Team member 1: implement the Log Retention feature
+- Team member 2: implement the Large Files size threshold feature
+- Both: test that the code works as expected
 
-If you are working by pair programming, make sure to switch roles between code snippets so each of you get the chance to write and review code.
+When you are pair programming, make sure to switch roles so each of you get the 
+chance to write and review code. Both of you need to know how all the code
+works in your project, even for the parts you did not write.
 
 ---
 
