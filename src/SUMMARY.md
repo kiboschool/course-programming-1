@@ -74,7 +74,6 @@
   - [Practice](lessons/files/practice.md)
   - [Project](lessons/files/project.md)
 
-<!--
 - [Data Structures](lessons/data_structures.md)
 
   - [Dictionary Basics](lessons/data_structures/basics_of_dicts.md)
