@@ -19,21 +19,26 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 </aside>
 
+## Matrix Row Sum
+
+You will write a function to provide the sum of matrix rows.
+
+[![row-sum](https://img.shields.io/static/v1?label=Open%20Project&message=row%20sum&color=blue)](https://classroom.github.com/a/K_rAenKA)
+
+<details><summary>Practice Solution Video</summary>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/3bf3b5afa4fc498896a9668eca59bca2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+</details>
+
 ## Fetching Web Data with Requests
 
-You'll get data from a web source using the `requests` library.
+Scrape data from the web using the `requests` library.
 
 [![fetching-web-data](https://img.shields.io/static/v1?label=Open%20Project&message=fetching%20web%20data&color=blue)](https://classroom.github.com/a/lqfhwH6L)
 
-## JSON Parsing
-
-In this exercise, you'll parse some data using Python's built-in JSON library.
-
-[![json-parsing](https://img.shields.io/static/v1?label=Open%20Project&message=json%20parsing&color=blue)](https://classroom.github.com/a/C2S39qZe)
-
 ## Message Encode and Decode
 
-In this exercise, you'll build a Flask web server that canencode and decode
-messages.
+In this exercise, you'll explore encoding and decoding messages.
 
 [![message-encode-decode](https://img.shields.io/static/v1?label=Open%20Project&message=message%20encode%20decode&color=blue)](https://classroom.github.com/a/G0v3v-Cw)

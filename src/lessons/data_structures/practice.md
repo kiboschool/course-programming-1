@@ -19,21 +19,9 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 </aside>
 
-## Matrix Row Sum
-
-You will write a function to provide the sum of matrix rows.
-
-[![row-sum](https://img.shields.io/static/v1?label=Open%20Project&message=row%20sum&color=blue)](https://classroom.github.com/a/K_rAenKA)
-
-<details><summary>Practice Solution Video</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/3bf3b5afa4fc498896a9668eca59bca2" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
-
 ## Word Frequency
 
-You will write a program to check word frequency within text.
+Write a program to calculate word frequency within text.
 
 [![word-frequency](https://img.shields.io/static/v1?label=Open%20Project&message=word%20frequency&color=blue)](https://classroom.github.com/a/k5CAlt2N)
 
@@ -45,7 +33,7 @@ You will write a program to check word frequency within text.
 
 ## Phone Book
 
-You will write a phone book program that manages contacts and numbers.
+Write a phone book program that manages contacts and numbers.
 
 [![phone-book](https://img.shields.io/static/v1?label=Open%20Project&message=phone%20book&color=blue)](https://classroom.github.com/a/dbQOL_m2)
 
@@ -54,3 +42,9 @@ You will write a phone book program that manages contacts and numbers.
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/e86deb0a22ed45e3992716cd2c9c2df6" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
+
+## JSON Parsing
+
+In this exercise, you'll parse some data using Python's built-in JSON library.
+
+[![json-parsing](https://img.shields.io/static/v1?label=Open%20Project&message=json%20parsing&color=blue)](https://classroom.github.com/a/C2S39qZe)
