@@ -150,7 +150,76 @@ the effect of the move `"charm"` with `pikachu["moves"]["charm"]`.
 "Dicts in Lists in Dicts in Dicts" sounds like a line straight out of Dr. Seuss,
 but deeply nested structures show up all the time in real programs!
 
-It's sometimes helpful in these situations to use intermediate variables, so
-that you can keep track of what is what.
+Let's see it applied to our restaurant example:
 
+```python
+restaurants = [
+  {
+    "name": "Chicken Republic", 
+    "cuisine": "Fast food",
+    "expense": "$",
+    "rating": 3.7,
+    "menu": [
+      {
+        "name": "Express Meal with Chips",
+        "price": 1900,
+      },
+      {
+        "name": "Quarter Rotisserie Chicken",
+        "price": 1500,
+      }
+    ]
+  },
+  {
+    "name": "Domino's Pizza", 
+    "cuisine": "Pizza",
+    "expense": "$$",
+    "rating": 4.1,
+    "menu": [
+      {
+        "name": "Any Medium Classic + Free Drink",
+        "price": 4000,
+      },
+      {
+        "name": "Any Large Classic Thin Crust Pizza",
+        "price": 5000
+      }
+    ]
+  },
+]
+```
+
+Accessing the name of the first item on the menu at the first restaurant:
+
+```python
+restaurants[0]["menu"][0]['name']
+# => "Express Meal with Chips"
+```
+
+It's sometimes helpful in these situations to use intermediate variables, so
+that you can keep track of what is what:
+
+```python
+chicken_republic = restaurants[0]
+cr_menu = chicken_republic["menu"]
+express_meal = cr_menu[0]
+express_meal["name"]
+# => "Express Meal with Chips"
+```
+
+Keeping track of deep structure like this is hard! It's often helpful to use the
+Python repl to navigate step by step towards your target, building up the
+accessors as you go. Then, you can consolidate into one line of code if you
+want.
+
+> **Questions**
+> * How would you access the price of the first item on the menu at the second
+>   restaurant?
+> * How would you access the rating of the second restaurant?
+> * How would you loop through all the menu items at the first restaurant to
+>   find the average price?
+> * How would you loop through all the restaurants and find the average price of
+>   all the items on the menu for that restaurant?
+
+Note that some of these are quite tricky!
 
