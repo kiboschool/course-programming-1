@@ -10,8 +10,6 @@ Other built-in Python data structures include `set` and `tuple`, and there are t
 
 ## Learning Objectives
 
-(often a string, but technically any immutable Python data type).
-
 After these lessons, you'll be able to:
 
 - Create, update, and read data from Python dictionaries

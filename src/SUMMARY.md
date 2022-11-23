@@ -76,9 +76,10 @@
 
 - [Data Structures](lessons/data_structures.md)
 
-  - [Dictionary Basics](lessons/data_structures/basics_of_dicts.md)
-  - [Advanced Dictionaries](lessons/data_structures/advanced_dicts.md)
-  - [Lists And Dictionaries](lessons/data_structures/dicts_vs_lists.md)
+  - [Dictionary Basics](lessons/data_structures/dict-basics.md)
+  - [Using Dictionaries](lessons/data_structures/using-dicts.md)
+  - [Nested Dictionaries](lessons/data_structures/nesting.md)
+  - [JSON](lessons/data_structures/json.md)
   - [Practice](lessons/data_structures/practice.md)
   - [Project](lessons/data_structures/project.md)
 
