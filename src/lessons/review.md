@@ -2,7 +2,9 @@
 
 This is the end of the material for this course.
 
-Instead of introducing any new topics, you'll review all that you've learned. It's key to take time to reflect on what you know now, what you're still confused about, and what you might learn next.
+Instead of introducing any new topics to use in your project, you'll review all 
+that you've learned. It's key to take time to reflect on what you know now, what
+you're still confused about, and what you might learn next.
 
 ## Preview
 

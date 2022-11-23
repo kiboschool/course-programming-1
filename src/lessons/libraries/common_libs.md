@@ -1,45 +1,64 @@
-# 9.2 Libraries
+# Common Libraries
 
-In this section, we will check some common python libs, and their basic functionality.
+In this section, you'll be introduced to several common python libraries and 
+what they can do.
+
+## Libraries you've already seen
+
+We won't cover them in depth here, but you've used modules before in some of
+your projects:
+
+- `random`
+- `json`
+- `math`
+- `time`
 
 ## OS Module
-We already touched this module at previous lessons and you may know what is the main functionality for it by now. We have seen how to use this module to interact with directories and maybe files.
-OS is one of the most useful modules that comes with the standard python utility. It provides methods to interact with the operating system. This module provides a portable way of using operating system-dependent functionality. The *os* and *os.path* modules include many functions to interact with the file system.
 
-### Working Directory
-The folder where the Python script is running is known as the Current Directory. This is not the path where the Python script is located. Usind OS we can locate the current working directory using `os.getcwd()`
-```
-# Python program to explain os.getcwd() method
+We already touched this module in your lessons about files, so you may already know a bit about the `os` module. 
 
-# importing os module
+You have seen this module can interact with directories and files.
+
+`os` is one of the most useful modules in the standard library. It provides methods to interact with the operating system. 
+
+The Operating System controls resources on every computer. That includes things
+like files, network access, hardware, and communication between processes.
+Sometimes other libraries (like `json` or `requests`) will handle dealing with
+the operating system for you, but if you need to deal directly with the
+operating system, this is the module for you.
+
+The `os` and `os.path` modules include many functions to interact with the file system, which is the most common way that you'll use the module right now.
+
+Here's a sample of uses for the `os` module:
+
+The folder where the Python script is running is known as the Current Directory. 
+Whenever you use a relative name for a file, Python starts looking in the 
+current working directory. 
+
+Note that the cwd is not always the path where the Python script is located! You can
+run a Python program from some other location, and that location will be the
+cwd.
+
+You can locate the cwd using `os.getcwd()`
+
+```python
 import os
 
-# Get the current working
-# directory (CWD)
+# Get the current working directory
 cwd = os.getcwd()
 
-# Print the current working
-# directory (CWD)
+# Print the cwd
 print("Current working directory:", cwd)
 ```
 
-> **_NOTE:_**  **Whenever you call files by their direct names, python starts looking in the current working directory**
+What if you want to change the cwd? For that, there is `os.chdir()`.
 
-What about the case when we need to change the current working directory? For that, OS module has another method called `os.chdir()`.
-
-```
-# Python program to change the
-# current working directory
+```python
 import os
-# Function to Get the current
-# working directory
+# Get the current working directory
 def current_path():
-    print("Current working directory before")
     print(os.getcwd())
-    print()
 
-
-# Driver's code
 # Printing CWD before
 current_path()
 
@@ -49,63 +68,60 @@ os.chdir('../')
 # Printing CWD after
 current_path()
 ```
-The example above changes the current working directory to one parent folder in tree.
 
- > **_OS Module:_**  **For more information about OS module and its functions, please check the docs: https://www.geeksforgeeks.org/os-module-python-examples/**
+The example above changes the current working directory to the parent folder,
+but you could change directory to any other folder by passing in the path.
 
-## Requests Module
-Requests module implements main web methods that you need to communicate using HTTP protocol. You may have learnt about these main request types by now at the `Web Foundations` course.
-Basic methods provided by this module are:
-- GET: indicates that you’re trying to get or retrieve data from a specified resource.
-- POST: indicates that you are trying to alter data on a resource.
+### Further Reading: OS Module
+
+Read more about the `os` library in the docs: https://docs.python.org/3/library/os.html
+
+## Requests
+
+The `requests` library makes it easy to get or send data over the internet.
+
+It has functions that correspond to the basic HTTP verbs:
+
+- GET: get or retrieve data from a specified resource.
+- POST: alter data on a resource.
 - DELETE: remove a resource.
-- PUT: change the state of resource or update it.
+- PUT: update a resource
 
-Each request that we make has a response. What usually happens is that we choose a suitable type of request to make and parse the response object that we get in return.
-Example:
-```
+request to make and parse the response object that we get in return.
+
+```python
 import requests
 response = requests.get('https://api.github.com')
+print(response.text)
 ```
-In this example, we have captured the return value of get(), which is an instance of `Response`, and stored it in a variable called response. You can now use response to see a lot of information about the results of your __GET__ request.
+
+You can use the `response` to see a lot of information about the results of the GET request.
 
 ### Request
+
 The main part of the request is the method, and depends on what method you use, there is the body of the request.
 For `Post` and `Put` requests for example, you need to pass a body with the request:
 ```
 requests.post('https://httpbin.org/post', data={'key':'value'})
 ```
 
-### Response
-Response is an object that you get in return. You can save this object within a variable and parse its contents.
-#### Status Codes
-One of the first pieces of information that we check in a response object is the status code. There are specific codes for specific cases. For example, `200` maans that the request was successful and `404` means the page was not found!
-```
-if response.status_code == 200:
-    print('Success!')
-elif response.status_code == 404:
-    print('Not Found.')
-```
-There are many other status codes withing this module, it is highly recommended to check the documentation.
+### Further Reading: Requests Library
 
-#### Payload
-Another important part of the response object is the payload (content). While `.content` gives you access to the raw bytes of the response payload, you will often want to convert them into a string using a character encoding such as UTF-8. response will do that for you when you access .text:
-```
-response.text
-'{"current_user_url":"https://api.github.com/user","current_user_authorizations_html_url":"https://github.com/settings/connections/applications{/client_id}","authorizations_url":"https://api.github.com/authorizations","code_search_url":"https://api.github.com/search/code?q={query}{&page,per_page,sort,order}","commit_search_url":"https://api.github.com/search/commits?q={query}{&page,per_page,sort,order}","emails_url":"https://api.github.com/user/emails","emojis_url":"https://api.github.com/emojis","events_url":"https://api.github.com/events","feeds_url":"https://api.github.com/feeds","followers_url":"https://api.github.com/user/followers","following_url":"https://api.github.com/user/following{/target}","gists_url":"https://api.github.com/gists{/gist_id}","hub_url":"https://api.github.com/hub","issue_search_url":"https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}","issues_url":"https://api.github.com/issues","keys_url":"https://api.github.com/user/keys","notifications_url":"https://api.github.com/notifications","organization_repositories_url":"https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}","organization_url":"https://api.github.com/orgs/{org}","public_gists_url":"https://api.github.com/gists/public","rate_limit_url":"https://api.github.com/rate_limit","repository_url":"https://api.github.com/repos/{owner}/{repo}","repository_search_url":"https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}","current_user_repositories_url":"https://api.github.com/user/repos{?type,page,per_page,sort}","starred_url":"https://api.github.com/user/starred{/owner}{/repo}","starred_gists_url":"https://api.github.com/gists/starred","team_url":"https://api.github.com/teams","user_url":"https://api.github.com/users/{user}","user_organizations_url":"https://api.github.com/user/orgs","user_repositories_url":"https://api.github.com/users/{user}/repos{?type,page,per_page,sort}","user_search_url":"https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"}'
-```
-> **_Requests Module:_**  **For more information about Requests module and its functions, please check the docs: https://requests.readthedocs.io/en/latest/**
+For more information about Requests and its functions, check out its documentation: [https://requests.readthedocs.io/en/latest](https://requests.readthedocs.io/en/latest/)
 
-## Encoding Module - Base64
-The Base64 encoding is used to convert bytes that have binary or text data into ASCII characters. Encoding prevents the data from getting corrupted when it is transferred or processed through a text-only system.
-Main methods to understand here are the encode and decode.
+## Base64
+
+Base64 encoding is used to convert binary data into ASCII characters. Encoding 
+prevents the data from getting corrupted when it is transferred or processed 
+through a text-only system.
 
 ### Encoding
-Encoding data has mainly teo steps:
+
+Encoding data has two basic steps:
 - Convert string data into byte-like objects
 - Encode using base64 module
 
-```
+```python
 import base64
 
 sample_string = "Welcome to Programming 1 at KIBO"
@@ -118,14 +134,18 @@ print(f"Encoded string: {base64_string}")
 ```
 
 Output:
-`Encoded string: V2VsY29tZSB0byBQcm9ncmFtbWluZyAxIGF0IEtJQk8=`
+```
+Encoded string: V2VsY29tZSB0byBQcm9ncmFtbWluZyAxIGF0IEtJQk8=
+```
 
 ### Decoding
-Decoding would be the opposite of the two steps wen mentioned earlier. Let us take the output from the previous example and try to decode it back to its original form.
 
-```
+Decoding is opposite of encoding. 
+
+Take the output from the previous example and decode it back to its original form.
+
+```python
 import base64
-
 
 base64_string ="V2VsY29tZSB0byBQcm9ncmFtbWluZyAxIGF0IEtJQk8="
 base64_bytes = base64_string.encode("ascii")
@@ -138,4 +158,6 @@ print(f"Decoded string: {sample_string}")
 Output:
 `Decoded string: Welcome to Programming 1 at KIBO`
 
-> **_Base64:_**  **For more information about Base64 module and its functions, please check the docs: https://docs.python.org/3/library/base64.html**
+### Further Reading: Base64
+
+See the docs for Base64: [https://docs.python.org/3/library/base64.html](https://docs.python.org/3/library/base64.html)

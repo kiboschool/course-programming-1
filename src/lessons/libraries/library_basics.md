@@ -1,36 +1,40 @@
-# 9.1 Libraries
+# Libraries
 
-In this section, you will more about libraries, their usage and importance.
+In this section, you'll learn more about libraries and how to use them.
 
-## What is a Library
-We already talked about modules in python and how can we use external functions using the keyword `import`. At this section, we will take a closer look at this concept and in the next lesson, we are going to check main features of some known libraries in python.
+## What is a Library?
 
-Normally, a library is a collection of books or is a room or place where many books are stored to be used later. Similarly, in the programming world, a library is a collection of precompiled codes that can be used later on in a program for some specific well-defined operations. Other than pre-compiled codes, a library may contain documentation, configuration data, message templates, classes, and values, etc.
+You've used the keyword `import` to access external modules. Now, you'll take a closer look at how programmers use code written by other people.
 
-A Python library is a collection of related modules. It contains bundles of code that can be used repeatedly in different programs. It makes Python Programming simpler and convenient for the programmer. As we don’t need to write the same code again and again for different programs. Python libraries play a very vital role in many fields like Machine Learning, Data Science, Data Visualization, etc.
+A library is a collection of code that can be used in other programs for specific operations. Other than code, a library may contain documentation, configuration data, message templates, classes, values, and more.
 
-> **_Libraries & Modules_** A library is a collection of modules, but the terms are often used interchangeably, especially since many libraries only consist of a single module, so don’t worry if you mix them.
+A Python library aims to make programming simpler and more convenient for the programmer. We don’t need to write the same code again and again for different programs.
 
-### Python Standard Library
-The Python Standard Library is a collection of script modules accessible to a Python program to simplify the programming process and removing the need to rewrite commonly used commands. They can be used by 'calling/importing' them at the beginning of a script.
+Python libraries play a vital role in many fields like Machine Learning, Data Science, Data Visualization, and Web Development. As you learn more about those fields, you'll become familiar with the modules that are most often used in those fields.
 
-The following are among the most important:
-- time
-- sys
-- os
-- math
+> **Libraries & Modules** A library is a collection of modules, but the terms are often used interchangeably, especially since many libraries only consist of a single module. Don’t worry if you mix them up.
+
+## The Standard Library
+
+The Python Standard Library is a collection of modules accessible to every Python program to simplify the programming process. You have used the Standard library by importing modules at the beginning of your scripts.
+
+The following are among the most common:
 - random
-- pickle
+- time
+- json
+- math
+- os
 - urllib
 - re
 
-> Look up each of these libraries. Read about what the library is for.
-
-> Check the list of all standard library modules at http://www.python.org/doc/
+> **Exploration**
+> * Look up the documentation each of the libraries listed. What is each library for?
+> * See the list of all standard library modules at [http://www.python.org/doc/](http://www.python.org/doc/).
+>   What other modules are you curious about?
 
 ## Using modules
 
-Use `import` to load a library module into a program’s memory. Then refer to things from the module as `module_name.thing_name`
+Use `import` to load a module into your program. Then, you can use items from the module as `module_name.thing_name`
 Python uses `.` to mean “part of”.
 
 Here's an example using the `string` module, a standard library module for common string operations:
@@ -48,19 +52,56 @@ The lower ascii letters are abcdefghijklmnopqrstuvwxyz
 Capitalise This Sentence Please.
 ```
 
-### Install a Library
+## Installing Libraries
 
-Some libraries are not part of standard Python, so you need to install them using `pip`.
-`pip install <library>`
+Only some libraries are part of the Python Standard Library that come with every
+Python installation. They need to be downloaded onto your computer in order to
+use them.
 
-You need to check the documentation for the needed library to get the correct pip command.
+Python has a built-in package manager called `pip` for installing external libraries.
+
+You can install a library by running this terminal command:
+
+```sh
+python -m pip install <library>
+```
+
+Usually, the documentation for a library will tell you the name of the library
+to pass into `pip`, often in a section called "Installation" or "Getting
+Started".
+
+## Try it: install a library with pip
+
+The [requests](https://requests.readthedocs.io/en/latest/) library is helpful
+for fetching data from the web.
+
+Install it with:
+
+```sh
+python -m pip install requests
+```
+
+Then try it out. Start a `python` repl, then import and use the library:
+
+```python
+$ python
+>>> import requests
+>>> r = requests.get('https://api.github.com/events')
+>>> r.text
+```
+
+There's a big blob of JSON data there, fetched from Github!
+
+> Note: installing libraries can get messy. Ask for help in Discord if you
+> encounter any issues with library installation.
 
 ## Library Contents
-How would we then check functions within a specific library? We can use the keyword __help__
+
+You use the keyword `help` to show the contents of a library once it's installed.
 
 `help(string)` would show the following:
 
-```
+```txt
 Help on module string:
 
 NAME
@@ -90,64 +131,88 @@ DESCRIPTION
 ```
 
 ## Specific Imports
-We can use from __<module>__ import __<method>__ to load only specific items from a library module. Then refer to them directly without library name as prefix.
-```
+
+You can use `from __<module>__ import __<method>__` to load only specific items 
+from a library. Then you can refer to them without the library name as prefix.
+
+```python
 from string import ascii_letters
 
 print('The ASCII letters are', ascii_letters)
 ```
+
 Output:
 ```
 The ASCII letters are abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 
-## Import with Alias
-An alias is a name tag that is given to a module where you can use it withing your code. Use import ... as ... to give a library a short alias while importing it.
-Then refer to items in the library using that shortened name.
+## Import with alias
 
-Example:
-```
+An alias is an alternate name given to a module in your program, using the `as`
+keyword.
+
+Use `import ... as ...` to give a library a short alias while importing it.
+
+```python
 import string as s
 print(s.capwords('capitalise this sentence again please.'))
 ```
+
 Output:
-`Capitalise This Sentence Again Please`
+```txt
+Capitalise This Sentence Again Please
+```
 
-Alias is useful for libraries that are frequently used or have long names. E.g., The __pandas__ library is often aliased as __pd__.
+Aliasing is useful when a library is used frequently, or if it has a long name. 
 
-> **_NOTE:_** Alias can make programs harder to understand, since readers must learn your program’s aliases.
+For example, the `pandas` library is often aliased to `pd`, since data
+scientists use the library so much!
 
-## General Examples
+> **Note:** Like all names, aliases can make programs harder to understand, 
+> since readers must learn your program’s aliases.
 
-> **_Exploring a Library:_**
->> **Practice Question:** What function from the os library can you use to determine the current working directory?
->>
->> **Solution:** Using help(os) we see that we’ve got `os.getcwd()` which returns a string representing the current working directory.
+## Try it: Exploring Libraries
 
+Try answering each of the following questions about libraries, using the lesson
+above and the documentation.
 
-> **_Using the correct method withing a Library:_**
->> **Practice Question:** Given the variables year, month and day, how would you generate a date in the standard iso format:
-`year = 2016, month = 10, day = 22`
->> - Which standard library module could help you?
->> - Which function would you select from that module?
->> - Try to write a program that uses the function.
->>
->>**Solution:** The datetime module seems like it could help you. You could use date(year, month, date).isoformat() to convert your date
->> `import datetime`
->> `iso_date = datetime.date(year, month, day).isoformat()`
->> `print(iso_date)`
+> **Question:** What function from the `os` library can you use to determine the 
+> current working directory?
+>
+> **Solution:** Using help(os), see that `os.getcwd()` returns the current working directory.
 
+> **Question:** Given the variables year, month and day, how would you generate 
+> a date in the standard ISO date format?
+> - Which standard library module could help you?
+> - Which function would you select from that module?
+> - Try to write a program that uses the function.
+>
+> **Solution:** The datetime module could help. 
+>   You could use `date(year, month, date).isoformat()` to convert your date
+>
+> ```python
+> import datetime
+> iso_date = datetime.date(year, month, day).isoformat()
+> print(iso_date)
+> ```
 
-> **_Ways to import a library:_**
->> **Practice Question:** Match the following print statements with the appropriate library calls
->> Library calls:
->> A) from string import digits
->> B) import string
->> C) import string as s
->> Print commands:
->> 1. print(list(s.digits))
->> 2. print(list(digits))
->> 3. print(string.ascii_uppercase)
->>
->> **Solution:**
->> A2) Importing digits from string provides the digits methods B3) Importing string provides methods such as ascii_uppercase, but requires the string. syntax. C1) Importing string with the alias s allows s.digits
+> **Question:** Match the following print statements with the import statements
+> needed to make them work.
+>
+> _Import statements:_
+>
+> A. `from string import digits`
+>
+> B. `import string`
+>
+> C. `import string as s`
+>
+> _Print statements:_
+> 1. `print(list(s.digits))`
+> 2. `print(list(digits))`
+> 3. `print(string.ascii_uppercase)`
+>
+> **Solution:**
+> * A == 2: Importing `digits` from string provides the digits methods
+> * B == 3: Importing `string` provides methods such as `ascii_uppercase`, with the `string.` prefix. 
+> * C == 1: Importing `string` with the alias `s` allows `s.digits`

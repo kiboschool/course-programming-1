@@ -42,3 +42,5 @@ Scrape data from the web using the `requests` library.
 In this exercise, you'll explore encoding and decoding messages.
 
 [![message-encode-decode](https://img.shields.io/static/v1?label=Open%20Project&message=message%20encode%20decode&color=blue)](https://classroom.github.com/a/G0v3v-Cw)
+
+

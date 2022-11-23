@@ -83,10 +83,12 @@
   - [Practice](lessons/data_structures/practice.md)
   - [Project](lessons/data_structures/project.md)
 
-- [Libraries](lessons/libraries.md)
+- [Libraries and Complexity](lessons/libraries-and-complexity.md)
 
   - [Library Basics](lessons/libraries/library_basics.md)
   - [Common Libraries](lessons/libraries/common_libs.md)
+  - [Algorithms](lessons/complexity/algorithms.md)
+  - [Complexity](lessons/complexity/complexity.md)
   - [Practice](lessons/libraries/practice.md)
 
 - [Review and Preview](lessons/review.md)
