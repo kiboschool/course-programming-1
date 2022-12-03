@@ -35,6 +35,7 @@ Here is an example:
 The figure above is a state diagram showing hist and inverse. A dictionary is represented as a box with the type dict above it and the key-value pairs inside. If the values are integers, floats or strings, I draw them inside the box, but I usually draw lists outside the box, just to keep the diagram simple.
 
 Lists can be values in a dictionary, as this example shows, but they cannot be keys. Here’s what happens if you try:
+
 ```
 >>> t = [1, 2, 3]
 >>> d = dict()
@@ -94,25 +95,27 @@ LookupError
 The effect when you raise an exception is the same as when Python raises one: it prints a traceback and an error message.
 
 When you raise an exception, you can provide a detailed error message as an optional argument. For example:
+
 ```
 >>> raise LookupError('value does not appear in the dictionary')
 Traceback (most recent call last):
   File "<stdin>", line 1, in ?
 LookupError: value does not appear in the dictionary
 ```
+
 A reverse lookup is much slower than a forward lookup; if you have to do it often, or if the dictionary gets big, the performance of your program will suffer.
 
 > **_NOTE:_** Raising Exceptions and handling them was scanned here quickly. This topic will be covered in more detail at Programming 2
 
-
+<!--
 ### `**kwargs`
 
-`**kwargs` allows us to pass a variable number of keyword arguments to a function. 
+`**kwargs` allows us to pass a variable number of keyword arguments to a function.
 
 When you use `*args`, you can't use keyword arguments, so all of the items end
 up in the list, without knowing what they represent.
 
-When you use `*kwargs`, the values go in a dictionary. We haven't yet covered 
+When you use `*kwargs`, the values go in a dictionary. We haven't yet covered
 Python dictionaries, but they let you have _names_ for each of the values.
 
 ```python
@@ -134,6 +137,7 @@ student_3 == Ope
 ### Hybrid Usage of *args & *kwargs
 
 It is possible to use both of *args & *kwargs to pass data to functions. Check the following greeting example
+
 ```python
 def greeting(*args, **kwargs):
     print("args: ", args)
@@ -144,10 +148,15 @@ def greeting(*args, **kwargs):
 greeting('Welcome', 'to', 'Kibo', first="Welcome", mid="to", last="Kibo")
 ```
 
+
+-->
+
 ## Fibonacci
+
 Fibonacci is a mathematical function that has the following definition: https://en.wikipedia.org/wiki/Fibonacci_number
 
 One implementation of this function in python would be:
+
 ```
 def PrintFibonacci(length):
     #Initial variable for the base case.
@@ -183,6 +192,7 @@ if __name__ == "__main__":
 ```
 
 Output for 7:
+
 ```
 Fibonacci Series -
 1 1 2 3 5 8
