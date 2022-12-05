@@ -84,7 +84,7 @@
   - [Project](lessons/data_structures/project.md)
 
 - [Libraries and Complexity](lessons/libraries-and-complexity.md)
-
+  - [Libraries](lessons/libraries.md)
   - [Library Basics](lessons/libraries/library_basics.md)
   - [Common Libraries](lessons/libraries/common_libs.md)
   - [Algorithms](lessons/complexity/algorithms.md)
