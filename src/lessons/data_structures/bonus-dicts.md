@@ -35,6 +35,7 @@ Here is an example:
 The figure above is a state diagram showing hist and inverse. A dictionary is represented as a box with the type dict above it and the key-value pairs inside. If the values are integers, floats or strings, I draw them inside the box, but I usually draw lists outside the box, just to keep the diagram simple.
 
 Lists can be values in a dictionary, as this example shows, but they cannot be keys. Here’s what happens if you try:
+
 ```
 >>> t = [1, 2, 3]
 >>> d = dict()
@@ -135,6 +136,7 @@ student_3 == Ope
 ### Hybrid Usage of *args & *kwargs
 
 It is possible to use both of *args & *kwargs to pass data to functions. Check the following greeting example
+
 ```python
 def greeting(*args, **kwargs):
     print("args: ", args)
@@ -144,14 +146,7 @@ def greeting(*args, **kwargs):
 # Now we can use both *args ,**kwargs
 greeting('Welcome', 'to', 'Kibo', first="Welcome", mid="to", last="Kibo")
 ```
-<<<<<<< HEAD:src/lessons/data_structures/bonus-dicts.md
 
-||||||| 797a06f:src/lessons/data_structures/advanced_dicts.md
-=======
-
--->
-
->>>>>>> main:src/lessons/data_structures/advanced_dicts.md
 ## Fibonacci
 
 Fibonacci is a mathematical function that has the following definition: https://en.wikipedia.org/wiki/Fibonacci_number

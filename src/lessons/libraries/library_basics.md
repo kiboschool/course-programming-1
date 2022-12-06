@@ -2,6 +2,16 @@
 
 In this section, you'll learn more about libraries and how to use them.
 
+Libraries are other people's code. They let us do tasks that we wouldn't be able to do otherwise -- at least, not without great effort.
+
+For a small example: you've used `random.randint` throughout the course. How would you write a function that returns a random integer? The python standard library uses a pseudorandom number generation algorithm called the Mersenne Twister, in python and c. It's a few hundred lines of pretty complicated code, especially because the C code and Python code have to interact. (You can take a look here: [Python](https://github.com/python/cpython/blob/main/Lib/random.py) and [C code](https://github.com/python/cpython/blob/6f6a4e6cc5cd76af4a53ffbb62b686142646ac9a/Modules/_randommodule.c))
+
+Thankfully, you don't have to read that code, and _definitely_ don't have to write that code. Someone else figured out a good way to generate random numbers, and now you can just use that, instead of having to figure it out yourself.
+
+<!--
+This week you'll learn more about the Python standard library, how to manage external libraries, and how to use some of the most common and powerful libraries (JSON, Requests, and Flask) to accomplish tasks.
+ -->
+
 ## What is a Library?
 
 You've used the keyword `import` to access external modules. Now, you'll take a closer look at how programmers use code written by other people.
@@ -19,6 +29,7 @@ Python libraries play a vital role in many fields like Machine Learning, Data Sc
 The Python Standard Library is a collection of modules accessible to every Python program to simplify the programming process. You have used the Standard library by importing modules at the beginning of your scripts.
 
 The following are among the most common:
+
 - random
 - time
 - json
@@ -28,8 +39,9 @@ The following are among the most common:
 - re
 
 > **Exploration**
-> * Look up the documentation each of the libraries listed. What is each library for?
-> * See the list of all standard library modules at [http://www.python.org/doc/](http://www.python.org/doc/).
+>
+> - Look up the documentation each of the libraries listed. What is each library for?
+> - See the list of all standard library modules at [http://www.python.org/doc/](http://www.python.org/doc/).
 >   What other modules are you curious about?
 
 ## Using modules
@@ -47,6 +59,7 @@ print(string.capwords('capitalise this sentence please.'))
 ```
 
 Output:
+
 ```
 The lower ascii letters are abcdefghijklmnopqrstuvwxyz
 Capitalise This Sentence Please.
@@ -73,7 +86,7 @@ Started".
 ## Try it: install a library with pip
 
 The [requests](https://requests.readthedocs.io/en/latest/) library is helpful
-for fetching data from the web.
+for fetching data from the web. You will probably use it a lot in the future.
 
 Install it with:
 
@@ -91,6 +104,7 @@ $ python
 ```
 
 There's a big blob of JSON data there, fetched from Github!
+<img src="../../images/github-call.png" />
 
 > Note: installing libraries can get messy. Ask for help in Discord if you
 > encounter any issues with library installation.
@@ -99,7 +113,7 @@ There's a big blob of JSON data there, fetched from Github!
 
 You use the keyword `help` to show the contents of a library once it's installed.
 
-`help(string)` would show the following:
+Starting a python repl, then writing `help("string")` would show the following:
 
 ```txt
 Help on module string:
@@ -132,7 +146,7 @@ DESCRIPTION
 
 ## Specific Imports
 
-You can use `from __<module>__ import __<method>__` to load only specific items 
+You can use `from __<module>__ import __<method>__` to load only specific items
 from a library. Then you can refer to them without the library name as prefix.
 
 ```python
@@ -142,6 +156,7 @@ print('The ASCII letters are', ascii_letters)
 ```
 
 Output:
+
 ```
 The ASCII letters are abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
@@ -159,16 +174,17 @@ print(s.capwords('capitalise this sentence again please.'))
 ```
 
 Output:
+
 ```txt
 Capitalise This Sentence Again Please
 ```
 
-Aliasing is useful when a library is used frequently, or if it has a long name. 
+Aliasing is useful when a library is used frequently, or if it has a long name.
 
 For example, the `pandas` library is often aliased to `pd`, since data
 scientists use the library so much!
 
-> **Note:** Like all names, aliases can make programs harder to understand, 
+> **Note:** Like all names, aliases can make programs harder to understand,
 > since readers must learn your program’s aliases.
 
 ## Try it: Exploring Libraries
@@ -176,25 +192,34 @@ scientists use the library so much!
 Try answering each of the following questions about libraries, using the lesson
 above and the documentation.
 
-> **Question:** What function from the `os` library can you use to determine the 
+> **Question:** What function from the `os` library can you use to determine the
 > current working directory?
->
-> **Solution:** Using help(os), see that `os.getcwd()` returns the current working directory.
 
-> **Question:** Given the variables year, month and day, how would you generate 
+<details><summary>Solution</summary>
+
+Using help(os), see that `os.getcwd()` returns the current working directory.
+
+</details>
+
+> **Question:** Given the variables year, month and day, how would you generate
 > a date in the standard ISO date format?
+>
 > - Which standard library module could help you?
 > - Which function would you select from that module?
 > - Try to write a program that uses the function.
->
-> **Solution:** The datetime module could help. 
->   You could use `date(year, month, date).isoformat()` to convert your date
->
+
+<details><summary>Solution</summary>
+
+The datetime module could help.
+You could use `date(year, month, date).isoformat()` to convert your date
+
 > ```python
 > import datetime
 > iso_date = datetime.date(year, month, day).isoformat()
 > print(iso_date)
 > ```
+
+</details>
 
 > **Question:** Match the following print statements with the import statements
 > needed to make them work.
@@ -208,11 +233,15 @@ above and the documentation.
 > C. `import string as s`
 >
 > _Print statements:_
+>
 > 1. `print(list(s.digits))`
 > 2. `print(list(digits))`
 > 3. `print(string.ascii_uppercase)`
->
-> **Solution:**
-> * A == 2: Importing `digits` from string provides the digits methods
-> * B == 3: Importing `string` provides methods such as `ascii_uppercase`, with the `string.` prefix. 
-> * C == 1: Importing `string` with the alias `s` allows `s.digits`
+
+<details><summary>Solution</summary>
+
+> - A == 2: Importing `digits` from string provides the digits methods
+> - B == 3: Importing `string` provides methods such as `ascii_uppercase`, with the `string.` prefix.
+> - C == 1: Importing `string` with the alias `s` allows `s.digits`
+
+</details>

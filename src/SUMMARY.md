@@ -90,6 +90,8 @@
   - [Complexity](lessons/complexity/complexity.md)
   - [Practice](lessons/libraries/practice.md)
 
+<!--
 - [Review and Preview](lessons/review.md)
 
 [Additional Practice](lessons/additional-practice.md)
+ -->

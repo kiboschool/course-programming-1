@@ -17,10 +17,6 @@ only submit one of them in Gradescope.
 
 ## Population Analysis
 
-This project will be a data analysis problem. You'll use what you've
-learned so far to understand a population dataset, and have a chance to
-creatively explore in other directions.
-
 In this project, you will be guided through an initial analysis of population
 data using all the concepts you've learned in the course. Once you've completed
 the initial analysis, you can choose what other analysis or features you'd like
@@ -49,3 +45,4 @@ In this project you will make a program to help a school manage student enrollme
 Requirements include managing students and course enrollment operations.
 
 [![student-management](https://img.shields.io/static/v1?label=Open%20Project&message=student-enrollment-management&color=blue)](https://classroom.github.com/a/NWtMiO2h)
+
