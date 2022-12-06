@@ -16,17 +16,7 @@ pages.
 - Week 6: Microprocessor Simulation (Due Nov 21)
 - Week 7: Directory Maintainer (Due Nov 28)
 - Week 8: Log File Analyzer (Due Dec 05)
-- Week 9 and 10: **Final Project** (Due Dec 16)
-
-<!-- TODO: comment in as we release each week
-- [Week 2: Bill Calculator](./conditionals/project.md) (Due Oct 24)
-- [Week 3: Password Validator](./loops/project.md) (Due Oct 31)
-- [Week 4 and 5: **Midterm Project**](./midterm-project.md) (Due Nov 13)
-- [Week 6: Microprocessor Simulation](./organizing_code/project.md) (Due Nov 21)
-- [Week 7: Directory Maintainer](./files/project.md) (Due Nov 28)
-- [Week 8: Log File Analyzer](./data_structures/project.md) (Due Dec 05)
-- [Week 9 and 10: **Final Project**](./final-project.md) (Due Dec 16)
--->
+- Week 9 and 10: **Final Project** (Due Dec 18)
 
 ## Grading
 
