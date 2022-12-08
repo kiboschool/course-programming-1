@@ -35,7 +35,7 @@ You will write a function to calculate the area of a circle.
 
 <details><summary>Area of Circle: Solution</summary>
 
-[https://www.loom.com/embed/3dc8a9528ec34f11a7788cfc97260fe6](https://www.loom.com/embed/3dc8a9528ec34f11a7788cfc97260fe6)
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/jaItZGKrNgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 
@@ -47,7 +47,7 @@ You'll write functions to convert between units.
 
 <details><summary>Unit Conversions: Solution</summary>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/2d54920d817e4a09ba9f55aa4503aea4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/TVYYXOYaeDM" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 
@@ -60,7 +60,7 @@ j
 
 <details><summary>Add numbers: Solution</summary>
 
-[https://www.loom.com/embed/f7b55b70584e43e582843b0cb2727951](https://www.loom.com/embed/f7b55b70584e43e582843b0cb2727951)
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/5NRgR99fs20" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 
@@ -72,7 +72,7 @@ You'll write a function that returns the smallest number in a list.
 
 <details><summary>Smallest Item in List Solution video</summary>
 
-[https://www.loom.com/embed/ce072cbb36ba4b5b8cd2906eafd54d51](https://www.loom.com/embed/ce072cbb36ba4b5b8cd2906eafd54d51)
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/a8jM7x4thXY" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 
@@ -84,7 +84,7 @@ You'll write a function that returns the smallest number in a list.
 
 <details><summary>Double List Elements: Solution</summary>
 
-[https://www.loom.com/embed/00403a0bf79f4c9c826533cd8a16c3b0](https://www.loom.com/embed/00403a0bf79f4c9c826533cd8a16c3b0)
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/SwHAzcDFApA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 

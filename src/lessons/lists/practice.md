@@ -27,7 +27,7 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 <details><summary>Watch the video to see the full solution</summary>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/0e8db087d2184d96866dace9ce4919aa" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/hTgBXKwtj98" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 
@@ -55,11 +55,9 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 [![list-average](https://img.shields.io/static/v1?label=Open%20Project&message=list%20average&color=blue)](https://classroom.github.com/a/BQbqIJYO)
 
-<details><summary>Watch the video to see the full solution: Part-1 describes how to write the code while Part-2 checks how to run it</summary>
+<details><summary>Watch the video to see the full solution</summary>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/f2c9a4a41d014007a56c7d05605b8bee" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/bbf10e93436246c5b9c8a9f29f2dc50a" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/44vt-z270sU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
 

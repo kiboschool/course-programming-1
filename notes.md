@@ -9,10 +9,11 @@ otherwise not configured beforehand, it's helpful to have the link.
 
 ## Videos
 
-- [Getting and submitting programming assignments](https://www.loom.com/share/b6f344e3887d46d7a63d5cafac2fc21e)
-- [Tips for solving exercises in VSCode](https://www.loom.com/share/cd047120eb2b4c26a40a43473532c4dd)
-- [How to read the test output](https://www.loom.com/share/e6c191ebd2494de0ae0979c65c5dd7d4)
-- [Uploading files from Github to Woolf](https://www.loom.com/share/9aade3f9cc88463aa5c0cf5281dbedcc)
-- [Submitting Assignments in Woolf](https://www.loom.com/share/00c15500b7694025819d182c53a9ec65)
+
+- [Getting and submitting programming assignments](https://youtu.be/wK5Tyk5p33A)
+- [Tips for solving exercises in VSCode](https://www.youtube.com/watch?v=RMekTMcl70E)
+- [How to read the test output](https://youtu.be/05RR-XE96z4)
+- [Uploading files from Github to Woolf](https://youtu.be/URLgtHO3VKA)
+- [Submitting Assignments in Woolf](https://youtu.be/L8ukP-4GIdQ)
 
 
