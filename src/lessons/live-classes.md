@@ -17,6 +17,7 @@ in github classroom, you can reach out in Discord to be added to the team.
 | 6    | Organizing Code    | [Code][w6-code] | [YouTube][w6-video-1] | [YouTube][w6-video-2] |
 | 7    | Files              | [Code][w7-code] | [YouTube][w7-video-1] | [YouTube][w7-video-2] |
 | 8    | Data Structures    | [Code][w8-code] | [YouTube][w8-video-1] | [YouTube][w8-video-2] |
+| 9    | Libraries          | [Code][w9-code] | [YouTube][w9-video-1] | [YouTube][w9-video-2] |
 
 [w1-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class1
 [w1-video-1]: https://youtu.be/65054g99EAY
@@ -42,3 +43,6 @@ in github classroom, you can reach out in Discord to be added to the team.
 [w8-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/blob/main/class8/code_links_per_class.txt
 [w8-video-1]: https://youtu.be/6S71OZ6YkkA
 [w8-video-2]: https://youtu.be/9a9KHC_CUoc
+[w9-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/blob/main/class9/
+[w9-video-1]: https://youtu.be/Sx9hZUWp2Ao
+[w9-video-2]: https://youtu.be/Sx9hZUWp2Ao
