@@ -7,17 +7,18 @@ To access the code, you'll need to have joined the github classroom org and been
 added to the team. Once you've joined the Github team by accepting an assignment
 in github classroom, you can reach out in Discord to be added to the team.
 
-| Week | Topic              | Code            | Section 1 Video       | Section 2 Video       |
-| ---- | ------------------ | --------------- | --------------------- | --------------------- |
-| 1    | Basics & Datatypes | [Code][w1-code] | [YouTube][w1-video-1] | [YouTube][w1-video-2] |
-| 2    | Conditionals       | [Code][w2-code] | [YouTube][w2-video-1] | [YouTube][w2-video-2] |
-| 3    | Loops              | [Code][w3-code] | [YouTube][w3-video-1] | [YouTube][w3-video-2] |
-| 4    | Lists              | [Code][w4-code] | [YouTube][w4-video-1] | [YouTube][w4-video-2] |
-| 5    | Functions          | [Code][w5-code] | [YouTube][w5-video-1] | [YouTube][w5-video-2] |
-| 6    | Organizing Code    | [Code][w6-code] | [YouTube][w6-video-1] | [YouTube][w6-video-2] |
-| 7    | Files              | [Code][w7-code] | [YouTube][w7-video-1] | [YouTube][w7-video-2] |
-| 8    | Data Structures    | [Code][w8-code] | [YouTube][w8-video-1] | [YouTube][w8-video-2] |
-| 9    | Libraries          | [Code][w9-code] | [YouTube][w9-video-1] | [YouTube][w9-video-2] |
+| Week | Topic              | Code            | Section 1 Video        | Section 2 Video        |
+| ---- | ------------------ | --------------- | ---------------------- | ---------------------- |
+| 1    | Basics & Datatypes | [Code][w1-code] | [YouTube][w1-video-1]  | [YouTube][w1-video-2]  |
+| 2    | Conditionals       | [Code][w2-code] | [YouTube][w2-video-1]  | [YouTube][w2-video-2]  |
+| 3    | Loops              | [Code][w3-code] | [YouTube][w3-video-1]  | [YouTube][w3-video-2]  |
+| 4    | Lists              | [Code][w4-code] | [YouTube][w4-video-1]  | [YouTube][w4-video-2]  |
+| 5    | Functions          | [Code][w5-code] | [YouTube][w5-video-1]  | [YouTube][w5-video-2]  |
+| 6    | Organizing Code    | [Code][w6-code] | [YouTube][w6-video-1]  | [YouTube][w6-video-2]  |
+| 7    | Files              | [Code][w7-code] | [YouTube][w7-video-1]  | [YouTube][w7-video-2]  |
+| 8    | Data Structures    | [Code][w8-code] | [YouTube][w8-video-1]  | [YouTube][w8-video-2]  |
+| 9    | Libraries          | [Code][w9-code] | [YouTube][w9-video-1]  | [YouTube][w9-video-2]  |
+| 10   | Review             |                 | [YouTube][w10-video-1] | [YouTube][w10-video-2] |
 
 [w1-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class1
 [w1-video-1]: https://youtu.be/65054g99EAY
@@ -46,3 +47,5 @@ in github classroom, you can reach out in Discord to be added to the team.
 [w9-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/blob/main/class9/
 [w9-video-1]: https://youtu.be/Sx9hZUWp2Ao
 [w9-video-2]: https://youtu.be/Sx9hZUWp2Ao
+[w10-video-1]: https://youtu.be/0RN0eBSyFrA
+[w10-video-2]: https://youtu.be/OPFAJxJ0pTM
