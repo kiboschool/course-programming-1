@@ -31,11 +31,16 @@ You will write a function to provide the sum of matrix rows.
 
 </details>
 
+<!--
+This project didn't seem ready yet, the programming-2 course will have similar projects though.
+
 ## Fetching Web Data with Requests
 
 Scrape data from the web using the `requests` library.
 
 [![fetching-web-data](https://img.shields.io/static/v1?label=Open%20Project&message=fetching%20web%20data&color=blue)](https://classroom.github.com/a/lqfhwH6L)
+
+-->
 
 ## Message Encode and Decode
 
