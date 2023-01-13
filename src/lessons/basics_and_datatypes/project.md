@@ -25,7 +25,7 @@ In order to get credit for your project, you must:
 
 This video walks through the process of submitting your project:
 
-<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://youtube.com/embed/wK5Tyk5p33A" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 62.5%; height: 0;"><iframe src="https://youtube.com/embed/wK5Tyk5p33A?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ---
 

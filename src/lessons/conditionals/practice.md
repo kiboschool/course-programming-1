@@ -29,7 +29,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 <details><summary>Watch the video to see the solution process</summary>
 
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/ZiiCw1H3D60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/ZiiCw1H3D60?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ![A snake looking quizically at its exam paper](/images/snake_exam.png)
 
@@ -43,7 +43,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 <details><summary>Watch the video to see the full solution</summary>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P5XvolfsQtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P5XvolfsQtY?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![A cool snake with blue tinted sunglasses is coiled around some books at the library](/images/cool_library_snake.png)
 
@@ -58,7 +58,7 @@ user's reactions are.
 
 <details><summary>Watch the video to see the full solution</summary>
 
-<iframe width="560" height="315" src="https://youtube.com/embed/Sl4tKrX-P-M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtube.com/embed/Sl4tKrX-P-M?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![Snake cowboy smokes in a deserted street in a frontier town](/images/snake_cowboy.png)
 

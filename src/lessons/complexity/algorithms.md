@@ -34,7 +34,7 @@ guess too low or too high, the program tells them that and lets them keep
 guessing.
 
 <details><summary>(See the video if you need a refresher)</summary>
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/EjVRtXPPJ7k" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/EjVRtXPPJ7k?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 </details>
 
 What is the best strategy for the _guesser_?
