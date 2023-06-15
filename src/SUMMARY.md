@@ -47,7 +47,8 @@
   - [Loop patterns](lessons/lists/loop-patterns.md)
   - [Loops, Conditions, and Lists](lessons/lists/conditions-and-lists.md)
   - [Splitting Strings](lessons/lists/split-strings.md)
-  - [Assignment](lessons/lists/practice.md)
+  - [Practice](lessons/lists/practice.md)
+  - [Assignment](lessons/lists/assignment.md)
 
 - [Functions](lessons/functions.md)
 
