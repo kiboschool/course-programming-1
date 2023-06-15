@@ -7,7 +7,7 @@
 # Assignment
 
 This week's assignment comprises 4 independent exercises which will test your 
-understanding of the use of lists in python. You are required to complete
+understanding of the use of user defined functions in python. You are required to complete
 all of them in order to get full marks. Specific instructions for each exercise are 
 in the `README.md` file within each exercise's folder. The exercises are:
 

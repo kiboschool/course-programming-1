@@ -6,15 +6,13 @@
 
 # Assignment
 
-This week's assignment comprises 3 independent exercises which will test your 
+This week's assignment comprises 2 independent exercises which will test your 
 understanding of loops in python. You are required to complete
 all of them in order to get full marks. Specific instructions for each exercise are 
 in the `README.md` file within each exercise's folder. The exercises are:
 
-
-* exam-results: Write a program that lets a user enter their exam score, then tells the user if they have passed the exam.
-* money-for-books: Write a program that tells users if they have enough money to buy their desired number of books.
-* bill-calculator: Build a program to help calculate Electricity and Water bills, turning the utility bill rules into conditions and boolean logic
+* rock-paper-scissors - Recreate the classic game of rock, paper, scissors.
+* password-validator - Implement a program that validates a password entered by a user.
 
 [//]: # (TODO: Add GHClassroom Assignment link for week-3)
 
