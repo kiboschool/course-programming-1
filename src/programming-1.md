@@ -96,23 +96,26 @@ practice problems included in the course.
 
 Your overall course grade is made up of:
 
-- Weekly assignments: 50%
-- Midterm Project: 25%
+- Weekly Assignments: 42%
+- Projects: 33%
 - Final Project: 25%
 
-* **Weekly Assignments**: Each week, you will have several ungraded exercises
-  to practice the concepts you learned that week. You will also have a
-  _project_, a substantive graded program to write. There are 6 projects in
-  total, each worth 10% of your final grade.
-* **Midterm and Final Project**: You will have two larger projects, midway
-  through the course and at the end of the course, reflecting all that you've
-  learned up to that point. Each contributes 25% of your final grade.
+* **Weekly Assignments**: On most weeks, you will have a few exercises
+  to practice the concepts you learned that week. Some of these exercises 
+  are graded and together they are referred to as the week's assignment.
+  There are 6 such exercises in total, each worth 7% of your final grade.
+* **Projects**: On other weeks, your deliverable is a  _project_, a substantive graded 
+  program to write. There are 2 projects in  total, each worth 16.5% of your 
+  final grade.
+* **Final Project**: At the end of the course, you will have a capstone project which
+  aims to use most of the skills you have learned in the course. This project 
+  contributes 25% of your final grade.
 
-Your projects will be hosted on Github and turned in on Gradescope (see the
+All your assessments will be hosted on Github and turned in on Gradescope (see the
 Tools section below). Projects will be scored in Gradescope based on whether
-they complete the task successfully and effectively.
+they complete the task successfully (does it work?) and effectively (is it well executed?).
 
-More details about your assignments are given on the next few pages.
+More details about your assessments are given on the next few pages.
 
 ## Tools
 
@@ -121,7 +124,7 @@ your laptop and installed the software yet, follow the guide in
 [https://github.com/kiboschool/setup-guides](https://github.com/kiboschool/setup-guides).
 
 * **Github** is a website that hosts code. We'll use it as a place to keep our project and assignment code.
-* **Github Classroom** is a tool for assigning individual and team projects on Github. 
+* **Github Classroom** is a tool for assigning projects on Github. 
 * **VSCode** is your code editor. It's where you'll write code to solve
     programming assignments. It also has an embedded terminal, where you can run
     Python to try out your code and test that it works.

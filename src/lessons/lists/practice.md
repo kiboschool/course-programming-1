@@ -31,35 +31,11 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 </details>
 
-## Safari Animals
-
-🦁 Write a program to print out the description of a zoo animal, based on user input.
-
-[![safari-animals](https://img.shields.io/static/v1?label=Open%20Project&message=safari%20animals&color=blue)](https://classroom.github.com/a/qfrBw2n3)
-
 ## Roster Change
 
 ⚽ There have been some changes to the roster. Write a program that makes the changes to the list and shows the old and new rosters.
 
 [![roster-change](https://img.shields.io/static/v1?label=Open%20Project&message=roster%20change&color=blue)](https://classroom.github.com/a/z7qppCX2)
-
-## Longest Word
-
-💬 In this assignment, you'll practice finding the longest word in a list.
-
-[![longest-word](https://img.shields.io/static/v1?label=Open%20Project&message=longest%20word&color=blue)](https://classroom.github.com/a/__KqxzDy)
-
-## List Average
-
-🔢 Calculate the average of numbers in a list.
-
-[![list-average](https://img.shields.io/static/v1?label=Open%20Project&message=list%20average&color=blue)](https://classroom.github.com/a/BQbqIJYO)
-
-<details><summary>Watch the video to see the full solution</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/44vt-z270sU" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
 
 ## Items Matching Rule
 
