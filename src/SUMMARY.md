@@ -2,8 +2,7 @@
 
 [Course Overview](programming-1.md)
 [Getting Help](lessons/ask_for_help.md)
-[Weekly Projects](lessons/weekly-projects.md)
-[Midterm Project](lessons/midterm-project.md)
+[Weekly Assessments](lessons/weekly-assessments.md)
 [Final Project](lessons/final-project.md)
 [Live Classes](lessons/live-classes.md)
 
@@ -18,7 +17,7 @@
   - [Input and Output](lessons/basics_and_datatypes/input-and-output.md)
   - [String formatting](lessons/basics_and_datatypes/string-concatenation-and-f-strings.md)
   - [Practice](lessons/basics_and_datatypes/practice.md)
-  - [Project](lessons/basics_and_datatypes/project.md)
+  - [Assignment](lessons/basics_and_datatypes/assignment.md)
 
 - [Conditionals](lessons/conditionals.md)
 
@@ -30,7 +29,7 @@
   - [And, Or, Not](lessons/conditionals/multi-way-decisions/and-or-not.md)
   - [Nested Conditionals](lessons/conditionals/multi-way-decisions/nested-conditionals.md)
   - [Practice](lessons/conditionals/practice.md)
-  - [Project](lessons/conditionals/project.md)
+  - [Assignment](lessons/conditionals/assignment.md)
 
 - [Loops](lessons/loops.md)
 
@@ -39,7 +38,7 @@
   - [Range function](lessons/loops/range-function.md)
   - [Debugging Loops](lessons/loops/debugging-loops.md)
   - [Practice](lessons/loops/practice.md)
-  - [Project](lessons/loops/project.md)
+  - [Assignment](lessons/loops/assignment.md)
 
 - [Lists](lessons/lists.md)
 
@@ -48,14 +47,14 @@
   - [Loop patterns](lessons/lists/loop-patterns.md)
   - [Loops, Conditions, and Lists](lessons/lists/conditions-and-lists.md)
   - [Splitting Strings](lessons/lists/split-strings.md)
-  - [Practice](lessons/lists/practice.md)
+  - [Assignment](lessons/lists/practice.md)
 
 - [Functions](lessons/functions.md)
 
   - [Function basics](lessons/functions/function-basics.md)
   - [Building our own functions](lessons/functions/building-our-own-functions.md)
   - [Return values](lessons/functions/return-values.md)
-  - [Practice](lessons/functions/practice.md)
+  - [Assignment](lessons/functions/practice.md)
 
 - [Organizing Code](lessons/organizing_code.md)
 
@@ -72,7 +71,7 @@
   - [Basic File Operations](lessons/files/basic_file_operations.md)
   - [Basic Directory Operations](lessons/files/basic_dir_operations.md)
   - [Practice](lessons/files/practice.md)
-  - [Project](lessons/files/project.md)
+  - [Assignment](lessons/files/assignment.md)
 
 - [Data Structures](lessons/data_structures.md)
 
