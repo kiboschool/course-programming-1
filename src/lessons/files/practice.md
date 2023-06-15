@@ -2,12 +2,6 @@
 
 ---
 
-## Line Analysis
-
-You will write a function to read a file and count lines that start with a specific string.
-
-[![count-file-lines](https://img.shields.io/static/v1?label=Open%20Project&message=count%20file%20lines&color=blue)](https://classroom.github.com/a/1kxDKuUN)
-
 ## Spelling Corrector
 
 You will write a function that shows a corrected version of a file content
@@ -31,9 +25,3 @@ In this exercise, you'll write a program to check whether certain files exist.
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/Q17ey-0NXY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 </details>
-
-## Mystery Files
-
-In this exercise, you'll write a program to print some info about binary files.
-
-[![binary-file-info](https://img.shields.io/static/v1?label=Open%20Project&message=binary%20file%20info&color=blue)](https://classroom.github.com/a/PYcGZs2t)
