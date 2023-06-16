@@ -42,56 +42,55 @@
 
 - [Lists](lessons/lists.md)
 
+  - [Assignment](lessons/lists/assignment.md)
   - [List basics](lessons/lists/list-basics.md)
   - [Mutating Lists](lessons/lists/mutating-lists.md)
   - [Loop patterns](lessons/lists/loop-patterns.md)
   - [Loops, Conditions, and Lists](lessons/lists/conditions-and-lists.md)
   - [Splitting Strings](lessons/lists/split-strings.md)
   - [Practice](lessons/lists/practice.md)
-  - [Assignment](lessons/lists/assignment.md)
 
 - [Functions](lessons/functions.md)
 
+  - [Assignment](lessons/functions/practice.md)
   - [Function basics](lessons/functions/function-basics.md)
   - [Building our own functions](lessons/functions/building-our-own-functions.md)
   - [Return values](lessons/functions/return-values.md)
-  - [Practice](lessons/functions/practice.md)
-  - [Assignment](lessons/functions/assignment.md)
 
 - [Organizing Code](lessons/organizing_code.md)
 
+  - [Project](lessons/organizing_code/project.md)
   - [Program Design](lessons/organizing_code/program_design.md)
   - [Decomposition and Functions](lessons/organizing_code/helper_functions.md)
   - [Arguments](lessons/organizing_code/arguments.md)
   - [Readability](lessons/organizing_code/readability.md)
   - [Modules](lessons/organizing_code/modules.md)
   - [Practice](lessons/organizing_code/practice.md)
-  - [Project](lessons/organizing_code/project.md)
 
 - [Files](lessons/files.md)
 
+  - [Assignment](lessons/files/assignment.md)
   - [Basic File Operations](lessons/files/basic_file_operations.md)
   - [Basic Directory Operations](lessons/files/basic_dir_operations.md)
   - [Practice](lessons/files/practice.md)
-  - [Assignment](lessons/files/assignment.md)
 
 - [Data Structures](lessons/data_structures.md)
 
+  - [Project](lessons/data_structures/project.md)
   - [Dictionary Basics](lessons/data_structures/dict-basics.md)
   - [Using Dictionaries](lessons/data_structures/using-dicts.md)
   - [Nested Dictionaries](lessons/data_structures/nesting.md)
   - [JSON](lessons/data_structures/json.md)
   - [Practice](lessons/data_structures/practice.md)
-  - [Project](lessons/data_structures/project.md)
 
 - [Libraries and Complexity](lessons/libraries-and-complexity.md)
 
+  - [Final project](lessons/final-project.md)
   - [Library Basics](lessons/libraries/library_basics.md)
   - [Common Libraries](lessons/libraries/common_libs.md)
   - [Algorithms](lessons/complexity/algorithms.md)
   - [Complexity](lessons/complexity/complexity.md)
   - [Practice](lessons/libraries/practice.md)
-  - [Final project](lessons/final-project.md)
 
 - [Review and Preview](lessons/review.md)
 
