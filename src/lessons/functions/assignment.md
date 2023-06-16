@@ -16,9 +16,7 @@ in the `README.md` file within each exercise's folder. The exercises are:
 * smallest-item-in-a-list - Write a function that returns the smallest item in a list of numbers.
 * unit-conversion-functions - Write four functions. Each function takes in a value in one unit (e.g. kg), and converts it to another unit (e.g. lbs).
 
-[//]: # (TODO: Add GHClassroom Assignment link for week-5)
-
-[//]: # ([![password-validator]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=password%20validator&color=blue&#41;]&#40;https://classroom.github.com/a/PmxKTYKG&#41;)
+[![week-5-exercises](https://img.shields.io/static/v1?label=Open&message=Week%205%20Exercises&color=blue)](https://classroom.github.com/a/KAKm4CUg)
 
 ---
 

@@ -44,9 +44,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 In this exercise, you will implement a quick draw game to see how fast the
 user's reactions are.
 
-[//]: # (TODO: Add GHClassroom Assignment link)
-
-[//]: # ([![quick-draw]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=quick%20draw&color=blue&#41;]&#40;https://classroom.github.com/a/Tww_mgmN&#41;)
+[![quick-draw](https://img.shields.io/static/v1?label=Open&message=Quick%20Draw&color=blue)](https://classroom.github.com/a/zyCYpiBx)
 
 <details><summary>Watch the video to see the full solution</summary>
 

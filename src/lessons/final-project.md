@@ -9,8 +9,7 @@ Some tests have produced a lot of data which they stored in a file with a define
 It shall be your job to write a program that will parse such a test file and provide a
 summary of the test outcomes.
 
-[//]: # (TODO: Add GHClassroom link for Log analyzer)
-[//]: # ([![log-analyzer]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=log%20analyzer&color=blue&#41;]&#40;https://classroom.github.com/a/AkOk8Aco&#41;)
+[![log-analyzer](https://img.shields.io/static/v1?label=Open%20Project&message=log%20analyzer&color=blue)](https://classroom.github.com/a/ef1tMBGK)
 
 Remember...
 

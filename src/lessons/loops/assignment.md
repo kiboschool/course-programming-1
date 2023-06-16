@@ -14,9 +14,8 @@ in the `README.md` file within each exercise's folder. The exercises are:
 * rock-paper-scissors - Recreate the classic game of rock, paper, scissors.
 * password-validator - Implement a program that validates a password entered by a user.
 
-[//]: # (TODO: Add GHClassroom Assignment link for week-3)
 
-[//]: # ([![password-validator]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=password%20validator&color=blue&#41;]&#40;https://classroom.github.com/a/PmxKTYKG&#41;)
+[![week-3-exercises](https://img.shields.io/static/v1?label=Open&message=Week%203%20Exercises&color=blue)](https://classroom.github.com/a/hgCta9J9)
 
 ---
 

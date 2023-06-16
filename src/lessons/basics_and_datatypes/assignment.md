@@ -14,9 +14,8 @@ in the `README.md` file within each exercise's folder. The exercises are:
 * AC-load estimator - Calculate the AC requirements of a building given its physical dimensions and the number of occupants
 * Body mass index calculator - Given an individual's height and weight, calculate their BMI
 
-[//]: # (TODO: Add GHClassroom Assignment link for week-1)
 
-[//]: # ([![mad-libs]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=mad%20libs&color=blue&#41;]&#40;https://classroom.github.com/a/shbyyuOW&#41;)
+[![week-1-exercises](https://img.shields.io/static/v1?label=Open&message=Week%201%20Exercises&color=blue)](https://classroom.github.com/a/z2E09Uex)
 
 ## Submission
 

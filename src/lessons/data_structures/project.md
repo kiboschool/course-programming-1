@@ -13,8 +13,7 @@ program because the team will definitely create more amazing reports.
 In doing this we shall practice working with files, keeping track of their properties
 and manipulating their locations.
 
-[//]: # (TODO: Add GHClassroom link for Directory maintainer)
-[//]: # ([![log-analyzer]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=log%20analyzer&color=blue&#41;]&#40;https://classroom.github.com/a/AkOk8Aco&#41;)
+[![log-analyzer](https://img.shields.io/static/v1?label=Open%20Project&message=directory%20maintainer&color=blue)](https://classroom.github.com/a/bLLBC2c7)
 
 Remember...
 

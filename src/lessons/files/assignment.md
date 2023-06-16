@@ -14,9 +14,7 @@ in the `README.md` file within each exercise's folder. The exercises are:
 * binary-file-info: Write a program that accepts the name of a binary file from standard input, and prints out the name, size, and type of the file.
 * count-file-lines: Write a program that takes in the name of a file as input, then prints out the number of lines in that file. As an option, it can also take in a string to filter the lines. If a string is provided, it should only count the lines that contain that string.
 
-[//]: # (TODO: Add GHClassroom Assignment link for week-7)
-
-[//]: # ([![password-validator]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=password%20validator&color=blue&#41;]&#40;https://classroom.github.com/a/PmxKTYKG&#41;)
+[![week-7-exercises](https://img.shields.io/static/v1?label=Open&message=Week%207%20Exercises&color=blue)](https://classroom.github.com/a/U5w2i-rK)
 
 ---
 

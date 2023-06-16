@@ -19,8 +19,7 @@ microprocessor does. You'll use lots of helper functions. Since your program
 will be larger than the programs you've written before, you'll have to think
 carefully about how you organize your code, and how it works together.
 
-[//]: # (TODO: Add GHClassroom link)
-[//]: # ([![microprocessor-simulation]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=microprocessor%20simulation&color=blue&#41;]&#40;https://classroom.github.com/a/YKz7_lZA&#41;)
+[![microprocessor-simulation](https://img.shields.io/static/v1?label=Open%20Project&message=microprocessor%20simulation&color=blue)](https://classroom.github.com/a/FlUICK9I)
 
 ---
 

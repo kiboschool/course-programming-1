@@ -88,9 +88,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 Encryption and decryption play an important role in information security and computer science. It’s used everywhere to secure the transmitted data between two entities. In this exercise, we have a sample program that decrypts secret messages. In this task, you will follow some steps to decrypt a secret message.
 
-[//]: # (TODO: Insert GHClassroom link)
-
-[//]: # ([![decrypt-me]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=decrypt%20me&color=blue&#41;]&#40;https://classroom.github.com/a/KZUCkenD&#41;)
+[![decrypt-me](https://img.shields.io/static/v1?label=Open&message=decrypt%20me&color=blue)](https://classroom.github.com/a/nRfvXpTn)
 
 <details><summary><strong>Watch the video to see the full solution. </strong></summary>
 

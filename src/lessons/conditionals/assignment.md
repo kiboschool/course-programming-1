@@ -15,9 +15,7 @@ in the `README.md` file within each exercise's folder. The exercises are:
 * money-for-books: Write a program that tells users if they have enough money to buy their desired number of books.
 * bill-calculator: Build a program to help calculate Electricity and Water bills, turning the utility bill rules into conditions and boolean logic
 
-[//]: # (TODO: Add GHClassroom Assignment link for week-2)
-
-[//]: # ([![bill-calculator]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=bill%20calculator&color=blue&#41;]&#40;https://classroom.github.com/a/qBmIXtkF&#41;)
+[![week-2-exercises](https://img.shields.io/static/v1?label=Open&message=Week%202%20Exercises&color=blue)](https://classroom.github.com/a/lu1UnZiN)
 
 ---
 

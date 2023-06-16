@@ -25,16 +25,13 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 You will write a function to greet the user.
 
-[//]: # (TODO: Add GHClassroom assignment link)
-
-[//]: # ([![greet-person-function]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=greet%20person%20function&color=blue&#41;]&#40;https://classroom.github.com/a/lj7uVFi0&#41;)
+[![greeting-function](https://img.shields.io/static/v1?label=Open&message=greeting%20function&color=blue)](https://classroom.github.com/a/ewz2DYos)
 
 ## Area of a circle
 
 You will write a function to calculate the area of a circle.
 
-[//]: # (TODO: Add GHClassroom assignment link)
-[//]: # ([![circle-area]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=circle%20area&color=blue&#41;]&#40;https://classroom.github.com/a/BE2mCfLp&#41;)
+[![circle-area](https://img.shields.io/static/v1?label=Open&message=circle%20area&color=blue)](https://classroom.github.com/a/LN0PSlo2)
 
 <details><summary>Area of Circle: Solution</summary>
 
@@ -46,8 +43,7 @@ You will write a function to calculate the area of a circle.
 
 ⚖️ Remember your BMI assignment? In this practice exercise, you'll rewrite using functions instead.
 
-[//]: # (TODO: Add GHClassroom assignment link)
-[//]: # ([![bmi-with-functions]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=bmi%20with%20functions&color=blue&#41;]&#40;https://classroom.github.com/a/CM15un_o&#41;)
+[![bmi-with-functions](https://img.shields.io/static/v1?label=Open&message=bmi%20with%20functions&color=blue)](https://classroom.github.com/a/4ABfY_dt)
 
 <details><summary>BMI with functions: Solution</summary>
 

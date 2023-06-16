@@ -15,9 +15,7 @@ in the `README.md` file within each exercise's folder. The exercises are:
 * longest-word - Ask the user for five words, then display the longest of these.
 * safari-animals - Print out the description of an animal, based on user input.
 
-[//]: # (TODO: Add GHClassroom Assignment link for week-4)
-
-[//]: # ([![password-validator]&#40;https://img.shields.io/static/v1?label=Open%20Project&message=password%20validator&color=blue&#41;]&#40;https://classroom.github.com/a/PmxKTYKG&#41;)
+[![week-4-exercises](https://img.shields.io/static/v1?label=Open&message=Week%204%20Exercises&color=blue)](https://classroom.github.com/a/jFYV4SOm)
 
 ---
 
