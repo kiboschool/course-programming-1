@@ -11,7 +11,9 @@ Do a little shell-dance to clone each of the exercises (check the map of
 exercises, git urls, and where they'll end up with `cat exercise-map.txt`)
 
 ```sh
+# From within the root of the current course's repo
 mkdir -p .exercises
+cd .exercises
 while read -r line; do
   project=`echo $line | cut -d ':' -f 1`
   mkdir -p $project
