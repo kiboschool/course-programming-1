@@ -25,13 +25,13 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 You will write a function to greet the user.
 
-[![greet-person-function](https://img.shields.io/static/v1?label=Open%20Project&message=greet%20person%20function&color=blue)](https://classroom.github.com/a/lj7uVFi0)
+[![greeting-function](https://img.shields.io/static/v1?label=Open&message=greeting%20function&color=blue)](https://classroom.github.com/a/ewz2DYos)
 
 ## Area of a circle
 
 You will write a function to calculate the area of a circle.
 
-[![circle-area](https://img.shields.io/static/v1?label=Open%20Project&message=circle%20area&color=blue)](https://classroom.github.com/a/BE2mCfLp)
+[![circle-area](https://img.shields.io/static/v1?label=Open&message=circle%20area&color=blue)](https://classroom.github.com/a/LN0PSlo2)
 
 <details><summary>Area of Circle: Solution</summary>
 
@@ -39,60 +39,11 @@ You will write a function to calculate the area of a circle.
 
 </details>
 
-## Unit Conversions
-
-You'll write functions to convert between units.
-
-[![unit-conversion-functions](https://img.shields.io/static/v1?label=Open%20Project&message=unit%20conversion%20functions&color=blue)](https://classroom.github.com/a/xlA6i22a)
-
-<details><summary>Unit Conversions: Solution</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/TVYYXOYaeDM" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
-
-## Add numbers in a list
-
-You'll write a function that sums all the numbers in a list.
-
-[![add-list-numbers](https://img.shields.io/static/v1?label=Open%20Project&message=add%20list%20numbers&color=blue)](https://classroom.github.com/a/d5vvvPyq)
-j
-
-<details><summary>Add numbers: Solution</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/5NRgR99fs20" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
-
-## Smallest item in a list
-
-You'll write a function that returns the smallest number in a list.
-
-[![smallest-item-in-a-list](https://img.shields.io/static/v1?label=Open%20Project&message=smallest%20item%20in%20a%20list&color=blue)](https://classroom.github.com/a/HhdixN0U)
-
-<details><summary>Smallest Item in List Solution video</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/a8jM7x4thXY" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
-
-## Double everything in a list
-
-2️⃣ Write a function that doubles all the elements in a list.
-
-[![double-list-elements](https://img.shields.io/static/v1?label=Open%20Project&message=double%20list%20elements&color=blue)](https://classroom.github.com/a/f_NkiaTa)
-
-<details><summary>Double List Elements: Solution</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/SwHAzcDFApA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-</details>
-
 ## BMI with functions
 
-⚖️ Remember your BMI assignment? In this assignment, you'll rewrite using functions instead.
+⚖️ Remember your BMI assignment? In this practice exercise, you'll rewrite using functions instead.
 
-[![bmi-with-functions](https://img.shields.io/static/v1?label=Open%20Project&message=bmi%20with%20functions&color=blue)](https://classroom.github.com/a/CM15un_o)
+[![bmi-with-functions](https://img.shields.io/static/v1?label=Open&message=bmi%20with%20functions&color=blue)](https://classroom.github.com/a/4ABfY_dt)
 
 <details><summary>BMI with functions: Solution</summary>
 

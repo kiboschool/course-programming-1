@@ -112,7 +112,7 @@ to run the function, and will raise a NameError.
 
 </details>
 
-## Functions can have any code inside
+## Functions can have any code inside them
 
 Any code can go inside a function. Variables, loops, conditions, other function 
 calls — it all works. Anything that you’ve written in a program so far can go 

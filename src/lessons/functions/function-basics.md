@@ -71,18 +71,14 @@ You’ve already learned the word *function.* Let’s cover the other words for 
 - The name of the function.
 - What it does (in your own words).
 - The arguments (i.e. inputs) it requires.
-- The results it gives.
+- What it returns.
 - At least two examples of its use.
 
+🧪 **Try it out!**
 Share your findings below. Click the `+` in the pink circle to add your response
 
+Finally, open a Python repl and test out the function. Copy and paste or take a screenshot of what the function does, and add it to your answer.
 </aside>
 
 <div style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><iframe src="https://padlet.com/embed/wvz0a2bij7sqvfgl" frameborder="0" allow="camera;microphone;geolocation" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></div>
 
-<aside>
-
-🧪 **Try it out!**
-After you’ve found a built-in function, open a Python repl and test out the function. Copy and paste or take a screenshot of what the function does, and add it to your answer.
-
-</aside>

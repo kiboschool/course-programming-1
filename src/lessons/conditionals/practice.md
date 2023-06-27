@@ -21,25 +21,15 @@ The **solutions** to each challenge are available, and you can view a video of t
 
 </aside>
 
-## Exam results
-
-📝 Write a program that lets a user enter their exam score, then tells the user if they have passed the exam. The user must score more than 70 to pass the exam.
-
-[![exam-results](https://img.shields.io/static/v1?label=Open%20Project&message=exam%20results&color=blue)](https://classroom.github.com/a/A7oNEg73)
-
-<details><summary>Watch the video to see the solution process</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/ZiiCw1H3D60" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-![A snake looking quizically at its exam paper](/images/snake_exam.png)
-
-</details>
 
 ## Money for Books
 
-📚 In this assignment, you'll write a program to help someone figure out if they have enough money for all the books they want to buy, using if/else statements.
+> This is 1 of the assignment problems for this week. You can check your solution 
+> against the solution provided here. The video also walks you through the process of
+> arriving at your solution. Your code doesn't have to look exactly like what is shown
+> here for it to be correct. There are many other correct solutions.
 
-[![money-for-books](https://img.shields.io/static/v1?label=Open%20Project&message=money%20for%20books&color=blue)](https://classroom.github.com/a/R_0ByaI4)
+ 📚 You'll write a program to help someone figure out if they have enough money for all the books they want to buy using if/else statements.
 
 <details><summary>Watch the video to see the full solution</summary>
 
@@ -54,7 +44,7 @@ The **solutions** to each challenge are available, and you can view a video of t
 In this exercise, you will implement a quick draw game to see how fast the
 user's reactions are.
 
-[![quick-draw](https://img.shields.io/static/v1?label=Open%20Project&message=quick%20draw&color=blue)](https://classroom.github.com/a/Tww_mgmN)
+[![quick-draw](https://img.shields.io/static/v1?label=Open&message=Quick%20Draw&color=blue)](https://classroom.github.com/a/zyCYpiBx)
 
 <details><summary>Watch the video to see the full solution</summary>
 
@@ -63,9 +53,3 @@ user's reactions are.
 ![Snake cowboy smokes in a deserted street in a frontier town](/images/snake_cowboy.png)
 
 </details>
-
-## Rock, Paper, Scissors
-
-In this exercise, you'll recreate the classic game of rock, paper, scissors.
-
-[![rock-paper-scissors](https://img.shields.io/static/v1?label=Open%20Project&message=rock%20paper%20scissors&color=blue)](https://classroom.github.com/a/5HVcFLrp)

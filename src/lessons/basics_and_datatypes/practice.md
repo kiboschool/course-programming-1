@@ -31,9 +31,10 @@ yourself or the code, it's a good time to take a break and ask for help.
 
 On the flip side, if practice feels too easy, it means you aren't challenging yourself
 enough. If the practice problems early in the course are not challenging for
-you, take a look at the [Additional Practice page](lessons/additional-practice.md). You should still complete these exercises, so that you can confirm that you 
+you, take a look at the [Additional Practice page](lessons/additional-practice.md). 
+You should still complete these exercises, so that you can confirm that you can apply these concepts
 
-The **solutions** to each challenge are available, and you can view a video of the solution below each challenge.
+The **solutions** to some challenges are available, and you can view a video of the solution below each challenge.
 
 * Try to go through the whole challenge without using the solution.
 * If you can’t do the challenge without looking the solution, it means you don’t understand the material well enough yet.
@@ -65,48 +66,14 @@ Gradescope and Woolf for the practice exercises.
 
 </details>
 
-## Currency Conversion
-
-🏦 Create a program that asks a user for a value in US Dollars, then converts to Nigerian Naira.
-
-[![usd-to-naira-conversion](https://img.shields.io/static/v1?label=Open%20Project&message=usd%20to%20naira%20conversion&color=blue)](https://classroom.github.com/a/ZnWyZy0q)
-
-Watch the video below to see the full solution.
-
-Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
-
-<details><summary>Currency Conversion Solution Video</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/urMYOnhxOiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-</details>
-
-
-## AC Load Estimator
-
-👩🏿‍💻 Write a program to build an AC unit load estimator.
-
-Your program should get input from the user, use the formula to calculate the horsepower, then print the horsepower.
-
-[![ac-load-estimator](https://img.shields.io/static/v1?label=Open%20Project&message=ac%20load%20estimator&color=blue)](https://classroom.github.com/a/s2-DiaVB)
-
-Watch the video below to see the full solution.
-
-Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.
-
-<details><summary>Load Estimator Solution Video</summary>
-
-<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/66tvjwqNiRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-
-    ******There is a typo in the code at the end of the video ("numbe" should be "number").*
-
-</details>
-
-
 ## Body Mass Index
 
-💪🏿 Create a program that calculates body mass index, which is used to determine if a person's weight is a healthy proportion for their height.
+> This is 1 of the assignment problems for this week. You can check your solution 
+> against the solution provided here. The video also walks you through the process of
+> arriving at your solution. Your code doesn't have to look exactly like what is shown
+> here for it to be correct. There are many other correct solutions.
 
-[![body-mass-index](https://img.shields.io/static/v1?label=Open%20Project&message=body%20mass%20index&color=blue)](https://classroom.github.com/a/ZWmrKX-j)
+💪🏿 Create a program that calculates body mass index, which is used to determine if a person's weight is a healthy proportion for their height.
 
 Watch the video below to see the full solution.
 
@@ -121,7 +88,7 @@ Make sure you give yourself enough time to solve the practice without watching t
 
 Encryption and decryption play an important role in information security and computer science. It’s used everywhere to secure the transmitted data between two entities. In this exercise, we have a sample program that decrypts secret messages. In this task, you will follow some steps to decrypt a secret message.
 
-[![decrypt-me](https://img.shields.io/static/v1?label=Open%20Project&message=decrypt%20me&color=blue)](https://classroom.github.com/a/KZUCkenD)
+[![decrypt-me](https://img.shields.io/static/v1?label=Open&message=decrypt%20me&color=blue)](https://classroom.github.com/a/nRfvXpTn)
 
 <details><summary><strong>Watch the video to see the full solution. </strong></summary>
 

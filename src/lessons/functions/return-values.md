@@ -37,7 +37,7 @@ print("the bigger result was", bigger_result) # the bigger result was 18
 
 ## Return vs. Print
 
-`print` is different from returning a value. If you use `print`, a message shows up in the console, but the rest of the program doesn’t get to see it.
+`print` is different from returning a value. If you use `print`, a message shows up in the console, but the rest of the program cannot access this message.
 
 ```python
 def add_and_print(a,b):
@@ -47,13 +47,13 @@ result = add_and_print(3,5) # 8
 print("the result was", result) # the result was None
 ```
 
-The `print` in the function will print out the value, but it will not return it. `None` is the value that functions return by default. If they don’t return something else, they return `None`.
+The `print` in the function will print out the value, but it will not return it. `None` is the value that functions return by default. If they don’t explicitly return something else, they return `None`.
 
 ![Return vs Print](./building-our-own-functions/return-vs-print.png)
 
 <aside>
 
-⚠️ `print` is different from `return`. So far in the course, you’ve used `print` to see results, so you are used to using lots of `print`. In more complicated programs, `return` is used more often.
+⚠️ `print` is different from `return`. So far in the course, you’ve used `print` to see results, so you are used to using lots of `print`. In more complicated programs, `return` is used more often. It is often useful to have access to the results of a function so you can use them in the rest of the program.
 
 Most of the practice exercises from now on will require you to use `return`, not `print`
 
