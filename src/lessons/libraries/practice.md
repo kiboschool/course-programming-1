@@ -23,7 +23,7 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 You will write a function to provide the sum of matrix rows.
 
-[![row-sum](https://img.shields.io/static/v1?label=Open%20Project&message=row%20sum&color=blue)](https://classroom.github.com/a/K_rAenKA)
+[![row-sum](https://img.shields.io/static/v1?label=Open%20Project&message=row%20sum&color=blue)](https://classroom.github.com/a/xCgifD3K)
 
 <details><summary>Practice Solution Video</summary>
 
@@ -35,12 +35,12 @@ You will write a function to provide the sum of matrix rows.
 
 Scrape data from the web using the `requests` library.
 
-[![fetching-web-data](https://img.shields.io/static/v1?label=Open%20Project&message=fetching%20web%20data&color=blue)](https://classroom.github.com/a/lqfhwH6L)
+[![fetching-web-data](https://img.shields.io/static/v1?label=Open%20Project&message=fetching%20web%20data&color=blue)](https://classroom.github.com/a/_ldTa8Zi)
 
 ## Message Encode and Decode
 
 In this exercise, you'll explore encoding and decoding messages.
 
-[![message-encode-decode](https://img.shields.io/static/v1?label=Open%20Project&message=message%20encode%20decode&color=blue)](https://classroom.github.com/a/G0v3v-Cw)
+[![message-encode-decode](https://img.shields.io/static/v1?label=Open%20Project&message=message%20encode%20decode&color=blue)](https://classroom.github.com/a/Y-LQqQfd)
 
 

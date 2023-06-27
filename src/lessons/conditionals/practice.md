@@ -31,6 +31,10 @@ The **solutions** to each challenge are available, and you can view a video of t
 
  📚 You'll write a program to help someone figure out if they have enough money for all the books they want to buy using if/else statements.
 
+Follow the link below to attempt this exercise (that attempt can be submitted as part of your required assignment)
+
+[![money-for-books](https://img.shields.io/static/v1?label=Open&message=Money%20for%20Books&color=blue)](https://classroom.github.com/a/VlDv6R22)
+
 <details><summary>Watch the video to see the full solution</summary>
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/P5XvolfsQtY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

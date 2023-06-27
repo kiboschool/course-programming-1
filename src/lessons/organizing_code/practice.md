@@ -23,20 +23,20 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 In this exercise, you'll use a helper function to help measure how far a footballer has run over the course of a match.
 
-[![distance-traveled](https://img.shields.io/static/v1?label=Open%20Project&message=distance%20traveled&color=blue)](https://classroom.github.com/a/GGrIsiXL)
+[![distance-traveled](https://img.shields.io/static/v1?label=Open%20Project&message=distance%20traveled&color=blue)](https://classroom.github.com/a/ORC-1WDx)
 
 ## Random Story Generator
 
 In this exercise, you'll write a story with blanks (like your Mad Libs story), but fill them in with random words instead of input from the user.
 
-[![random-story-generator](https://img.shields.io/static/v1?label=Open%20Project&message=random%20story%20generator&color=blue)](https://classroom.github.com/a/hOx3U1Wh)
+[![random-story-generator](https://img.shields.io/static/v1?label=Open%20Project&message=random%20story%20generator&color=blue)](https://classroom.github.com/a/wmmqv_MH)
 
 
 ## Date Format
 
 In this exercise, you'll practice with helper functions to format dates.
 
-[![date-format](https://img.shields.io/static/v1?label=Open%20Project&message=date%20format&color=blue)](https://classroom.github.com/a/D8gy-smr)
+[![date-format](https://img.shields.io/static/v1?label=Open%20Project&message=date%20format&color=blue)](https://classroom.github.com/a/ky3haHJn)
 
 ## Refactor another project
 

@@ -23,7 +23,7 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 Write a program to calculate word frequency within text.
 
-[![word-frequency](https://img.shields.io/static/v1?label=Open%20Project&message=word%20frequency&color=blue)](https://classroom.github.com/a/k5CAlt2N)
+[![word-frequency](https://img.shields.io/static/v1?label=Open%20Project&message=word%20frequency&color=blue)](https://classroom.github.com/a/2-Jf9X8g)
 
 <details><summary>Word Frequency Solution Video</summary>
 
@@ -35,7 +35,7 @@ Write a program to calculate word frequency within text.
 
 Write a phone book program that manages contacts and numbers.
 
-[![phone-book](https://img.shields.io/static/v1?label=Open%20Project&message=phone%20book&color=blue)](https://classroom.github.com/a/dbQOL_m2)
+[![phone-book](https://img.shields.io/static/v1?label=Open%20Project&message=phone%20book&color=blue)](https://classroom.github.com/a/A9pAn1pv)
 
 <details><summary>Practice Solution Video</summary>
 
@@ -47,4 +47,4 @@ Write a phone book program that manages contacts and numbers.
 
 In this exercise, you'll parse some data using Python's built-in JSON library.
 
-[![json-parsing](https://img.shields.io/static/v1?label=Open%20Project&message=json%20parsing&color=blue)](https://classroom.github.com/a/C2S39qZe)
+[![json-parsing](https://img.shields.io/static/v1?label=Open%20Project&message=json%20parsing&color=blue)](https://classroom.github.com/a/AzTTp2ye)

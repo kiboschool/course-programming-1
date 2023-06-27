@@ -28,7 +28,7 @@ Write a program that prints the numbers from 1 to 100, noting the multiples of 3
 
 Before checking the solution, make sure you spend enough time thinking and trying. This is really how you learn and build experience.
 
-[![Print Multiples](https://img.shields.io/badge/Open%20Project-Print%20Multiples-blue)](https://classroom.github.com/a/Mtvsp9WU)
+[![Print Multiples](https://img.shields.io/badge/Open%20Project-Print%20Multiples-blue)](https://classroom.github.com/a/QFQB5Cub)
 
 <details><summary>Watch the video to see the full solution.</summary>
 
@@ -40,7 +40,7 @@ Before checking the solution, make sure you spend enough time thinking and tryin
 
 In this exercise, practice writing a number guessing game.
 
-[![guess-my-number](https://img.shields.io/static/v1?label=Open%20Project&message=guess%20my%20number&color=blue)](https://classroom.github.com/a/gUPe7o2Y)
+[![guess-my-number](https://img.shields.io/static/v1?label=Open%20Project&message=guess%20my%20number&color=blue)](https://classroom.github.com/a/8abGNhcr)
 
 <details><summary>Watch the video to see the full solution.</summary>
 
@@ -52,4 +52,4 @@ In this exercise, practice writing a number guessing game.
 
 In this example, you'll practice using loops to calculate the Scrabble score of different words.
 
-[![scrabble-word-score](https://img.shields.io/static/v1?label=Open%20Project&message=scrabble%20word%20score&color=blue)](https://classroom.github.com/a/Kr4MeJoJ)
+[![scrabble-word-score](https://img.shields.io/static/v1?label=Open%20Project&message=scrabble%20word%20score&color=blue)](https://classroom.github.com/a/iKAMXSa3)

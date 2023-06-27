@@ -10,6 +10,7 @@
 
 - [Basics & Data Types](lessons/basics_and_datatypes.md)
 
+  - [Assignment](lessons/basics_and_datatypes/assignment.md)
   - [What is a program?](lessons/basics_and_datatypes/background.md)
   - [Data Types](lessons/basics_and_datatypes/data_types.md)
   - [Operators](lessons/basics_and_datatypes/operators.md)
@@ -17,10 +18,10 @@
   - [Input and Output](lessons/basics_and_datatypes/input-and-output.md)
   - [String formatting](lessons/basics_and_datatypes/string-concatenation-and-f-strings.md)
   - [Practice](lessons/basics_and_datatypes/practice.md)
-  - [Assignment](lessons/basics_and_datatypes/assignment.md)
 
 - [Conditionals](lessons/conditionals.md)
 
+  - [Assignment](lessons/conditionals/assignment.md)
   - [Simple Decisions](lessons/conditionals/simple-decisions.md)
   - [Boolean Expressions](lessons/conditionals/simple-decisions/boolean-expressions.md)
   - [If-Else](lessons/conditionals/simple-decisions/if-else.md)
@@ -29,16 +30,15 @@
   - [And, Or, Not](lessons/conditionals/multi-way-decisions/and-or-not.md)
   - [Nested Conditionals](lessons/conditionals/multi-way-decisions/nested-conditionals.md)
   - [Practice](lessons/conditionals/practice.md)
-  - [Assignment](lessons/conditionals/assignment.md)
 
 - [Loops](lessons/loops.md)
 
+  - [Assignment](lessons/loops/assignment.md)
   - [While loops](lessons/loops/while-loops.md)
   - [For loops](lessons/loops/for-loops.md)
   - [Range function](lessons/loops/range-function.md)
   - [Debugging Loops](lessons/loops/debugging-loops.md)
   - [Practice](lessons/loops/practice.md)
-  - [Assignment](lessons/loops/assignment.md)
 
 - [Lists](lessons/lists.md)
 
@@ -84,7 +84,7 @@
   - [JSON](lessons/data_structures/json.md)
   - [Practice](lessons/data_structures/practice.md)
 
-- [Libraries and Complexity](lessons/libraries-and-complexity.md)
+- [Libraries](lessons/libraries.md)
 
   - [Final project](lessons/final-project.md)
   - [Library Basics](lessons/libraries/library_basics.md)
