@@ -75,6 +75,10 @@ Gradescope and Woolf for the practice exercises.
 
 💪🏿 Create a program that calculates body mass index, which is used to determine if a person's weight is a healthy proportion for their height.
 
+Follow the link below to attempt this exercise (that attempt can be submitted as part of your required assignment)
+
+[![body-mass-index](https://img.shields.io/static/v1?label=Open&message=body%20mass%20index&color=blue)](https://classroom.github.com/a/3xTFIi2X)
+
 Watch the video below to see the full solution.
 
 Make sure you give yourself enough time to solve the practice without watching the video. It is really important for your learning.

@@ -23,7 +23,7 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 👥 Write a program that creates a list with the names of your squad mates and prints them out
 
-[![squad-mates](https://img.shields.io/static/v1?label=Open%20Project&message=squad%20mates&color=blue)](https://classroom.github.com/a/XyZUucrh)
+[![squad-mates](https://img.shields.io/static/v1?label=Open%20Project&message=squad%20mates&color=blue)](https://classroom.github.com/a/Mm7S3N4D)
 
 <details><summary>Watch the video to see the full solution</summary>
 
@@ -35,10 +35,10 @@ _Try the next practice challenges without looking at the solution. If you need m
 
 ⚽ There have been some changes to the roster. Write a program that makes the changes to the list and shows the old and new rosters.
 
-[![roster-change](https://img.shields.io/static/v1?label=Open%20Project&message=roster%20change&color=blue)](https://classroom.github.com/a/z7qppCX2)
+[![roster-change](https://img.shields.io/static/v1?label=Open%20Project&message=roster%20change&color=blue)](https://classroom.github.com/a/0sw1ehkJ)
 
 ## Items Matching Rule
 
 Count how many items match a rule, specified as a list
 
-[![items-matching-rule](https://img.shields.io/static/v1?label=Open%20Project&message=items%20matching%20rule&color=blue)](https://classroom.github.com/a/K9bQ3d5n)
+[![items-matching-rule](https://img.shields.io/static/v1?label=Open%20Project&message=items%20matching%20rule&color=blue)](https://classroom.github.com/a/7pTOXSWk)

@@ -6,7 +6,7 @@
 
 You will write a function that shows a corrected version of a file content
 
-[![replace-char-in-file](https://img.shields.io/static/v1?label=Open%20Project&message=replace%20char%20in%20file&color=blue)](https://classroom.github.com/a/K1zOUhNZ)
+[![replace-char-in-file](https://img.shields.io/static/v1?label=Open%20Project&message=replace%20char%20in%20file&color=blue)](https://classroom.github.com/a/CBiDEyrJ)
 
 <details><summary>Practice Solution Video</summary>
 
@@ -18,7 +18,7 @@ You will write a function that shows a corrected version of a file content
 
 In this exercise, you'll write a program to check whether certain files exist.
 
-[![file-checks](https://img.shields.io/static/v1?label=Open%20Project&message=file%20checks&color=blue)](https://classroom.github.com/a/Dajh96AT)
+[![file-checks](https://img.shields.io/static/v1?label=Open%20Project&message=file%20checks&color=blue)](https://classroom.github.com/a/RVsyTaOZ)
 
 <details><summary>Practice Solution Video</summary>
 
