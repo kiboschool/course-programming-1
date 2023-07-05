@@ -3,7 +3,9 @@
 [Course Overview](programming-1.md)
 [Getting Help](lessons/ask_for_help.md)
 [Weekly Assessments](lessons/weekly-assessments.md)
-[Final Project](lessons/final-project.md)
+
+<!-- [Final Project](lessons/final-project.md) -->
+
 [Live Classes](lessons/live-classes.md)
 
 ## Lessons
