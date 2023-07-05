@@ -109,6 +109,9 @@ print(books_read)
 
 meals_eaten = 4
 meals_eaten = meals_eaten + 1
+# you can use the += operator to do the same thing:
+# meals_eaten += 1
+
 print(meals_eaten)
 ```
 
