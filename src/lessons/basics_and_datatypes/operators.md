@@ -52,7 +52,7 @@ There are other operators, like comparison, assignment, and logical operators. W
 
 ## Using the Repl to explore
 
-### [TO DO VIDEO]
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/[VFxKjByWtzs](https://youtu.be/9qAZHBdvYAE)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 The best way to learn how the Python operators behave is to try out different
 operators and see what they do.
