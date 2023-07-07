@@ -22,6 +22,8 @@
 
   - [Practice](lessons/basics_and_datatypes/practice.md)
 
+<!--
+
 - [Conditionals](lessons/conditionals.md)
 
   - [Assignment](lessons/conditionals/assignment.md)
@@ -99,3 +101,5 @@
 - [Review and Preview](lessons/review.md)
 
 [Additional Practice](lessons/additional-practice.md)
+
+-->
