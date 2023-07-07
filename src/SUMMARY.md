@@ -3,7 +3,9 @@
 [Course Overview](programming-1.md)
 [Getting Help](lessons/ask_for_help.md)
 [Weekly Assessments](lessons/weekly-assessments.md)
-[Final Project](lessons/final-project.md)
+
+<!-- [Final Project](lessons/final-project.md) -->
+
 [Live Classes](lessons/live-classes.md)
 
 ## Lessons
@@ -17,7 +19,10 @@
   - [Variables and Assignment](lessons/basics_and_datatypes/variables-and-assignment.md)
   - [Input and Output](lessons/basics_and_datatypes/input-and-output.md)
   - [String formatting](lessons/basics_and_datatypes/string-concatenation-and-f-strings.md)
+  - [Assignment](lessons/basics_and_datatypes/assignment.md)
   - [Practice](lessons/basics_and_datatypes/practice.md)
+
+<!--
 
 - [Conditionals](lessons/conditionals.md)
 
@@ -96,3 +101,5 @@
 - [Review and Preview](lessons/review.md)
 
 [Additional Practice](lessons/additional-practice.md)
+
+-->

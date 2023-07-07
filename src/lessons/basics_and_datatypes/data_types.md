@@ -56,6 +56,7 @@ Every value in Python has a type, for example, **string**, **float**, and **inte
 They look like this: `"Kibo School"`, starting and ending with `"`, the _double quote_.
 
 When you add them together with `+`, Python _concatenates_ the strings. It sticks them together end to end, like this:
+
 ```python
 school_name = "Kibo"
 print("I love " + school_name) # "I love Kibo"
@@ -97,6 +98,8 @@ Python stores them differently from integers, so they show something different w
 "Hello" + "5" # "Hello5"
 "Hello" + 5 # TypeError
 ```
+
 There are lots more Python types that we didn’t cover. You can look them up by using Google to find the Python documentation.
 
 > **Question:** What do you happens when you add a float and an integer?
+> Try to guess the answer first, then try it out in the Python interpreter.

@@ -75,7 +75,7 @@ We need two things to start writing programs of our own:
 1. A **Text Editor**: A tool to write text
 2. An **Interpreter or a Compiler:** A tool to translate your code to computer-executable programs.
 
-In this course, we recommend using VSCode as your text editor, and the built-in 
+In this course, we recommend using VSCode as your text editor, and the built-in
 terminal for VSCode to run the Python interpreter.
 
 We'll also use Replit for other helpful features: multiplayer mode and sharing.
@@ -103,7 +103,7 @@ Text Editors for programming have features like **Syntax Highlighting** that dis
 
 ## A Brief Tour of Python
 
-Over the next few weeks, you’ll learn about Python in more detail. 
+Over the next few weeks, you’ll learn about Python in more detail.
 
 First, we'll quickly illustrate some of the basics, to get you started.
 
@@ -115,11 +115,9 @@ That means that when writing code, we prioritize **both** making the computer do
 
 We can help others make sense of our code through its structure, and with comments.
 
-<details>
 <summary><strong>📺 Watch this video to learn about comments.</strong></summary>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/7AihnEjsglc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
-</details>
 
 In the example below, the first two lines are **code comments**.
 
@@ -166,9 +164,9 @@ This is the output
 - Inside the `( )` you put the value you want to show
 - Text has to go in inside quote marks `" "`
 
-To run code in line with the lessons, we'll use Trinket, 
+To run code in line with the lessons, we'll use Trinket,
 
-Click the ▶️  button to run the program and see the output.
+Click the ▶️ button to run the program and see the output.
 
 <div style="position: relative;">
 <iframe src="https://trinket.io/embed/python/a709bfd326" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
@@ -213,7 +211,7 @@ I love programming
 I love programming
 ```
 
-Click the ▶️  button to run the program and see the output.
+Click the ▶️ button to run the program and see the output.
 
 <iframe src="https://trinket.io/embed/python/90601e3027" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
@@ -246,7 +244,7 @@ Chidi loves programming
 Ebbe loves programming
 ```
 
-Click the ▶️  button to run the program and see the output.
+Click the ▶️ button to run the program and see the output.
 
 <iframe src="https://trinket.io/embed/python/fee059f28c" width="100%" height="300" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 

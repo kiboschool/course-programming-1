@@ -3,7 +3,7 @@
 ## What you need to know about variables
 
 - A _variable_ is a name you give to data, so you can use it later in the program
-- You assign a variable with `=`
+- You assign a value to a variable with `=`
 - There are lots names you can use for variables, but there are some rules
 - Using meaningful variable names makes your program better
 
@@ -27,6 +27,21 @@
 
 </aside>
 
+## Assignment Operators
+
+We learned about the `=` operator which is also called the **assignment operator**. It assigns the value on the right to the variable on the left.
+
+There are other assignment operators in Python, which are shortcuts for doing math and assigning the result to a variable.
+
+For example, the `+=` operator adds the value on the right to the variable on the left, and assigns the result to the variable on the left.
+
+```python
+x = 10
+x += 5 # x is now 15
+```
+
+There are other similar assignment operators, like `-=`, `*=`, `/=`, and `%=` that works the same way.
+
 ## Variable Names
 
 <aside>
@@ -43,9 +58,9 @@
 
 Variable names in Python must follow some rules:
 
-  - We cannot use **reserved words** variables names. Reserved words include words like `if`, `for,` `return`, which have specific meanings in Python
-  - Names can start with letters or underscores, and can only contain letters, numbers, and underscores. They can’t have spaces.
-  - Variable names are case-sensitive. That means `shop` and `Shop` can refer to different values.
+- We cannot use **reserved words** variables names. Reserved words include words like `if`, `for,` `return`, which have specific meanings in Python
+- Names can start with letters or underscores, and can only contain letters, numbers, and underscores. They can’t have spaces.
+- Variable names are case-sensitive. That means `shop` and `Shop` can refer to different values.
 
 </aside>
 
@@ -79,7 +94,7 @@ These variable names are descriptive and helpful!
 
 <aside>
 
-👩🏿‍💻  Practice assigning values to variables and printing variables. Read the code below, and make the changes requested in the comments.
+👩🏿‍💻 Practice assigning values to variables and printing variables. Read the code below, and make the changes requested in the comments.
 
 </aside>
 
@@ -94,6 +109,9 @@ print(books_read)
 
 meals_eaten = 4
 meals_eaten = meals_eaten + 1
+# you can use the += operator to do the same thing:
+# meals_eaten += 1
+
 print(meals_eaten)
 ```
 

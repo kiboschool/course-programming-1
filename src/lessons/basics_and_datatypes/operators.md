@@ -1,6 +1,10 @@
 # Operators
 
-**Operators** are symbols that represent computations like addition and multiplication.
+**Operators** are symbols or characters that perform specific operations on operands, such as variables or values.They allow us to manipulate data and perform various calculations or comparisons.
+
+There are different types of operators in Python. In this week, we will learn about **arithmetic operators** and **assignment operators**. Next week, we will learn about **comparison operators** and **logical operators**. We will learn about more operators in future lessons.
+
+## Arithmetic Operators
 
 - `+` performs **addition**
 - `-` performs **subtraction**
@@ -44,16 +48,20 @@ First, python multiplies `3` and `2` and gets `6`. Then it adds `6` to `4`, then
 
 </details>
 
+There are other operators, like comparison, assignment, and logical operators. We will cover assignment operators in this lesson, and the rest in future lessons.
+
 ## Using the Repl to explore
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/[VFxKjByWtzs](https://youtu.be/9qAZHBdvYAE)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 The best way to learn how the Python operators behave is to try out different
 operators and see what they do.
 
-* Open a Python repl on your computer by entering `python` in a terminal
-* Set a timer for 5 minutes and try to find out as much as you can about the
-    operators. 
-* Ask yourself questions, then try entering the code in the REPL to
-    answer your question.
+- Open a Python repl on your computer by entering `python` in a terminal
+- Set a timer for 5 minutes and try to find out as much as you can about the
+  operators.
+- Ask yourself questions, then try entering the code in the REPL to
+  answer your question.
 
 <aside>
 

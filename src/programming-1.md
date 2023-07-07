@@ -40,9 +40,8 @@ all that you've learned, and make something creative.
 
 Note that all times are listed in GMT, please convert to your local timezone.
 
-- Class 1: Wednesdays from 3:00pm - 4:30pm GMT
-- Class 2: Thursdays from 4:30pm - 6:00pm GMT
-- Office hours will be on Tuesdays at 1:00pm GMT
+- **Live Classes** (Mandatory): Wednesdays 3:00pm to 4:30pm GMT
+- **Office hours** (Optional): Tuesdays 1:00pm to 2:00pm GMT
 
 ## Instructor
 
@@ -80,10 +79,10 @@ By the end of the course, you will be able to:
 
 There are multiple ways you'll learn in this course:
 
-* Read and engage with the materials on this site
-* Attend live class and complete the activities in class
-* Practice with exercises to try out the concepts
-* Complete projects to demonstrate what you have learned
+- Read and engage with the materials on this site
+- Attend live class and complete the activities in class
+- Practice with exercises to try out the concepts
+- Complete projects to demonstrate what you have learned
 
 Active engagement is necessary for success in the course! You should try to
 write lots of programs, so that you can explore the concepts in a variety of
@@ -92,7 +91,7 @@ ways.
 You are encouraged to seek out additional practice problems outside of the
 practice problems included in the course.
 
-## Assessments
+## Grading
 
 Your overall course grade is made up of:
 
@@ -101,14 +100,14 @@ Your overall course grade is made up of:
 - Final Project: 25%
 
 * **Weekly Assignments**: On most weeks, you will have a few exercises
-  to practice the concepts you learned that week. Some of these exercises 
+  to practice the concepts you learned that week. Some of these exercises
   are graded and together they are referred to as the week's assignment.
   There are 6 such exercises in total, each worth 7% of your final grade.
-* **Projects**: On other weeks, your deliverable is a  _project_, a substantive graded 
-  program to write. There are 2 projects in  total, each worth 16.5% of your 
+* **Projects**: On other weeks, your deliverable is a _project_, a substantive graded
+  program to write. There are 2 projects in total, each worth 16.5% of your
   final grade.
 * **Final Project**: At the end of the course, you will have a capstone project which
-  aims to use most of the skills you have learned in the course. This project 
+  aims to use most of the skills you have learned in the course. This project
   contributes 25% of your final grade.
 
 All your assessments will be hosted on Github and turned in on Gradescope (see the
@@ -123,12 +122,12 @@ In this course, we are using these tools to work on code. If you haven't set up
 your laptop and installed the software yet, follow the guide in
 [https://github.com/kiboschool/setup-guides](https://github.com/kiboschool/setup-guides).
 
-* **Github** is a website that hosts code. We'll use it as a place to keep our project and assignment code.
-* **Github Classroom** is a tool for assigning projects on Github. 
-* **VSCode** is your code editor. It's where you'll write code to solve
-    programming assignments. It also has an embedded terminal, where you can run
-    Python to try out your code and test that it works.
-* **Gradescope** is a grading platform. We'll use it to track assignment
-    submissions and give you feedback on your work.
-* **Woolf** is our accreditation partner. We'll track work there too, so that
-    you get credit towards your degree.
+- **Github** is a website that hosts code. We'll use it as a place to keep our project and assignment code.
+- **Github Classroom** is a tool for assigning projects on Github.
+- **VSCode** is your code editor. It's where you'll write code to solve
+  programming assignments. It also has an embedded terminal, where you can run
+  Python to try out your code and test that it works.
+- **Gradescope** is a grading platform. We'll use it to track assignment
+  submissions and give you feedback on your work.
+- **Woolf** is our accreditation partner. We'll track work there too, so that
+  you get credit towards your degree.
