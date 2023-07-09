@@ -8,6 +8,12 @@ Life is full of decisions.
 
 Programs also need to make decisions. Depending on the circumstances, programs should behave differently.
 
+- Is the entered password correct?
+- Is the number even?
+- Is the user's input valid?
+- Is the dark mode enabled?
+- Is the user logged in?
+
 In this lesson, you’ll learn how to write programs that can make simple decisions using `if` statements. `if` (and related keywords `else` and `elif`) will let you write code that can handle different situations appropriately.
 
 ![flowchart illustrating decision about whether to stay at a party](/lessons/conditionals/simple-decisions/screen-shot-2021-07-27-at-3.10.10-pm.png)

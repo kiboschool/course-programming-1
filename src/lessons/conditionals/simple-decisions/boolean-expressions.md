@@ -49,6 +49,8 @@ x >= 10 # True
 x <= 90 # True
 ```
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/P9KPfBoIwyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 Comparisons work on strings too:
 
 ```python
@@ -63,17 +65,21 @@ y == 5         # False
 y > 5          # TypeError
 ```
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/kwCtgHLMRtQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 <aside>
 
-📌 If you write these lines in `main.py` in Replit and press Run, you won’t see any output. Remember, the output in the Console tab comes from `print`. If you want to see the results in the console, add `print`. For example, write `print(10>7)`
+📌 If you write these lines in a replit or a python file in your vscode and press Run, you won’t see any output. Remember, the output in the Console comes from `print`. If you want to see the results in the console, add `print`. For example, write `print(10>7)` or use a REPL as in the previous videos.
 
 Alternatively, you can enter these examples line-by-line in the Console itself. The Console runs lines of Python, so you can test out small snippets of code like these. Try it out!
 
 </aside>
 
+<!--
 ## Exploring Using the REPL
 
 Check this video on how to use python **REPL** to test boolean expressions and conditions.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://youtube.com/embed/kMJt6NDEnTw" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
+-->

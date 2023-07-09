@@ -22,11 +22,8 @@
   - [Assignment](lessons/basics_and_datatypes/assignment.md)
   - [Practice](lessons/basics_and_datatypes/practice.md)
 
-<!--
-
 - [Conditionals](lessons/conditionals.md)
 
-  - [Assignment](lessons/conditionals/assignment.md)
   - [Simple Decisions](lessons/conditionals/simple-decisions.md)
   - [Boolean Expressions](lessons/conditionals/simple-decisions/boolean-expressions.md)
   - [If-Else](lessons/conditionals/simple-decisions/if-else.md)
@@ -35,6 +32,9 @@
   - [And, Or, Not](lessons/conditionals/multi-way-decisions/and-or-not.md)
   - [Nested Conditionals](lessons/conditionals/multi-way-decisions/nested-conditionals.md)
   - [Practice](lessons/conditionals/practice.md)
+  - [Assignment](lessons/conditionals/assignment.md)
+
+<!--
 
 - [Loops](lessons/loops.md)
 
