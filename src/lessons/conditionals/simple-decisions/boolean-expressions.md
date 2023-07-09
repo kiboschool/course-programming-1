@@ -69,9 +69,11 @@ y > 5          # TypeError
 
 <aside>
 
-📌 If you write these lines in a replit or a python file in your vscode and press Run, you won’t see any output. Remember, the output in the Console comes from `print`. If you want to see the results in the console, add `print`. For example, write `print(10>7)` or use a REPL as in the previous videos.
+📌 If you write these lines in a replit or a python file in your vscode and press Run, you won’t see any output. Remember, the output in the Console comes from `print`. If you want to see the results in the console, add `print`.
 
-Alternatively, you can enter these examples line-by-line in the Console itself. The Console runs lines of Python, so you can test out small snippets of code like these. Try it out!
+For example, write `print(10>7)`
+
+Alternatively, you can enter these examples line-by-line in a REPL session in the Console itself like in the previous videos.
 
 </aside>
 
