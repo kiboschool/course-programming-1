@@ -1,6 +1,6 @@
 # While loops
 
-Often, we want code to keep going. For example, a password prompt might ask a user for their password until they enter a valid value. The program doesn’t know ahead of time how many tries the user will need. Instead, it knows when to stop asking — when the user enters a valid password. This type of situation is perfect for a `while` loop.
+Often, we want code to keep going. For example, a password prompt might ask a user to enter a new, yet complex, password until they enter a valid value. The program doesn’t know ahead of time how many tries the user will need. Instead, it knows when to stop asking — when the user enters a valid password. This type of situation is perfect for a `while` loop.
 
 In this section, we'll learn about `while` loops. `while` loops repeat a block of code until a condition is met.
 
@@ -19,9 +19,7 @@ while condition:
 	block of code to execute
 ```
 
-It’s a lot like an `if` statement. It checks the condition, then runs the block of code if the condition is `True`.
-
-Unlike an `if` statement, however, after executing the block, a `while` loop checks the condition again and again. It only stops when the condition becomes `False`.
+It’s a lot like an `if` statement. It checks the condition, then runs the block of code if the condition is `True`. But, unlike an `if` statement, after executing the block, a `while` loop checks the condition again and again. It only stops when the condition becomes `False`.
 
 Here’s a flow chart depicting a `while` loop:
 
@@ -37,7 +35,13 @@ The flow of a `while` statement is:
 
 ## Examples
 
-Here's an example asking the user for password:
+Watch the following video for an introduction to `while` loops with examples.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/rRTjPnVooxE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<div></br></div>
+
+Here's another example asking the user for password:
 
 ```python
 # Set up the password
@@ -53,7 +57,7 @@ In the example above, the program will keep prompting the user for a password _w
 
 ![Password prompt interactive](/lessons/loops/while-loops/password-interactive.gif)
 
-Below is another example:
+Below is another example that prints the values from 5 to 1:
 
 ```python
 n = 5
@@ -82,6 +86,27 @@ Blastoff!
 
 The condition we are checking before every loop is: **"Is `n` greater than zero?"** This is a boolean expression that will yield either `True` for 5, 4, 3, 2, and 1, or `False` when the value of `n` is 0.
 
+## Check Your Understanding
+
+<aside>
+Before moving on, take a moment to think about the code above and try to answer the following questions:
+
+- Why didn't we print the numbers from 5 to 1 using `print` statement without a loop?
+- We mentioned before that loops are used to repeat code. Do you see how the code above is repeating?
+- What would happen if we removed the line `n = n - 1`?
+- What would happen if we removed the line `print(n)`?
+- What would happen if we removed both lines?
+
+</aside>
+
+<details>
+<summary>Unfold to see the answers</summary>
+Before watching the video, please try to answer the questions above by yourself first.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/dfpy8EOTCso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+</details>
+
 ## What does a loop look like?
 
 ```python
@@ -97,11 +122,7 @@ Let’s visualize how this code runs:
 
 In the animation, you can see the variable `a` change over time, and the loop condition checked before each execution of the loop body.
 
-<aside>
-
 👉🏿 Step through this code interactively on [pythontutor.com](https://pythontutor.com/visualize.html#code=a%20%3D%201%0Awhile%20a%20%3C%2010%3A%0A%20%20%20%20print%28a%29%0A%20%20%20%20a%20%2B%3D%202&cumulative=false&curInstr=0&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%5D&textReferences=false)
-
-</aside>
 
 ## Loop Vocabulary
 

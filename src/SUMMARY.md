@@ -33,17 +33,16 @@
   - [Practice](lessons/conditionals/practice.md)
   - [Assignment](lessons/conditionals/assignment.md)
 
-<!--
-
 - [Loops](lessons/loops.md)
 
-  - [Assignment](lessons/loops/assignment.md)
   - [While loops](lessons/loops/while-loops.md)
   - [For loops](lessons/loops/for-loops.md)
   - [Range function](lessons/loops/range-function.md)
   - [Debugging Loops](lessons/loops/debugging-loops.md)
   - [Practice](lessons/loops/practice.md)
+  - [Assignment](lessons/loops/assignment.md)
 
+<!--
 - [Lists](lessons/lists.md)
 
   - [Assignment](lessons/lists/assignment.md)
