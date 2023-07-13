@@ -53,6 +53,7 @@
   - [Splitting Strings](lessons/lists/split-strings.md)
   - [Practice](lessons/lists/practice.md)
 
+
 - [Functions](lessons/functions.md)
 
   - [Assignment](lessons/functions/assignment.md)

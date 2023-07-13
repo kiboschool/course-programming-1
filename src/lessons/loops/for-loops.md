@@ -1,6 +1,6 @@
 # For loops
 
-We often want code to run again and again, until it’s time to stop. We learned that a `while` loop is a great tool when you know the stopping condition.
+We learned that a `while` loop is a great tool when you know the stopping condition.
 
 In this section we will explore a second tool for repeating code: the `for` loop. A `for` loop is a good fit when we want to run a block of code a definite number of times, or when we want to iterate over list of things.
 
@@ -15,9 +15,71 @@ for variable in items:
 	loop body to execute
 ```
 
-The flow chart of a `for` loop is:
-
 <img alt="For loop flowchart" src="/lessons/loops/for-loops/for-loop-flowchart.png" height="500"/>
+<em>image credit: https://www.dataquest.io/blog/python-list-tutorial</em>
+
+![Alt text](/lessons/loops/for_loop_iterations.gif)
+
+The items you iterate through can be any sequence of values. For example, you can loop through a list of numbers, or a string of characters. The sequence of values can be written explicitly, or generated with a function like `range()`.
+
+Example of iterating through a list of numbers:
+
+```python
+for i in [2,4,5,6] :
+	print(i)
+```
+
+output:
+
+```python
+2
+4
+5
+6
+```
+
+Example of iterating through a string:
+
+```python
+for letter in "Hello" :
+	print(letter)
+```
+
+output:
+
+```python
+H
+e
+l
+l
+o
+```
+
+Example of iterating through a range of numbers:
+
+```python
+for i in range(1,11):
+	print(i)
+```
+
+output:
+
+```python
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+```
+
+Watch the following video for an introduction to `for` loops with examples:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/xtXexPSfcZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Comparing For and While loops
 
