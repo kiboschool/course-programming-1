@@ -12,15 +12,14 @@
 
 - [Basics & Data Types](lessons/basics_and_datatypes.md)
 
-  - [Assignment](lessons/basics_and_datatypes/assignment.md)
   - [What is a program?](lessons/basics_and_datatypes/background.md)
   - [Data Types](lessons/basics_and_datatypes/data_types.md)
   - [Operators](lessons/basics_and_datatypes/operators.md)
   - [Variables and Assignment](lessons/basics_and_datatypes/variables-and-assignment.md)
   - [Input and Output](lessons/basics_and_datatypes/input-and-output.md)
   - [String formatting](lessons/basics_and_datatypes/string-concatenation-and-f-strings.md)
-  - [Assignment](lessons/basics_and_datatypes/assignment.md)
   - [Practice](lessons/basics_and_datatypes/practice.md)
+  - [Assignment](lessons/basics_and_datatypes/assignment.md)
 
 - [Conditionals](lessons/conditionals.md)
 
