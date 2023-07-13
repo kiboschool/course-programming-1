@@ -7,9 +7,9 @@ To access the code, you'll need to have joined the github classroom org and been
 added to the team. Once you've joined the Github team by accepting an assignment
 in github classroom, you can reach out in Discord to be added to the team.
 
-| Week | Topic              | Code            | Video                 |
-| ---- | ------------------ | --------------- | --------------------- |
-| 1    | Basics & Datatypes | [Code][w1-code] | [YouTube][w1-video-1] |
+| Week | Topic          | Code            | Video                 |
+| ---- | -------------- | --------------- | --------------------- |
+| 1    | Intro & Basics | [Code][w1-code] | [YouTube][w1-video-1] |
 
 [w1-code]: https://replit.com/@prog-1-jul23/One-P-Sale-Solution
 [w1-video-1]: https://youtu.be/VW2VqkPoOU8
