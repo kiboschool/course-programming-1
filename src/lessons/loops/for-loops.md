@@ -16,9 +16,10 @@ for variable in items:
 ```
 
 <img alt="For loop flowchart" src="/lessons/loops/for-loops/for-loop-flowchart.png" height="500"/>
-<em>image credit: https://www.dataquest.io/blog/python-list-tutorial</em>
 
-![Alt text](/lessons/loops/for_loop_iterations.gif)
+![Iteration gif](/lessons/loops/for_loop_iterations.gif)
+
+<em>image credit: https://www.dataquest.io/blog/python-list-tutorial</em>
 
 The items you iterate through can be any sequence of values. For example, you can loop through a list of numbers, or a string of characters. The sequence of values can be written explicitly, or generated with a function like `range()`.
 
