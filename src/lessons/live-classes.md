@@ -7,9 +7,12 @@ To access the code, you'll need to have joined the github classroom org and been
 added to the team. Once you've joined the Github team by accepting an assignment
 in github classroom, you can reach out in Discord to be added to the team.
 
-| Week | Topic              | Code   | Video     |
-| ---- | ------------------ | ------ | --------- |
-| 1    | Basics & Datatypes | [Code] | [YouTube] |
+| Week | Topic              | Code            | Video                 |
+| ---- | ------------------ | --------------- | --------------------- |
+| 1    | Basics & Datatypes | [Code][w1-code] | [YouTube][w1-video-1] |
+
+[w1-code]: https://replit.com/@prog-1-jul23/One-P-Sale-Solution
+[w1-video-1]: https://youtu.be/VW2VqkPoOU8
 
 <!--| 2    | Conditionals       | [Code][w2-code] | [YouTube][w2-video-1]  |
 | 3    | Loops              | [Code][w3-code] | [YouTube][w3-video-1]  |
@@ -22,8 +25,6 @@ in github classroom, you can reach out in Discord to be added to the team.
 | 10   | Review             |                 | [YouTube][w10-video-1] |
 
 
-[w1-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class1
-[w1-video-1]: https://youtu.be/65054g99EAY
 [w1-video-2]: https://youtu.be/QM6WM_2MmK4
 [w2-code]: https://github.com/kibo-programming-1-oct-22/live-classes-code/tree/main/class2
 [w2-video-1]: https://youtu.be/ZEJvHK_iYnQ
