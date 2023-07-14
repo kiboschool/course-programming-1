@@ -53,6 +53,15 @@ countries.pop(1) # Removes the element at index 1, "Nigeria"
 print(countries) # ['Kenya', 'Ethiopia', 'Zimbabwe']
 ```
 
+You can also remove an item by value, using `.remove()`. This will remove the first item in the list that matches the value you pass in.
+
+```python
+countries = ['Kenya', 'Ethiopia', 'Zimbabwe']
+print(countries) # ['Kenya', 'Ethiopia', 'Zimbabwe']
+countries.remove("Kenya")
+print(countries) # ['Ethiopia', 'Zimbabwe']
+```
+
 ## Check your understanding
 
 Try this quiz to check how well you understand what list operations will do.

@@ -4,7 +4,7 @@ At the end of the last lesson, you saw how the `for` loop gave you the power to 
 
 You’ll also focus on problem-solving using loops, and practice breaking problems down into pieces so that you can find solutions step by step.
 
-## Learning Objectives
+## Topics covered
 
 Here's a preview of what you'll learn this week:
 
