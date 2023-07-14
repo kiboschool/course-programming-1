@@ -5,7 +5,7 @@ def add(a, b):
   return a + b
 ```
 
-Often, a function will take its arguments, do some computation, then return a value to be used where the function was called. The `return` keyword is used for this. In our example, the statement `return a + b` is called the *return statement*. It ends the function execution and 'sends back' the result of the function.
+Often, a function will take its arguments, do some computation, then return a value to be used where the function was called. The `return` keyword is used for this. In our example, the statement `return a + b` is called the _return statement_. It ends the function execution and 'sends back' the result of the function.
 
 It is common to say that a function “takes” arguments and “returns” a result.
 
@@ -34,6 +34,10 @@ print("the result was", result) # the result was 8
 bigger_result = add(result, 10)
 print("the bigger result was", bigger_result) # the bigger result was 18
 ```
+
+If you feel a bit confused, don’t worry. This is a new concept, and it takes a while to get used to. Watch the video below for a more detailed explanation.
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.youtube.com/embed/89cGQjB5R4M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Return vs. Print
 
