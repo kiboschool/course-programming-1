@@ -53,12 +53,11 @@
   - [Assignment](lessons/lists/assignment.md)
 
 - [Functions](lessons/functions.md)
-
-  - [Assignment](lessons/functions/assignment.md)
   - [Function basics](lessons/functions/function-basics.md)
   - [Building our own functions](lessons/functions/building-our-own-functions.md)
   - [Return values](lessons/functions/return-values.md)
   - [Practice](lessons/functions/practice.md)
+  - [Assignment](lessons/functions/assignment.md)
 
 <!--
 - [Organizing Code](lessons/organizing_code.md)
