@@ -53,24 +53,25 @@
   - [Assignment](lessons/lists/assignment.md)
 
 - [Functions](lessons/functions.md)
+
   - [Function basics](lessons/functions/function-basics.md)
   - [Building our own functions](lessons/functions/building-our-own-functions.md)
   - [Return values](lessons/functions/return-values.md)
   - [Practice](lessons/functions/practice.md)
   - [Assignment](lessons/functions/assignment.md)
 
-<!--
 - [Organizing Code](lessons/organizing_code.md)
 
-  - [Project](lessons/organizing_code/project.md)
   - [Program Design](lessons/organizing_code/program_design.md)
   - [Decomposition and Functions](lessons/organizing_code/helper_functions.md)
   - [Arguments](lessons/organizing_code/arguments.md)
   - [Readability](lessons/organizing_code/readability.md)
   - [Modules](lessons/organizing_code/modules.md)
+  - [Summary](lessons/organizing_code/summary.md)
   - [Practice](lessons/organizing_code/practice.md)
+  - [Project](lessons/organizing_code/project.md)
 
-
+<!--
 - [Files](lessons/files.md)
 
   - [Assignment](lessons/files/assignment.md)
