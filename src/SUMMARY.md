@@ -33,6 +33,7 @@
   - [Practice](lessons/conditionals/practice.md)
   - [Assignment](lessons/conditionals/assignment.md)
 
+<!--
 - [Loops](lessons/loops.md)
 
   - [While loops](lessons/loops/while-loops.md)
@@ -71,7 +72,7 @@
   - [Practice](lessons/organizing_code/practice.md)
   - [Project](lessons/organizing_code/project.md)
 
-<!--
+
 - [Files](lessons/files.md)
 
   - [Assignment](lessons/files/assignment.md)
