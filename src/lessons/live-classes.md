@@ -7,12 +7,15 @@ To access the code, you'll need to have joined the github classroom org and been
 added to the team. Once you've joined the Github team by accepting an assignment
 in github classroom, you can reach out in Discord to be added to the team.
 
-| Week | Topic          | Code            | Video                 |
-| ---- | -------------- | --------------- | --------------------- |
-| 1    | Intro & Basics | [Code][w1-code] | [YouTube][w1-video-1] |
+| Week | Topic          | Code            | Video               |
+| ---- | -------------- | --------------- | ------------------- |
+| 1    | Intro & Basics | [Code][w1-code] | [YouTube][w1-video] |
+| 2    | Conditionals   | [Code][w2-code] | [YouTube][w2-video] |
 
 [w1-code]: https://replit.com/@prog-1-jul23/One-P-Sale-Solution
-[w1-video-1]: https://youtu.be/VW2VqkPoOU8
+[w1-video]: https://youtu.be/VW2VqkPoOU8
+[w2-code]: https://replit.com/@prog-1-jul23/ATM-Withdraw-Solution#main.py
+[w2-video]: https://youtu.be/sqVt6VakkBo
 
 <!--| 2    | Conditionals       | [Code][w2-code] | [YouTube][w2-video-1]  |
 | 3    | Loops              | [Code][w3-code] | [YouTube][w3-video-1]  |
