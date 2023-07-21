@@ -15,7 +15,7 @@ in github classroom, you can reach out in Discord to be added to the team.
 [w1-code]: https://replit.com/@prog-1-jul23/One-P-Sale-Solution
 [w1-video]: https://youtu.be/VW2VqkPoOU8
 [w2-code]: https://replit.com/@prog-1-jul23/ATM-Withdraw-Solution#main.py
-[w2-video]: https://youtu.be/sqVt6VakkBo
+[w2-video]: https://youtu.be/ek0K1kgt3yk
 
 <!--| 2    | Conditionals       | [Code][w2-code] | [YouTube][w2-video-1]  |
 | 3    | Loops              | [Code][w3-code] | [YouTube][w3-video-1]  |
