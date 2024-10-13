@@ -1,0 +1,414 @@
+# Visit https://docs.google.com/document/d/1Hm41CGu0pZrGB7_XrPZR50DU7DXvqeC6aZuaTLpRLlo/edit
+# for full details about the contents of the course.yml file.
+#
+# - Top level details of the course:
+#     name: course name
+#     code: course code
+#     term: when is this offered
+#     about_path: the path to the course overview md file
+#     image_path: the path to an image to use as the course header
+#
+# - Units
+#     name: name of the unit (e.g. Week 1: Introduction)
+#     activities: list of the activities in the Unit
+#
+# - Activities
+#     name: name of the activity
+#     path: where to find the file for the activity
+#     workload: how many minutes the activity is estimated to take
+#     type: `lesson` or `assignment`
+#     kind: airlock resource kind:
+#       `GENERAL`, `MEETING`, `PUBLICATION`, `PUBLICATION_REVIEWED`,
+#       `ASSIGNMENT`, `ASSIGNMENT_SUMMATIVE`
+#     publish: Is this ready, or still a draft? Publish can be set to:
+#       - `true` (publish to students now)
+#       - `false` (do not publish to students), default value if not specified
+#       - date, formatted like `2023-10-25` (publish to students on that date)
+#     due: When is the due date for the activity (e.g. 2023-12-27)
+#     grade_weight: what percent of the course grade is this
+#       (for now, only for assignments).  Must sum to 100.
+
+name: Programming 1
+code: CSF001
+term: July-2023
+image_path: src/helping.png
+about_path: src/programming-1.md
+units:
+  - name: Basics & Data Types
+    activities:
+      - name: Basics Introduction
+        path: src/lessons/basics_and_datatypes.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: What is a program?
+        path: src/lessons/basics_and_datatypes/background.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Data Types
+        path: src/lessons/basics_and_datatypes/data_types.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Operators
+        path: src/lessons/basics_and_datatypes/operators.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Variables and Assignment
+        path: src/lessons/basics_and_datatypes/variables-and-assignment.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Input and Output
+        path: src/lessons/basics_and_datatypes/input-and-output.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: String formatting
+        path: src/lessons/basics_and_datatypes/string-concatenation-and-f-strings.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+        publish: false
+      - name: Practice
+        path: src/lessons/basics_and_datatypes/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Basics Assignment
+        path: src/lessons/basics_and_datatypes/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        due: 2023-07-15
+        workload: 300
+        grade_weight: 7.0
+  - name: Conditionals
+    activities:
+      - name: Conditionals Introduction
+        path: src/lessons/conditionals.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Simple Decisions
+        path: src/lessons/conditionals/simple-decisions.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Boolean Expressions
+        path: src/lessons/conditionals/simple-decisions/boolean-expressions.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: If-Else
+        path: src/lessons/conditionals/simple-decisions/if-else.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Multi-way Decisions
+        path: src/lessons/conditionals/multi-way-decisions.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: And, Or, Not
+        path: src/lessons/conditionals/multi-way-decisions/and-or-not.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Nested Conditionals
+        path: src/lessons/conditionals/multi-way-decisions/nested-conditionals.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Conditionals Practice
+        path: src/lessons/conditionals/practice.md
+        publish: false
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Conditionals Assignment
+        path: src/lessons/conditionals/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        due: 2023-07-15
+        grade_weight: 7.0
+        workload: 300
+  - name: Loops
+    activities:
+      - name: Loops Introduction
+        path: src/lessons/loops.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Loops Assignment
+        path: src/lessons/loops/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        due: 2023-07-15
+        grade_weight: 7.0
+        workload: 300
+      - name: While loops
+        path: src/lessons/loops/while-loops.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: For loops
+        path: src/lessons/loops/for-loops.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Range function
+        path: src/lessons/loops/range-function.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Debugging Loops
+        path: src/lessons/loops/debugging-loops.md
+        publish: false
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Loops Practice
+        path: src/lessons/loops/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+  - name: Lists
+    activities:
+      - name: Lists Introduction
+        path: src/lessons/lists.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Lists Assignment
+        path: src/lessons/lists/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        due: 2023-07-15
+        grade_weight: 7.0
+        workload: 300
+      - name: List basics
+        path: src/lessons/lists/list-basics.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Mutating Lists
+        path: src/lessons/lists/mutating-lists.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Loop patterns
+        path: src/lessons/lists/loop-patterns.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Loops, Conditions, and Lists
+        path: src/lessons/lists/conditions-and-lists.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Splitting Strings
+        path: src/lessons/lists/split-strings.md
+        publish: false
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Lists Practice
+        path: src/lessons/lists/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+  - name: Functions
+    activities:
+      - name: Functions Introduction
+        path: src/lessons/functions.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Functions Assignment
+        path: src/lessons/functions/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        due: 2023-07-15
+        grade_weight: 7.0
+        workload: 300
+      - name: Function basics
+        path: src/lessons/functions/function-basics.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Building our own functions
+        path: src/lessons/functions/building-our-own-functions.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Return values
+        path: src/lessons/functions/return-values.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Functions Practice
+        path: src/lessons/functions/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+  - name: Organizing Code
+    activities:
+      - name: Organizing code Introduction
+        path: src/lessons/organizing_code.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Code Project
+        path: src/lessons/organizing_code/project.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        due: 2023-07-15
+        grade_weight: 16.5
+        workload: 900
+      - name: Program Design
+        path: src/lessons/organizing_code/program_design.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Decomposition and Functions
+        path: src/lessons/organizing_code/helper_functions.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Arguments
+        path: src/lessons/organizing_code/arguments.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Readability
+        path: src/lessons/organizing_code/readability.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Modules
+        path: src/lessons/organizing_code/modules.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Code Practice
+        path: src/lessons/organizing_code/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+  - name: Files
+    activities:
+      - name: Files Introduction
+        path: src/lessons/files.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Files Assignment
+        path: src/lessons/files/assignment.md
+        type: assignment
+        kind: ASSIGNMENT
+        due: 2023-07-15
+        grade_weight: 7.0
+        workload: 300
+      - name: Basic File Operations
+        path: src/lessons/files/basic_file_operations.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Basic Directory Operations
+        path: src/lessons/files/basic_dir_operations.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Files Practice
+        path: src/lessons/files/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+  - name: Data Structures
+    activities:
+      - name: DS Introduction
+        path: src/lessons/data_structures.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: DS Project
+        path: src/lessons/data_structures/project.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        due: 2023-07-15
+        grade_weight: 16.5
+        workload: 900
+      - name: Dictionary Basics
+        path: src/lessons/data_structures/dict-basics.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Using Dictionaries
+        path: src/lessons/data_structures/using-dicts.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Nested Dictionaries
+        path: src/lessons/data_structures/nesting.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: JSON
+        path: src/lessons/data_structures/json.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: DS Practice
+        path: src/lessons/data_structures/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+  - name: Libraries
+    activities:
+      - name: Libraries Introduction
+        path: src/lessons/libraries.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Final project
+        path: src/lessons/final-project.md
+        type: assignment
+        kind: ASSIGNMENT_SUMMATIVE
+        due: 2023-07-15
+        grade_weight: 25.0
+        workload: 1500
+      - name: Library Basics
+        path: src/lessons/libraries/library_basics.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Common Libraries
+        path: src/lessons/libraries/common_libs.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Algorithms
+        path: src/lessons/complexity/algorithms.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Complexity
+        path: src/lessons/complexity/complexity.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+      - name: Libraries Practice
+        path: src/lessons/libraries/practice.md
+        workload: 60
+        type: lesson
+        kind: GENERAL
+  - name: Review and Preview
+    activities:
+      - name: Review Introduction
+        path: src/lessons/review.md
+        workload: 600
+        type: lesson
+        kind: GENERAL
+
